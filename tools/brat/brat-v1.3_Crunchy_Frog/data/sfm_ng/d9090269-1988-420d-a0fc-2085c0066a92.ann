@@ -1,0 +1,7 @@
+T1	Person 1234 1245	Adamu Aliyu
+T2	Rank 1228 1233	Capt.
+T3	Organization 1178 1189	1 Battalion
+T4	Role 1145 1170	Acting Commanding Officer
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	is_posted Arg1:T1 Arg2:T3	
+R3	has_role Arg1:T1 Arg2:T4	

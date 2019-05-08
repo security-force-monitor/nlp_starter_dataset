@@ -1,0 +1,26 @@
+T1	Person 117 133	Ibrahim Attahiru
+T2	Rank 99 116	Brigadier General
+T3	Title 66 97	Director, Army Public Relations
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	has_title Arg1:T1 Arg2:T3	
+T4	Person 311 325	Olajide Laleye
+T5	Rank 293 310	Brigadier-General
+R3	has_rank Arg1:T4 Arg2:T5	
+T6	Person 572 586	Olajide Laleye
+T7	Organization 554 571	Brigadier General
+T8	Title 522 552	Director, Army Public Relation
+R4	is_posted Arg1:T6 Arg2:T7	
+R5	has_title Arg1:T6 Arg2:T8	
+T9	Person 788 794	Laleye
+T10	Rank 780 787	General
+R6	has_rank Arg1:T9 Arg2:T10	
+T11	Title 805 814	Commander
+T12	Organization 816 837	One Division Garrison
+R7	has_title Arg1:T9 Arg2:T11	
+R8	is_posted Arg1:T9 Arg2:T12	
+T13	Organization 912 930	Thirteenth Brigade
+T14	Title 895 904	Commander
+R9	is_posted Arg1:T1 Arg2:T13	
+R10	has_title Arg1:T1 Arg2:T14	
+T15	Title 747 778	Director, Army Public Relations
+R11	has_title Arg1:T9 Arg2:T15	

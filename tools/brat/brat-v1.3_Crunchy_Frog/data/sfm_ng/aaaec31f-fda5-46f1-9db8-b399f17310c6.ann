@@ -1,0 +1,10 @@
+T1	Person 2001 2012	KTJ Minimah
+T2	Rank 1989 2000	Lt. General
+R1	has_rank Arg1:T1 Arg2:T2	
+T3	Title 1968 1987	Chief of Army Staff
+R2	has_title Arg1:T1 Arg2:T3	
+T4	Organization 5323 5344	Operation Zaman Lafia
+T5	Person 5668 5683	Kenneth Minimah
+T6	Rank 5656 5667	Lt. General
+R3	has_rank Arg1:T5 Arg2:T6	
+T7	Organization 5841 5856	Operation Sweep

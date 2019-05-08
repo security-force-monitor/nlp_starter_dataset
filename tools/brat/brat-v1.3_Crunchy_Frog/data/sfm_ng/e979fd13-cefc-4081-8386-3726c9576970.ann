@@ -1,0 +1,17 @@
+T1	Person 569 580	Adamu Marwa
+T2	Rank 555 568	Major General
+T3	Organization 511 532	‘3’ Armoured Division
+T4	Role 484 510	General Officer Commanding
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	is_posted Arg1:T1 Arg2:T3	
+R3	has_role Arg1:T1 Arg2:T4	
+T5	Person 785 812	Onyeabor Azubuike Ihejirika
+T6	Rank 773 784	Lt. General
+T7	Title 752 771	Chief of Army Staff
+R4	has_rank Arg1:T5 Arg2:T6	
+R5	has_title Arg1:T5 Arg2:T7	
+T8	Person 860 879	Mohammed Dikko Umar
+T9	Rank 848 859	Air Marshal
+T10	Role 828 846	Chief of Air Staff
+R6	has_rank Arg1:T8 Arg2:T9	
+R7	has_role Arg1:T8 Arg2:T10	

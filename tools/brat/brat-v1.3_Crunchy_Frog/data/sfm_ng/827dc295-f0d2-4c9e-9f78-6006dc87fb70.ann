@@ -1,0 +1,33 @@
+T1	Organization 100 113	Nigerian Army
+T2	Title 185 211	General Officer Commanding
+T3	Organization 218 229	82 Division
+T4	Rank 231 244	Major General
+T5	Person 245 267	Adebayo Olaniyi Friday
+R1	has_rank Arg1:T5 Arg2:T4	
+R2	is_posted Arg1:T5 Arg2:T3	
+R3	has_title Arg1:T5 Arg2:T2	
+T6	Organization 344 357	Nigerian Army
+T7	Organization 639 648	5 Brigade
+T8	Organization 652 662	7 Division
+T9	Person 1408 1426	Azubuike Ihejirika
+T10	Rank 1400 1407	Lt. Gen
+T11	Title 1372 1391	Chief of Army Staff
+R4	has_rank Arg1:T9 Arg2:T10	
+R5	has_title Arg1:T9 Arg2:T11	
+T12	Organization 1652 1664	7th Division
+T13	Organization 1958 1964	82 Div
+T14	Person 2326 2343	Abdullahi Muraina
+T15	Rank 2316 2325	Major Gen
+T16	Role 2279 2314	chief of accounts and budget (Army)
+T17	Organization 2809 2822	Nigerian Army
+T18	Organization 3226 3236	7 Division
+T19	Organization 3244 3257	Nigerian Army
+T20	Person 3279 3289	Sagir Musa
+T21	Rank 3270 3278	Lt. Col.
+R6	has_rank Arg1:T14 Arg2:T15	
+R7	has_role Arg1:T14 Arg2:T16	
+R8	has_rank Arg1:T20 Arg2:T21	
+R9	is_posted Arg1:T20 Arg2:T18	
+T22	Role 3209 3218	spokesman
+R10	has_role Arg1:T20 Arg2:T22	
+T23	Organization 3589 3602	202 Battalion

@@ -1,0 +1,5 @@
+T1	Person 251 264	Tukur Buratai
+T2	Rank 242 249	Lt.-Gen
+T3	Title 221 240	Chief of Army Staff
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	has_title Arg1:T1 Arg2:T3	

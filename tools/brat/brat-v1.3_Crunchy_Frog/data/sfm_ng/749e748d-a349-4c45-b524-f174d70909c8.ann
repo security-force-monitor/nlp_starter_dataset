@@ -1,0 +1,13 @@
+T1	Person 60 70	Fatai Alli
+T2	Rank 47 59	ajor General
+T3	Title 72 98	General Officer Commanding
+T4	Organization 106 116	3 Division
+T5	Organization 124 137	Nigerian Army
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	has_title Arg1:T1 Arg2:T3	
+R3	is_posted Arg1:T1 Arg2:T4	
+T6	Person 587 603	Chris Ogunkolade
+T7	Rank 577 586	Maj.-Gen.
+R4	has_rank Arg1:T6 Arg2:T7	
+T8	Title 609 638	Director, Defence Information
+R5	has_title Arg1:T6 Arg2:T8	

@@ -1,0 +1,7 @@
+T1	Title 57 83	General Officer Commanding
+T2	Rank 91 103	Major Genera
+T3	Person 105 115	John Nwoga
+R1	has_rank Arg1:T3 Arg2:T2	
+R2	has_title Arg1:T3 Arg2:T1	
+T4	Organization 133 143	3 Division
+R3	is_posted Arg1:T3 Arg2:T4	

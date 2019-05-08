@@ -1,0 +1,14 @@
+T1	Person 127 139	Jack Nwaogbo
+T2	Rank 113 126	Major General
+T3	Organization 71 110	3 Armoured Division of the Nigerian Arm
+T4	Title 44 70	General Officer Commanding
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	is_posted Arg1:T1 Arg2:T3	
+R3	has_title Arg1:T1 Arg2:T4	
+T5	Person 634 651	Bamidele Ogunkale
+T6	Rank 616 633	Brigadier-General
+T7	Organization 593 614	43 Division Engineers
+T8	Role 582 591	Commander
+R4	has_rank Arg1:T5 Arg2:T6	
+R5	is_posted Arg1:T5 Arg2:T7	
+R6	has_role Arg1:T5 Arg2:T8	

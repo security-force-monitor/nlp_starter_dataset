@@ -1,0 +1,243 @@
+T1	Person 78 93	Kenneth Minimah
+T2	Rank 69 77	Lt. Gen.
+T3	Rank 41 60	Chief of Army Staff
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	has_rank Arg1:T1 Arg2:T3	
+T4	Title 359 379	Chief of Naval Staff
+T5	Rank 387 399	Vice Admiral
+T6	Person 400 412	Usman Jibrin
+R3	has_rank Arg1:T6 Arg2:T5	
+R4	has_title Arg1:T6 Arg2:T4	
+T7	Title 523 556	Director of Army Public Relations
+T8	Rank 565 573	Brig-Gen
+T9	Person 574 588	Olajide Laleye
+R5	has_rank Arg1:T9 Arg2:T8	
+R6	has_title Arg1:T9 Arg2:T7	
+T10	Organization 685 698	Nigerian Army
+T11	Person 1985 1993	KC Osuji
+T12	Person 2043 2056	E.F. Abejerin
+T13	Person 2092 2103	John Zaruwa
+T14	Person 2135 2144	T.I. Debi
+T15	Person 2180 2188	S. Yusuf
+T16	Person 2249 2263	Unsaid Bindawa
+T17	Person 2338 2349	P.A.T. Akem
+T18	Person 2412 2421	Ralph Isa
+T19	Person 2496 2506	A.B. Awala
+T20	Person 2632 2647	J.A.H. Ewansiha
+T21	Person 2760 2770	I.I. Abbah
+T22	Person 2891 2905	Emmanuel Atewe
+T23	Person 2987 2999	A.B. Omozeje
+T24	Person 3116 3129	Kabiru Aliyu,
+T25	Person 3341 3349	EO Ogbor
+T26	Person 3473 3484	SA Akinwale
+T27	Person 3634 3644	AOA Ikioda
+T28	Person 3686 3693	IE Ibas
+T29	Person 3731 3740	IA Oyagha
+T30	Person 3832 3840	SH Usman
+T31	Person 3951 3958	PA Agba
+T32	Person 4046 4055	OC Medani
+T33	Person 4177 4186	IA Ajuonu
+T34	Person 4253 4260	OE Ekwe
+T35	Person 4322 4331	DO Osuofa
+T36	Person 4367 4378	AB Afolayan
+T37	Person 4438 4450	OP Ozojiofor
+T38	Person 4526 4536	A Shettima
+T39	Person 4667 4675	OU Emele
+T40	Person 4737 4746	A Johnson
+T41	Person 4798 4808	LON Iwuoha
+T42	Person 4888 4898	HO Ngonadi
+T43	Person 4974 4984	TGS Epelle
+T44	Person 5056 5063	EG Ofik
+T45	Person 5125 5135	SE Ogoigbe
+T46	Rank 1976 1984	Maj-Gen.
+T47	Rank 2034 2042	Maj-Gen.
+T48	Rank 2083 2091	Maj-Gen.
+T49	Rank 2126 2134	Maj-Gen.
+T50	Rank 2172 2179	Maj-Gen
+T51	Rank 2240 2248	Maj-Gen.
+T52	Rank 2329 2337	Maj-Gen.
+T53	Rank 2404 2411	Maj-Gen
+T54	Rank 2487 2495	Maj-Gen.
+T55	Rank 2624 2631	Maj-Gen
+T56	Rank 2752 2759	Maj-Gen
+T57	Rank 2883 2890	Maj-Gen
+T58	Rank 2977 2986	Brig-Gen.
+T59	Rank 3106 3115	Commodore
+T60	Rank 3328 3340	Rear Admiral
+T61	Rank 3460 3472	Rear Admiral
+T62	Rank 3621 3633	Rear Admiral
+T63	Rank 3673 3685	Rear Admiral
+T64	Rank 3718 3730	Rear Admiral
+T65	Rank 3819 3831	Rear Admiral
+T66	Rank 3938 3950	Rear Admiral
+T67	Rank 4033 4045	Rear Admiral
+T68	Rank 4164 4176	Rear Admiral
+T69	Rank 4240 4252	Rear Admiral
+T70	Rank 4309 4321	Rear Admiral
+T71	Rank 4354 4366	Rear Admiral
+T72	Rank 4425 4436	Rear Admira
+T73	Rank 4654 4666	Rear Admiral
+T74	Rank 4513 4525	Rear Admiral
+T75	Rank 4724 4736	Rear Admiral
+T76	Rank 4785 4797	Rear Admiral
+T77	Rank 4875 4887	Rear Admiral
+T79	Rank 5043 5055	Rear Admiral
+T80	Rank 5112 5124	Rear Admiral
+R7	has_rank Arg1:T11 Arg2:T46	
+T81	Title 2009 2012	GOC
+R8	has_title Arg1:T11 Arg2:T81	
+T82	Organization 2014 2024	1 Division
+R9	is_posted Arg1:T11 Arg2:T82	
+T83	Title 2058 2061	GOC
+R10	has_rank Arg1:T12 Arg2:T47	
+R11	has_title Arg1:T12 Arg2:T83	
+T84	Organization 2063 2073	2 Division
+R12	is_posted Arg1:T12 Arg2:T84	
+T85	Organization 2105 2115	3 Division
+R13	is_posted Arg1:T13 Arg2:T85	
+T86	Organization 2146 2157	81 Division
+R14	is_posted Arg1:T14 Arg2:T86	
+T87	Organization 2208 2219	82 Division
+R15	is_posted Arg1:T15 Arg2:T87	
+R16	has_rank Arg1:T15 Arg2:T50	
+R17	has_rank Arg1:T14 Arg2:T49	
+R18	has_rank Arg1:T13 Arg2:T48	
+R19	has_rank Arg1:T16 Arg2:T51	
+T88	Title 2280 2283	GOC
+R20	has_title Arg1:T16 Arg2:T88	
+T89	Organization 2300 2310	7 Division
+R21	is_posted Arg1:T16 Arg2:T89	
+T90	Title 2371 2391	Army Provost Marshal
+R22	has_rank Arg1:T17 Arg2:T52	
+R23	has_title Arg1:T17 Arg2:T90	
+T91	Organization 2439 2458	Ministry of Defence
+R24	has_rank Arg1:T18 Arg2:T53	
+R25	is_posted Arg1:T18 Arg2:T91	
+R26	has_rank Arg1:T19 Arg2:T54	
+T92	Title 2532 2546	Army Secretary
+R27	has_title Arg1:T19 Arg2:T92	
+T93	Title 2558 2590	Chief of Training and Operations
+R28	has_title Arg1:T19 Arg2:T93	
+T94	Organization 2592 2612	Defence Headquarters
+R29	is_posted Arg1:T19 Arg2:T94	
+R30	has_rank Arg1:T20 Arg2:T55	
+T95	Title 2656 2693	Chief of Army Standard and Evaluation
+R31	has_title Arg1:T20 Arg2:T95	
+T96	Title 2706 2744	Chief of Training and Operations, Army
+R32	has_title Arg1:T20 Arg2:T96	
+T97	Title 2788 2812	Military Secretary, Army
+R33	has_rank Arg1:T21 Arg2:T56	
+R34	has_title Arg1:T21 Arg2:T97	
+R35	has_rank Arg1:T22 Arg2:T57	
+T98	Organization 2867 2881	Guards Brigade
+T99	Role 2856 2865	Commander
+R36	is_posted Arg1:T22 Arg2:T98	
+R37	has_role Arg1:T22 Arg2:T99	
+T100	Role 2918 2944	Commander Joint Task Force
+T101	Organization 2947 2968	Operation PULO SHIELD
+R38	has_role Arg1:T22 Arg2:T100	
+R39	is_posted Arg1:T22 Arg2:T101	
+R40	has_rank Arg1:T23 Arg2:T58	
+T102	Role 3038 3047	Commander
+T103	Organization 3049 3063	Guards Brigade
+R41	has_role Arg1:T23 Arg2:T102	
+R42	is_posted Arg1:T23 Arg2:T103	
+R43	has_rank Arg1:T24 Arg2:T59	
+T104	Title 3081 3104	Director of Information
+R44	has_title Arg1:T24 Arg2:T104	
+R45	has_rank Arg1:T25 Arg2:T60	
+T105	Role 3360 3385	Chief of Policy and Plans
+T106	Organization 3386 3404	Naval Headquarters
+R46	has_role Arg1:T25 Arg2:T105	
+R47	is_posted Arg1:T25 Arg2:T106	
+T107	Title 3414 3437	Chief of Administration
+R48	has_role Arg1:T25 Arg2:T107	
+T108	Organization 3438 3458	Defence Headquarters
+R49	is_posted Arg1:T25 Arg2:T108	
+R50	has_rank Arg1:T26 Arg2:T61	
+T109	Role 3486 3507	Director of Logistics
+R51	has_role Arg1:T26 Arg2:T109	
+T110	Organization 3515 3535	Defence Headquarters
+R52	is_posted Arg1:T26 Arg2:T110	
+T111	Title 3549 3580	Director Project Implementation
+R53	has_title Arg1:T26 Arg2:T111	
+T112	Organization 3582 3619	Monitoring and Evaluation Directorate
+R54	is_posted Arg1:T26 Arg2:T112	
+R55	has_rank Arg1:T27 Arg2:T62	
+T113	Title 3646 3671	Chief of Policy and Plans
+R56	has_title Arg1:T27 Arg2:T113	
+R57	has_rank Arg1:T28 Arg2:T63	
+T114	Title 3695 3713	Chief of Logistics
+R58	has_title Arg1:T28 Arg2:T114	
+T115	Title 3742 3774	Chief of Training and Operations
+R59	has_rank Arg1:T29 Arg2:T64	
+R60	has_title Arg1:T29 Arg2:T115	
+T116	Organization 3787 3805	Naval Headquarters
+R61	is_posted Arg1:T26 Arg2:T116	
+R62	is_posted Arg1:T27 Arg2:T116	
+R63	is_posted Arg1:T28 Arg2:T116	
+R64	is_posted Arg1:T29 Arg2:T116	
+R65	has_rank Arg1:T30 Arg2:T65	
+T117	Organization 3856 3878	Central  Naval Command
+R66	is_posted Arg1:T30 Arg2:T117	
+T118	Organization 3886 3903	Logistics Command
+R67	is_posted Arg1:T30 Arg2:T118	
+T119	Title 3907 3930	Flag Officer Commanding
+R68	has_title Arg1:T30 Arg2:T119	
+R69	has_rank Arg1:T31 Arg2:T66	
+T120	Title 3974 3997	Flag Officer Commanding
+R70	has_title Arg1:T31 Arg2:T120	
+T121	Organization 3998 4019	Central Naval Command
+R71	is_posted Arg1:T31 Arg2:T121	
+R72	has_rank Arg1:T32 Arg2:T67	
+T122	Title 4067 4090	Flag Officer Commanding
+R73	has_title Arg1:T32 Arg2:T122	
+T123	Organization 4091 4112	Eastern Naval Command
+R74	is_posted Arg1:T32 Arg2:T123	
+R75	has_rank Arg1:T33 Arg2:T68	
+R76	has_rank Arg1:T34 Arg2:T69	
+R77	has_rank Arg1:T35 Arg2:T70	
+T124	Title 4333 4347	Navy Secretary
+R78	has_title Arg1:T35 Arg2:T124	
+R79	has_rank Arg1:T36 Arg2:T71	
+T125	Title 4390 4418	Director of Medical Services
+R80	has_title Arg1:T36 Arg2:T125	
+T126	Title 4458 4478	Director of Training
+R81	has_rank Arg1:T37 Arg2:T72	
+R82	has_title Arg1:T37 Arg2:T126	
+T127	Organization 4486 4506	Defence Headquarters
+R83	is_posted Arg1:T37 Arg2:T127	
+R84	has_rank Arg1:T38 Arg2:T74	
+R85	has_rank Arg1:T39 Arg2:T73	
+R86	has_rank Arg1:T40 Arg2:T75	
+R87	has_rank Arg1:T41 Arg2:T76	
+R89	has_rank Arg1:T45 Arg2:T80	
+R90	has_rank Arg1:T44 Arg2:T79	
+T128	Title 4679 4700	Director of Logistics
+R91	has_title Arg1:T39 Arg2:T128	
+T129	Organization 4702 4722	Defence Headquarters
+R92	is_posted Arg1:T39 Arg2:T129	
+T130	Role 4747 4756	Commander
+R93	has_role Arg1:T40 Arg2:T130	
+T131	Organization 4757 4783	Fleet Support Group (West)
+R94	is_posted Arg1:T40 Arg2:T131	
+T132	Title 4810 4832	Admiral Superintendent
+T133	Organization 4834 4870	Naval Doctrine and Assessment Centre
+R95	has_title Arg1:T41 Arg2:T132	
+R96	is_posted Arg1:T41 Arg2:T133	
+T134	Title 4900 4923	Director of Development
+T135	Organization 4931 4951	Defence Headquarters
+T78	Rank 4953 4973	Surgeon Rear Admiral
+R88	has_rank Arg1:T43 Arg2:T78	
+T136	Title 4986 5020	Director Medical (Admin/Logistics)
+R97	has_title Arg1:T43 Arg2:T136	
+T137	Organization 5021 5041	Defence Headquarters
+R98	is_posted Arg1:T43 Arg2:T137	
+T138	Title 5065 5084	Chief Staff Officer
+R99	has_title Arg1:T44 Arg2:T138	
+T139	Organization 5086 5107	Western Naval Command
+R100	is_posted Arg1:T44 Arg2:T139	
+T140	Title 5137 5154	Deputy Commandant
+R101	has_title Arg1:T45 Arg2:T140	
+T141	Organization 5156 5194	Armed Forces Command and Staff College
+R102	is_posted Arg1:T45 Arg2:T141	

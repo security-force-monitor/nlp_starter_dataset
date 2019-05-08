@@ -1,0 +1,10 @@
+T1	Person 304 324	Chukwunedum Abraham,
+T2	Rank 293 302	Maj.- Gen
+T3	Organization 258 268	2 Division
+T4	Organization 270 283	Nigerian Army
+T5	Title 230 256	General Officer Commanding
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	is_posted Arg1:T1 Arg2:T3	
+R3	has_title Arg1:T1 Arg2:T5	
+T6	Organization 1415 1425	32 Brigade
+T7	Organization 1788 1798	2 Division

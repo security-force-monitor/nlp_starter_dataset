@@ -1,0 +1,7 @@
+T1	Person 2595 2610	Chris Olukolade
+T2	Rank 2581 2594	Major General
+T3	Role 2556 2579	director of information
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	has_role Arg1:T1 Arg2:T3	
+T4	Organization 2517 2537	Defence Headquarters
+R3	is_posted Arg1:T1 Arg2:T4	

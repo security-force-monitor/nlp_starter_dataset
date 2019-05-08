@@ -1,0 +1,11 @@
+T1	Person 188 207	Tukur Yusuf Buratai
+T2	Rank 179 186	Lt. Col
+T3	Title 158 177	Chief of Army Staff
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	has_title Arg1:T1 Arg2:T3	
+T4	Organization 395 407	16th brigade
+T5	Organization 1022 1034	16th brigade
+T6	Title 808 827	Chief of Army Staff
+T7	Person 1175 1182	Buratai
+T8	Rank 1166 1174	Lt. Col.
+R3	has_rank Arg1:T7 Arg2:T8	

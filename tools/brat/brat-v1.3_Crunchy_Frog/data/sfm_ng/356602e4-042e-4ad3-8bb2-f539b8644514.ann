@@ -1,0 +1,8 @@
+T1	Organization 131 144	Nigerian Army
+T2	Title 467 493	General officer Commanding
+T3	Organization 494 506	3rd Division
+T4	Rank 508 521	Major General
+T5	Person 522 538	Benjamin Ahanotu
+R1	has_rank Arg1:T5 Arg2:T4	
+R2	is_posted Arg1:T5 Arg2:T3	
+R3	has_title Arg1:T5 Arg2:T2	

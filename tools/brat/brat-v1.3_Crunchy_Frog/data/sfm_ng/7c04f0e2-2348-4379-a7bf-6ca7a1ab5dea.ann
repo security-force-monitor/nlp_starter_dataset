@@ -1,0 +1,15 @@
+T1	Organization 72 94	Operation Python Dance
+T2	Organization 114 127	Nigerian Army
+T3	Organization 276 287	82 Division
+T4	Role 241 274	Deputy Director, Public Relations
+T5	Organization 295 308	Nigerian Army
+T6	Person 310 320	Sagir Musa
+R1	has_role Arg1:T6 Arg2:T4	
+R2	is_posted Arg1:T6 Arg2:T3	
+T7	Organization 885 907	Operation Python Dance
+T8	Title 1066 1092	General Officer Commanding
+T9	Organization 1093 1104	82 Division
+T10	Person 1106 1120	Adamu Abubakar
+R3	is_posted Arg1:T10 Arg2:T9	
+R4	has_title Arg1:T10 Arg2:T8	
+T11	Organization 1744 1765	Exercise Python Dance

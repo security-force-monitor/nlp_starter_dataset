@@ -1,0 +1,22 @@
+T1	Person 143 159	Ibrahim Attahiru
+T2	Rank 133 142	Maj.-Gen.
+R1	has_rank Arg1:T1 Arg2:T2	
+T3	Organization 90 111	Operation LAFIYA DOLE
+R2	is_posted Arg1:T1 Arg2:T3	
+T4	Role 69 86	Theatre Commander
+R3	has_role Arg1:T1 Arg2:T4	
+T5	Person 246 258	Lucky Irabor
+T6	Rank 236 245	Maj.-Gen.
+R4	has_rank Arg1:T5 Arg2:T6	
+T7	Role 282 297	Force Commander
+T8	Organization 301 331	Multinational Joint Task Force
+R5	has_role Arg1:T5 Arg2:T7	
+R6	is_posted Arg1:T5 Arg2:T8	
+T9	Title 739 765	General Officer Commanding
+T10	Organization 767 778	82 Division
+R7	is_posted Arg1:T1 Arg2:T10	
+R8	has_title Arg1:T1 Arg2:T9	
+T11	Title 835 861	Director of Administration
+T12	Organization 863 883	Defence Headquarters
+R9	has_title Arg1:T1 Arg2:T11	
+R10	is_posted Arg1:T1 Arg2:T12	

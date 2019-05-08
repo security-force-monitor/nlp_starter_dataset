@@ -1,0 +1,31 @@
+T1	Organization 98 111	Nigerian Army
+T2	Person 244 254	TY Buratai
+T3	Rank 225 242	Lieutenant Genera
+R1	has_rank Arg1:T2 Arg2:T3	
+T4	Role 204 223	Chief of Army Staff
+R2	has_role Arg1:T2 Arg2:T4	
+T5	Title 275 305	Chief of Administration (Army)
+T6	Person 321 330	IM Alkali
+T7	Rank 307 320	Major General
+R3	has_rank Arg1:T6 Arg2:T7	
+R4	has_title Arg1:T6 Arg2:T5	
+T8	Title 332 363	Chief of Civil-Military Affairs
+T9	Rank 365 378	Major General
+T10	Person 379 389	NE Angbazo
+R5	has_rank Arg1:T10 Arg2:T9	
+R6	has_title Arg1:T10 Arg2:T8	
+T11	Title 502 532	Director Army Public Relations
+T12	Rank 534 551	Brigadier General
+T13	Person 552 560	SK Usman
+R7	has_rank Arg1:T13 Arg2:T12	
+R8	has_title Arg1:T13 Arg2:T11	
+T14	Organization 626 636	7 Division
+T15	Organization 720 741	26 Task Force Brigade
+T16	Organization 743 764	Operation LAFIYA DOLE
+T17	Organization 828 849	26 Task Force Brigade
+T18	Title 1132 1171	Chief of Training and Operations (Army)
+T19	Rank 1173 1186	Major General
+T20	Person 1187 1196	DD Ahmadu
+R9	has_rank Arg1:T20 Arg2:T19	
+R10	has_title Arg1:T20 Arg2:T18	
+T21	Organization 1230 1251	27 Task Force Brigade

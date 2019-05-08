@@ -1,0 +1,33 @@
+T1	Title 185 211	General Officer Commanding
+T2	Organization 218 229	82 Division
+T3	Rank 231 244	Major General
+T4	Person 245 260	Adebayo Olaniyi
+R1	has_rank Arg1:T4 Arg2:T3	
+R2	is_posted Arg1:T4 Arg2:T2	
+R3	has_title Arg1:T4 Arg2:T1	
+T5	Organization 344 357	Nigerian Army
+T6	Organization 639 648	5 Brigade
+T7	Organization 652 662	7 Division
+T8	Organization 1127 1154	Nigerian Army Finance Corps
+T9	Title 1372 1391	Chief of Army Staff
+T10	Rank 1400 1407	Lt. Gen
+T11	Person 1408 1426	Azubuike Ihejirika
+R4	has_rank Arg1:T11 Arg2:T10	
+R5	has_title Arg1:T11 Arg2:T9	
+T12	Organization 1652 1664	7th Division
+T13	Organization 1958 1964	82 Div
+T14	Person 2326 2343	Abdullahi Muraina
+T15	Rank 2316 2325	Major Gen
+T16	Title 2279 2314	chief of accounts and budget (Army)
+R6	has_rank Arg1:T14 Arg2:T15	
+R7	has_title Arg1:T14 Arg2:T16	
+T17	Organization 3226 3236	7 Division
+T18	Organization 3244 3257	Nigerian Army
+T19	Rank 3270 3278	Lt. Col.
+T20	Person 3279 3289	Sagir Musa
+R8	has_rank Arg1:T20 Arg2:T19	
+R9	is_posted Arg1:T20 Arg2:T17	
+T21	Organization 3589 3602	202 Battalion
+T22	Organization 3542 3572	Banking Forward Operating Base
+T23	Organization 4304 4312	the Army
+T24	Role 1965 1968	GOC

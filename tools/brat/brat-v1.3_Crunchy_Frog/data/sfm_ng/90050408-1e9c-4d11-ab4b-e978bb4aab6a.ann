@@ -1,0 +1,134 @@
+T1	Organization 59 72	Nigerian Army
+T2	Person 261 279	Azubuike Ihejirika
+T3	Rank 252 260	Lt.-Gen.
+T4	Title 231 250	Chief of Army Staff
+R1	has_rank Arg1:T2 Arg2:T3	
+R2	has_title Arg1:T2 Arg2:T4	
+T5	Person 413 423	E.B Awala,
+T6	Rank 403 411	Maj.-Gen
+R3	has_rank Arg1:T5 Arg2:T6	
+T7	Title 383 401	Military.Secretary
+R4	has_title Arg1:T5 Arg2:T7	
+T8	Title 435 467	Chief of Training and Operations
+T9	Organization 475 495	Defence Headquarters
+R5	has_title Arg1:T5 Arg2:T8	
+R6	is_posted Arg1:T5 Arg2:T9	
+T10	Rank 497 505	Maj.-Gen
+T11	Person 507 518	F.M Airende
+R7	has_rank Arg1:T11 Arg2:T10	
+T12	Title 531 565	Director, Training and Evaluations
+R8	has_title Arg1:T11 Arg2:T12	
+T13	Organization 573 576	DHQ
+R9	is_posted Arg1:T11 Arg2:T13	
+T14	Rank 583 592	Maj.-Gen.
+T15	Person 593 602	K.C Osuji
+R10	has_rank Arg1:T15 Arg2:T14	
+T16	Organization 614 617	DHQ
+T17	Title 632 658	General Officer Commanding
+R11	is_posted Arg1:T15 Arg2:T16	
+R12	has_title Arg1:T15 Arg2:T17	
+T18	Organization 659 669	1 Division
+T19	Person 677 690	Nigerian Army
+R13	is_posted Arg1:T15 Arg2:T18	
+T20	Person 731 740	J. Nwaoga
+T21	Rank 721 730	Maj.-Gen.
+R14	has_rank Arg1:T20 Arg2:T21	
+T22	Title 742 760	Director of Policy
+R15	has_title Arg1:T20 Arg2:T22	
+T23	Organization 762 765	DHQ
+R16	is_posted Arg1:T20 Arg2:T23	
+T24	Rank 767 776	Maj.-Gen.
+T25	Person 777 786	A. Chukwu
+R17	has_rank Arg1:T25 Arg2:T24	
+T26	Title 788 819	Chief of Civil Military Affairs
+R18	has_title Arg1:T25 Arg2:T26	
+T27	Rank 821 830	Maj.-Gen.
+T28	Person 831 845	J.A.H Ewanshia
+R19	has_rank Arg1:T28 Arg2:T27	
+T29	Title 847 878	Chief of Training and Operation
+R20	has_title Arg1:T28 Arg2:T29	
+T30	Organization 880 906	Nigerian Army Headquarters
+R21	is_posted Arg1:T28 Arg2:T30	
+T31	Rank 908 912	Maj.
+T32	Person 913 925	M.D Abubakar
+T33	Role 927 936	Commander
+R22	has_rank Arg1:T32 Arg2:T31	
+R23	has_role Arg1:T32 Arg2:T33	
+T34	Organization 937 961	Infantry Corp and Centre
+R24	is_posted Arg1:T32 Arg2:T34	
+T35	Rank 971 980	Maj.-Gen.
+T36	Person 981 991	J.S Zaruwa
+T37	Title 993 996	GOC
+R25	has_rank Arg1:T36 Arg2:T35	
+R26	has_title Arg1:T36 Arg2:T37	
+T38	Organization 997 1007	3 Division
+R27	is_posted Arg1:T36 Arg2:T38	
+T39	Rank 1014 1023	Maj.-Gen.
+T40	Person 1024 1033	R.I.D Isa
+R28	has_rank Arg1:T40 Arg2:T39	
+T41	Title 1035 1071	Coordinator, Peacekeeping Operations
+R29	has_title Arg1:T40 Arg2:T41	
+T42	Organization 1073 1092	Ministry of Defence
+R30	is_posted Arg1:T40 Arg2:T42	
+T43	Rank 1097 1101	Maj.
+T44	Person 1102 1110	T.I Dibi
+R31	has_rank Arg1:T44 Arg2:T43	
+T45	Title 1112 1115	GOC
+R32	has_title Arg1:T44 Arg2:T45	
+T46	Organization 1116 1123	81 Div.
+R33	is_posted Arg1:T44 Arg2:T46	
+T47	Organization 1176 1181	2 Div
+T48	Title 1172 1175	GOC
+T49	Person 1157 1170	E.F. Abejirin
+T50	Rank 1147 1156	Maj.-Gen.
+R34	has_rank Arg1:T49 Arg2:T50	
+R35	has_title Arg1:T49 Arg2:T48	
+R36	is_posted Arg1:T49 Arg2:T47	
+T51	Rank 1191 1200	Maj.-Gen.
+T52	Person 1201 1210	S.N Muazu
+T53	Role 1212 1222	Commandant
+T54	Organization 1223 1257	Nigerian Army Peace Keeping Centre
+R37	has_rank Arg1:T52 Arg2:T51	
+R38	has_role Arg1:T52 Arg2:T53	
+R39	is_posted Arg1:T52 Arg2:T54	
+T55	Rank 1265 1273	Maj.-Gen
+T56	Person 1275 1283	E. Atewe
+R40	has_rank Arg1:T56 Arg2:T55	
+T57	Role 1285 1294	Commander
+T58	Organization 1296 1320	TF Operation Pulo Shield
+R41	has_role Arg1:T56 Arg2:T57	
+R42	is_posted Arg1:T56 Arg2:T58	
+T59	Rank 1322 1331	Maj.-Gen.
+T60	Person 1332 1341	O.A Umahi
+T61	Title 1343 1367	Director, Administration
+T62	Organization 1369 1372	DHQ
+R43	has_rank Arg1:T60 Arg2:T59	
+R44	has_title Arg1:T60 Arg2:T61	
+R45	is_posted Arg1:T60 Arg2:T62	
+T63	Rank 1374 1383	Maj.-Gen.
+T64	Person 1384 1391	T.C Ude
+R46	has_rank Arg1:T64 Arg2:T63	
+T65	Title 1393 1410	Director of Plans
+R47	has_title Arg1:T64 Arg2:T65	
+T66	Organization 1412 1429	Army Headquarters
+R48	is_posted Arg1:T64 Arg2:T66	
+T67	Person 1436 1445	OE Ekanem
+T68	Rank 1431 1435	Maj.
+R49	has_rank Arg1:T67 Arg2:T68	
+T69	Title 1447 1465	Director of Policy
+R50	has_title Arg1:T67 Arg2:T69	
+T70	Organization 1467 1493	Nigerian Army Headquarters
+R51	is_posted Arg1:T67 Arg2:T70	
+T71	Rank 1495 1505	Brig.-Gen.
+T72	Person 1506 1518	A.B. Omozoje
+T73	Role 1520 1529	Commander
+R52	has_rank Arg1:T72 Arg2:T71	
+R53	has_role Arg1:T72 Arg2:T73	
+T74	Organization 1531 1545	Guards Brigade
+R54	is_posted Arg1:T72 Arg2:T74	
+T75	Person 1607 1621	Olajide Laleye
+T76	Rank 1596 1606	Brig.-Gen.
+T77	Title 1563 1594	Director, Army Public Relations
+R55	has_rank Arg1:T75 Arg2:T76	
+R56	has_title Arg1:T75 Arg2:T77	
+T78	Organization 2165 2178	Nigerian Army

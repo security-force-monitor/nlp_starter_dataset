@@ -1,0 +1,14 @@
+T1	Person 105 121	Ibrahim Attahiru
+T2	Rank 94 104	Brig.-Gen.
+T3	Organization 66 77	82 Division
+T4	Title 51 64	Acting G.O.C.
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	is_posted Arg1:T1 Arg2:T3	
+R3	has_title Arg1:T1 Arg2:T4	
+T5	Person 239 250	Austin Ogbe
+T6	Rank 228 238	Brig.-Gen.
+R4	has_rank Arg1:T5 Arg2:T6	
+T7	Organization 183 194	82 Division
+T8	Role 172 181	Commander
+R5	is_posted Arg1:T5 Arg2:T7	
+R6	has_role Arg1:T5 Arg2:T8	

@@ -1,0 +1,21 @@
+T1	Title 85 111	General Officer Commanding
+T2	Organization 118 129	81 Division
+T3	Organization 137 150	Nigerian Army
+T4	Rank 152 161	Maj.-Gen.
+T5	Person 162 179	Tamunomieibi Dibi
+R1	has_rank Arg1:T5 Arg2:T4	
+R2	is_posted Arg1:T5 Arg2:T2	
+R3	has_title Arg1:T5 Arg2:T1	
+T6	Organization 356 390	Nigerian Army Peace Keeping Centre
+T7	Person 470 486	Abubakar Maikobi
+T8	Rank 459 469	Brig.-Gen.
+R4	has_rank Arg1:T7 Arg2:T8	
+T9	Organization 556 569	Nigerian Army
+T10	Person 1118 1130	Sanusi Muazu
+T11	Rank 1107 1117	Maj.- Gen.
+R5	has_rank Arg1:T10 Arg2:T11	
+T12	Organization 1315 1328	192 Battalion
+T13	Rank 1330 1339	Lt.- Col.
+T14	Person 1340 1354	Mohammed Ahmed
+R6	has_rank Arg1:T14 Arg2:T13	
+R7	is_posted Arg1:T14 Arg2:T12	

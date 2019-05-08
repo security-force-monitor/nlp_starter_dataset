@@ -1,0 +1,12 @@
+T1	Person 181 197	Benjamin Ahanotu
+T2	Organization 149 159	3 Division
+T3	Title 109 142	Acting General Officer Commanding
+R1	is_posted Arg1:T1 Arg2:T2	
+R2	has_title Arg1:T1 Arg2:T3	
+T4	Person 955 969	Bello Mohammed
+T5	Organization 937 947	23 Brigade
+R3	is_posted Arg1:T4 Arg2:T5	
+T6	Role 916 933	Brigade Commander
+R4	has_role Arg1:T4 Arg2:T6	
+T7	Rank 1066 1083	brigadier general
+R5	has_rank Arg1:T1 Arg2:T7	

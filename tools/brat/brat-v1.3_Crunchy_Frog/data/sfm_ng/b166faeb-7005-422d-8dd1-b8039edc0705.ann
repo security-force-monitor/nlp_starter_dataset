@@ -1,0 +1,136 @@
+T1	Organization 104 125	Nigerian Police force
+T2	Rank 186 220	Acting Inspector General of Police
+T3	Person 222 242	Suleiman Abba Monday
+R1	has_rank Arg1:T3 Arg2:T2	
+T4	Rank 318 320	CP
+T5	Person 321 336	Kayode Aderanti
+R2	has_rank Arg1:T5 Arg2:T4	
+T6	Person 433 443	Usman Baba
+T7	Rank 430 432	CP
+R3	has_rank Arg1:T6 Arg2:T7	
+T9	Organization 530 570	Police Cooperative at Force headquarters
+T10	Person 575 585	Dan Bature
+T11	Rank 572 574	CP
+R5	has_rank Arg1:T10 Arg2:T11	
+T12	Role 597 645	Commissioner of Police in charge of Rivers State
+R6	has_role Arg1:T10 Arg2:T12	
+T8	Title 455 499	Commissioner of Police in charge Delta State
+R4	has_title Arg1:T6 Arg2:T8	
+T13	Rank 666 669	AIG
+T14	Person 670 685	Tunde Ogunsakin
+R7	has_rank Arg1:T14 Arg2:T13	
+T15	Rank 687 689	CP
+T16	Person 690 701	Paul Okafor
+R8	has_rank Arg1:T16 Arg2:T15	
+T17	Title 709 752	Commissioner of Police in charge Kogi State
+R9	has_title Arg1:T16 Arg2:T17	
+T18	Rank 770 773	DCP
+T19	Title 770 801	DCP attached to Police Pensions
+R10	has_rank Arg1:T16 Arg2:T18	
+R11	has_title Arg1:T16 Arg2:T19	
+T20	Person 807 822	Wilson Inalegwu
+T21	Rank 804 806	CP
+R12	has_rank Arg1:T20 Arg2:T21	
+T22	Title 834 860	FCT Commissioner of Police
+R13	has_title Arg1:T20 Arg2:T22	
+T23	Rank 881 884	AIG
+T24	Person 885 902	Joseph Mbu Joseph
+R14	has_rank Arg1:T24 Arg2:T23	
+R15	has_title Arg1:T24 Arg2:T22	
+T25	Rank 904 906	CP
+T26	Person 907 922	Hyacinth Dagala
+R16	has_rank Arg1:T26 Arg2:T25	
+T27	Title 930 977	Commissioner of Police in charge of Benue State
+R17	has_title Arg1:T26 Arg2:T27	
+T28	Rank 979 981	CP
+T29	Person 982 994	Usman Yakubu
+R18	has_rank Arg1:T29 Arg2:T28	
+T30	Title 998 1035	Commissioner of Police Nasarawa State
+R19	has_title Arg1:T29 Arg2:T30	
+T31	Rank 1037 1039	CP
+T32	Person 1040 1060	Isaac Gabriel Achong
+R20	has_rank Arg1:T32 Arg2:T31	
+T33	Title 1072 1110	Commissioner of Police Akwa Ibom State
+R21	has_title Arg1:T32 Arg2:T33	
+T34	Rank 1115 1117	CP
+T35	Person 1118 1135	Idris Farouk Umar
+R22	has_rank Arg1:T35 Arg2:T34	
+T36	Title 1147 1192	Commissioner of Police in charge Jigawa State
+R23	has_title Arg1:T35 Arg2:T36	
+T37	Rank 1206 1208	CP
+T38	Person 1209 1221	Salihu Garba
+R24	has_rank Arg1:T38 Arg2:T37	
+T39	Title 1223 1257	Commissioner of Police Kwara state
+R25	has_title Arg1:T38 Arg2:T39	
+T40	Rank 1259 1261	CP
+T41	Person 1262 1274	A.K. Shodipo
+R26	has_rank Arg1:T41 Arg2:T40	
+T42	Title 1276 1308	Commissioner of Police Oyo State
+R27	has_title Arg1:T41 Arg2:T42	
+T43	Rank 1310 1312	CP
+T44	Person 1313 1328	Abubakar Marafa
+R28	has_rank Arg1:T44 Arg2:T43	
+T45	Title 1332 1366	Commissioner of Police, Osun State
+R29	has_title Arg1:T44 Arg2:T45	
+T46	Rank 1368 1370	CP
+T47	Person 1371 1384	Clement Adoda
+R30	has_rank Arg1:T47 Arg2:T46	
+T48	Title 1416 1438	Commissioner of Police
+R31	has_title Arg1:T47 Arg2:T48	
+T49	Rank 1440 1442	CP
+T50	Person 1443 1461	Karma Hosea Hassan
+R32	has_rank Arg1:T50 Arg2:T49	
+T51	Title 1473 1510	Commissioner of Police, Anambra state
+R33	has_title Arg1:T50 Arg2:T51	
+T52	Rank 1531 1534	AIG
+T53	Person 1535 1548	Bala Nasarawa
+R34	has_rank Arg1:T53 Arg2:T52	
+T54	Role 1560 1592	AIG in charge Force Intelligence
+R35	has_role Arg1:T53 Arg2:T54	
+T55	Organization 1596 1614	Force headquarters
+R36	is_posted Arg1:T53 Arg2:T55	
+T56	Rank 1629 1631	CP
+T57	Person 1632 1647	Titilayo Busari
+R37	has_rank Arg1:T57 Arg2:T56	
+T59	Rank 1706 1708	CP
+T60	Person 1709 1729	Valentine Ntomchukwu
+R39	has_rank Arg1:T60 Arg2:T59	
+T58	Person 1802 1814	Hilary Opara
+T61	Rank 1826 1829	DIG
+T62	Organization 1858 1876	Force Headquarters
+R38	has_rank Arg1:T58 Arg2:T61	
+R40	is_posted Arg1:T58 Arg2:T62	
+T63	Person 1881 1894	Ademola Omole
+T64	Rank 1878 1880	CP
+R41	has_rank Arg1:T63 Arg2:T64	
+T65	Title 1906 1951	Commissioner of Police in charge Taraba state
+R42	has_title Arg1:T63 Arg2:T65	
+T66	Rank 1953 1955	CP
+T67	Person 1956 1969	Olusola Amore
+R43	has_rank Arg1:T67 Arg2:T66	
+T68	Title 1980 2010	Force Public Relations officer
+R44	has_title Arg1:T67 Arg2:T68	
+T69	Organization 2014 2032	Force headquarters
+R45	is_posted Arg1:T67 Arg2:T69	
+T70	Title 2044 2088	Commissioner of Police in charge Niger state
+R46	has_title Arg1:T67 Arg2:T70	
+T71	Person 2094 2114	Gabriel Adejoh Adaji
+T72	Rank 2091 2093	CP
+R47	has_rank Arg1:T71 Arg2:T72	
+T73	Title 2126 2162	Commissioner of Police Adamawa state
+R48	has_title Arg1:T71 Arg2:T73	
+T74	Person 2167 2183	Frederick Lakanu
+T75	Rank 2164 2166	CP
+R49	has_rank Arg1:T74 Arg2:T75	
+T76	Title 2195 2233	Commissioner of Police in charge Ekiti
+R50	has_title Arg1:T74 Arg2:T76	
+T77	Rank 2246 2248	CP
+T78	Person 2249 2261	Ishaku Barau
+R51	has_rank Arg1:T78 Arg2:T77	
+T79	Title 2273 2317	Commissioner of Police in charge Kebbi state
+R52	has_title Arg1:T78 Arg2:T79	
+T80	Rank 2342 2351	Acting CP
+T81	Person 2352 2367	Emmanuel Ojukwu
+R53	has_rank Arg1:T81 Arg2:T80	
+T82	Title 2369 2399	Force Public Relations Officer
+R54	has_title Arg1:T81 Arg2:T82	

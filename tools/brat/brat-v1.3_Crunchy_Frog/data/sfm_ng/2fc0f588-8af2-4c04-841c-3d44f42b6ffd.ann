@@ -1,0 +1,17 @@
+T1	Organization 323 336	331 Battalion
+T2	Organization 399 409	3 Division
+T3	Person 288 298	Sani Usman
+T4	Rank 280 287	Colonel
+T5	Title 265 279	Army spokesman
+R1	has_rank Arg1:T3 Arg2:T4	
+R2	has_title Arg1:T3 Arg2:T5	
+T6	Organization 1259 1283	121 Task Force Battalion
+T7	Organization 1285 1306	26 Task Force Brigade
+T8	Organization 2069 2090	26 Task Force Brigade
+T9	Title 2285 2311	General Officer Commanding
+T10	Organization 2312 2322	7 Division
+T11	Rank 2324 2342	Brigadier  General
+T12	Person 2343 2365	Victor Okwudili Ezugwu
+R3	has_rank Arg1:T12 Arg2:T11	
+R4	is_posted Arg1:T12 Arg2:T10	
+R5	has_title Arg1:T12 Arg2:T9	

@@ -1,0 +1,12 @@
+T1	Person 98 111	Tukur Buratai
+T2	Rank 89 97	Lt.-Gen.
+T3	Title 75 88	Chief of Army
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	has_title Arg1:T1 Arg2:T3	
+T4	Organization 324 334	21 Brigade
+T5	Person 282 295	Tukur Buratai
+T6	Rank 263 281	Lieutenant General
+T7	Title 243 262	Chief of Army Staff
+R3	has_rank Arg1:T5 Arg2:T6	
+R4	has_title Arg1:T5 Arg2:T7	
+T8	Organization 1164 1174	21 Brigade

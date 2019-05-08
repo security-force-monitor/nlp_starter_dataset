@@ -1,0 +1,13 @@
+T1	Organization 38 51	Nigerian Army
+T2	Person 532 547	Adeniyi Oyebade
+T3	Rank 517 531	Major Greneral
+T4	Organization 482 507	1 Mechanisd Army Division
+T5	Title 455 481	General Officer Commanding
+R1	has_rank Arg1:T2 Arg2:T3	
+R2	is_posted Arg1:T2 Arg2:T4	
+R3	has_title Arg1:T2 Arg2:T5	
+T6	Person 1118 1131	Tukur Buratia
+T7	Rank 1107 1117	Lieutenant
+T8	Title 1086 1105	Chief of Army Staff
+R4	has_rank Arg1:T6 Arg2:T7	
+R5	has_title Arg1:T6 Arg2:T8	

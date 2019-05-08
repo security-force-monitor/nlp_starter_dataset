@@ -1,0 +1,37 @@
+T1	Person 133 152	Adamu Baba Abubakar
+T2	Rank 119 132	Major General
+T3	Organization 104 117	Nigerian Army
+T4	Organization 85 96	82 Division
+T5	Role 51 77	General Officer Commanding
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	is_posted Arg1:T1 Arg2:T4	
+R3	has_role Arg1:T1 Arg2:T5	
+T6	Person 210 220	TY Buratai
+T7	Rank 191 209	Lieutenant General
+T8	Title 171 190	Chief of Army Staff
+R4	has_rank Arg1:T6 Arg2:T7	
+R5	has_title Arg1:T6 Arg2:T8	
+T9	Organization 282 307	Operation Python Dance II
+T10	Person 374 384	Sagir Musa
+T11	Rank 369 373	Col.
+T12	Organization 360 367	82 Div.
+R6	has_rank Arg1:T10 Arg2:T11	
+R7	is_posted Arg1:T10 Arg2:T12	
+T13	Organization 433 463	Sector 1 Tactical Headquarters
+T14	Person 1935 1950	General Ndalolo
+T15	Rank 1925 1934	Brigadier
+R8	has_rank Arg1:T14 Arg2:T15	
+T16	Person 2144 2154	AK Ibrahim
+T17	Rank 2125 2142	Brigadier-General
+R9	has_rank Arg1:T16 Arg2:T17	
+T18	Person 2159 2168	IH Bature
+R10	has_rank Arg1:T18 Arg2:T17	
+T19	Organization 2201 2220	44 Engineer Brigade
+T20	Organization 2222 2242	82 Division Garrison
+T21	Person 2288 2299	Mark Mamman
+T22	Rank 2269 2286	Brigadier-General
+R11	has_rank Arg1:T21 Arg2:T22	
+T23	Person 2301 2312	LA Adegboye
+R12	has_rank Arg1:T23 Arg2:T22	
+T24	Person 2317 2326	EA Anaryu
+R13	has_rank Arg1:T24 Arg2:T22	

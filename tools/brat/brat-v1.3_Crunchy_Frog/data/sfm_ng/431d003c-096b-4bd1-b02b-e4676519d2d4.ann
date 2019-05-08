@@ -1,0 +1,12 @@
+T1	Person 171 190	Adamu Baba Abubakar
+T2	Rank 157 170	Major General
+T3	Organization 125 136	82 Division
+T4	Organization 137 150	Nigerian Army
+T5	Title 92 118	General Officer Commanding
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	is_posted Arg1:T1 Arg2:T3	
+R3	has_title Arg1:T1 Arg2:T5	
+T6	Person 884 892	Abubakar
+T7	Rank 880 883	Gen
+R4	has_rank Arg1:T6 Arg2:T7	
+T8	Organization 2791 2800	2 Brigade

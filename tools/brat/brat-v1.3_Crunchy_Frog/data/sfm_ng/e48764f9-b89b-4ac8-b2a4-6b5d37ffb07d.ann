@@ -1,0 +1,5 @@
+T1	Person 940 958	Ola Saa’ad Ibrahim
+T2	Rank 932 939	Admiral
+T3	Title 908 930	chief of defence staff
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	has_title Arg1:T1 Arg2:T3	

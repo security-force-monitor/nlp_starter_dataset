@@ -1,0 +1,32 @@
+T1	Title 253 279	General Officer Commanding
+T2	Organization 286 296	3 division
+T3	Rank 302 315	Major General
+T4	Person 316 331	Mohammed Zaruwa
+R1	has_rank Arg1:T4 Arg2:T3	
+R2	is_posted Arg1:T4 Arg2:T2	
+R3	has_title Arg1:T4 Arg2:T1	
+T5	Person 342 348	Zaruwa
+T6	Rank 334 341	General
+R4	has_rank Arg1:T5 Arg2:T6	
+T7	Person 702 710	F.O.Alli
+T8	Rank 688 701	Major General
+R5	has_rank Arg1:T7 Arg2:T8	
+T9	Title 684 687	GOC
+R6	has_title Arg1:T7 Arg2:T9	
+T10	Organization 738 757	3 armoured division
+R7	is_posted Arg1:T7 Arg2:T10	
+T11	Organization 765 778	Nigerian Army
+T12	Person 789 793	Alli
+T13	Rank 781 788	General
+R8	has_rank Arg1:T12 Arg2:T13	
+T14	Title 825 847	Director of Operations
+R9	has_title Arg1:T7 Arg2:T14	
+T15	Organization 851 868	Army Headquarters
+R10	is_posted Arg1:T7 Arg2:T15	
+T16	Role 891 908	Brigade Commander
+R11	has_role Arg1:T7 Arg2:T16	
+T17	Role 1029 1087	Principal General Staff Officer to the minister of defence
+R12	has_role Arg1:T7 Arg2:T17	
+T18	Person 1098 1104	Zaruwa
+T19	Rank 1090 1097	General
+R13	has_rank Arg1:T18 Arg2:T19	

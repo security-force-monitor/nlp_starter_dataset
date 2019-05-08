@@ -1,0 +1,9 @@
+T1	Organization 337 357	33 Artillery Brigade
+T2	Organization 361 384	Operation “Lafiya Dole”
+T3	Person 178 190	Texas Chukwu
+T4	Rank 167 177	Brig.-Gen.
+R1	has_rank Arg1:T3 Arg2:T4	
+T5	Title 196 227	Director, Army Public Relations
+R2	has_title Arg1:T3 Arg2:T5	
+T6	Organization 846 866	33 Artillery Brigade
+T7	Organization 883 903	operation Lafia Dole

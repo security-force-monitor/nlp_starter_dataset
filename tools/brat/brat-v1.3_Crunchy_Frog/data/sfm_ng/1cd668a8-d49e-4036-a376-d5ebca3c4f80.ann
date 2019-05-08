@@ -1,0 +1,34 @@
+T1	Organization 70 83	Nigerian Army
+T2	Person 576 584	M. Jimoh
+T3	Role 594 603	commander
+T4	Organization 625 649	145 Task Force Battalion
+R1	has_role Arg1:T2 Arg2:T3	
+R2	is_posted Arg1:T2 Arg2:T4	
+T6	Rank 689 707	lieutenant colonel
+R3	has_rank Arg1:T2 Arg2:T6	
+T5	Organization 732 745	145 Battalion
+T7	Organization 794 821	Army 7 Division Headquarter
+T8	Organization 840 860	82 Division Garrison
+T9	Organization 889 900	5 Battalion
+T10	Organization 910 922	20 Battalion
+T11	Organization 947 960	103 Battalion
+T12	Person 974 987	119 Battalion
+T13	Organization 1055 1095	43 Infantry Battalion for special forces
+T14	Organization 1112 1125	144 Battalion
+T15	Organization 1150 1163	146 Battalion
+T16	Person 1324 1332	K. Yusuf
+T17	Rank 1336 1354	lieutenant colonel
+R4	has_rank Arg1:T16 Arg2:T17	
+T18	Organization 1420 1444	145 Task Force Battalion
+R5	is_posted Arg1:T16 Arg2:T18	
+T19	Role 1403 1412	commander
+R6	has_role Arg1:T16 Arg2:T19	
+T20	Organization 1962 1981	Operation Gama Aiki
+T21	Organization 2488 2501	Nigerian Army
+T22	Organization 3001 3022	Operation Lafiya Dole
+T23	Role 2980 2997	Theatre Commander
+T24	Person 3041 3053	Lucky Irabor
+T25	Rank 3057 3070	major-general
+R7	has_rank Arg1:T24 Arg2:T25	
+R8	is_posted Arg1:T24 Arg2:T22	
+R9	has_role Arg1:T24 Arg2:T23	

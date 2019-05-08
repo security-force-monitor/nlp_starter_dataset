@@ -1,0 +1,7 @@
+T1	Title 11108 11133	Divisional Police Officer
+T3	Rank 11150 11153	CSP
+T4	Person 11154 11169	Rowland Omatoje
+R1	has_rank Arg1:T4 Arg2:T3	
+R3	has_title Arg1:T4 Arg2:T1	
+T2	Organization 11003 11024	Fegge Police Division
+R2	is_posted Arg1:T4 Arg2:T2	

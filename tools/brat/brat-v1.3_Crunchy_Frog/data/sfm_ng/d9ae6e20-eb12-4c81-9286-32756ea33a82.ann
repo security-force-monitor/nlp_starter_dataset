@@ -1,0 +1,5 @@
+T1	Person 1629 1647	Onyeabor Ihejirika
+T2	Rank 1617 1628	Lt. General
+T3	Title 1596 1614	Chief of Army Staf
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	has_title Arg1:T1 Arg2:T3	

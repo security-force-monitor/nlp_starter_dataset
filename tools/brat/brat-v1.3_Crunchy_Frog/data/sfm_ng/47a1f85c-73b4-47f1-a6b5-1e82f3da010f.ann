@@ -1,0 +1,18 @@
+T1	Person 234 246	Lucky Irabor
+T2	Rank 224 233	Maj.-Gen.
+R1	has_rank Arg1:T1 Arg2:T2	
+T3	Organization 70 83	Nigerian Army
+T4	Title 252 269	Theater Commander
+T5	Organization 270 291	Operation Lafiya Dole
+R2	is_posted Arg1:T1 Arg2:T5	
+R3	has_title Arg1:T1 Arg2:T4	
+T6	Organization 381 402	Operation Lafiya Dole
+T7	Title 594 620	General Officer Commanding
+T8	Organization 627 637	7 division
+T9	Organization 645 658	Nigerian Army
+T10	Rank 669 679	Brig.-Gen.
+T11	Person 680 693	Victor Ezugwu
+R4	has_rank Arg1:T11 Arg2:T10	
+R5	is_posted Arg1:T11 Arg2:T8	
+R6	has_title Arg1:T11 Arg2:T7	
+T12	Organization 713 723	7 division

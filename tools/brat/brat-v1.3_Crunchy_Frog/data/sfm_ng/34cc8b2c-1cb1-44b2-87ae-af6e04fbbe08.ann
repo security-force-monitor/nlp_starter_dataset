@@ -1,0 +1,20 @@
+T1	Organization 164 175	82 Division
+T2	Organization 183 196	Nigerian Army
+T3	Organization 330 347	Exercise Free Cas
+T4	Organization 626 646	82 Division Garrison
+T5	Person 656 668	S. Mohammed,
+T6	Rank 648 655	General
+T7	Role 615 624	commander
+R1	has_rank Arg1:T5 Arg2:T6	
+R2	is_posted Arg1:T5 Arg2:T4	
+R3	has_role Arg1:T5 Arg2:T7	
+T8	Role 1016 1042	General Officer Commanding
+T9	Organization 1050 1061	82 Division
+T10	Organization 1263 1283	82 Division Garrison
+T11	Organization 1510 1521	82 Division
+T12	Person 1534 1546	A. Adefarati
+T13	Rank 1523 1533	Brig. Gen.
+R4	has_rank Arg1:T12 Arg2:T13	
+R5	is_posted Arg1:T12 Arg2:T11	
+T14	Title 1494 1508	chief of staff
+R6	has_title Arg1:T12 Arg2:T14	

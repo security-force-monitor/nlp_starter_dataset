@@ -1,0 +1,14 @@
+T1	Organization 64 77	Nigerian Army
+T2	Person 212 224	Lucky Irabor
+T3	Rank 202 211	Maj.-Gen.
+T4	Role 230 247	Theatre Commander
+T5	Organization 251 272	Operation Lafiya Dole
+R1	has_rank Arg1:T2 Arg2:T3	
+R2	has_role Arg1:T2 Arg2:T4	
+R3	is_posted Arg1:T2 Arg2:T5	
+T6	Organization 1117 1130	Nigerian Army
+T7	Person 2139 2152	Tukur Buratai
+T8	Rank 2129 2138	Lt. –Gen.
+T9	Title 2108 2127	Chief of Army Staff
+R4	has_rank Arg1:T7 Arg2:T8	
+R5	has_title Arg1:T7 Arg2:T9	

@@ -1,0 +1,17 @@
+T1	Person 88 105	Azubike Ihejirika
+T2	Rank 80 87	Lt-Gen.
+T3	Title 59 78	Chief of Army Staff
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	has_title Arg1:T1 Arg2:T3	
+T4	Organization 218 228	7 Division
+T5	Organization 232 245	Nigerian Army
+T6	Organization 333 349	Joint Task Force
+T7	Person 887 897	Sagir Musa
+T8	Role 868 886	Military spokesman
+R3	has_role Arg1:T7 Arg2:T8	
+T9	Person 2035 2047	Obidah Ethan
+T10	Rank 2021 2034	Major General
+R4	has_rank Arg1:T9 Arg2:T10	
+T11	Role 1993 2019	General Officer Commanding
+R5	has_role Arg1:T9 Arg2:T11	
+R6	is_posted Arg1:T9 Arg2:T4	

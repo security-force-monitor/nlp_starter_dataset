@@ -1,0 +1,14 @@
+T1	Person 729 743	Lamidi Adeosun
+T2	Rank 721 728	General
+T3	Organization 709 719	7 Division
+T4	Title 675 707	General Officer Commanding (GOC)
+R1	has_rank Arg1:T1 Arg2:T2	
+R3	is_posted Arg1:T1 Arg2:T3	
+T5	Person 8548 8558	Fatai Alli
+T6	Rank 8534 8547	Major-General
+T7	Organization 8522 8532	3 Division
+T8	Role 8489 8521	General Officer Commanding (GOC)
+R4	has_rank Arg1:T5 Arg2:T6	
+R5	is_posted Arg1:T5 Arg2:T7	
+R6	has_role Arg1:T5 Arg2:T8	
+R2	has_title Arg1:T1 Arg2:T4	

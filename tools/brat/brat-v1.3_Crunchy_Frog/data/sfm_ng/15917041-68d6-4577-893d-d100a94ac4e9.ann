@@ -1,0 +1,16 @@
+T1	Person 527 540	Kenneth Osuji
+T2	Rank 513 526	Major General
+T3	Organization 486 511	1 Division, Nigerian Army
+T4	Title 453 485	General Officer Commanding (GOC)
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	is_posted Arg1:T1 Arg2:T3	
+R3	has_title Arg1:T1 Arg2:T4	
+T5	Person 704 709	Osuji
+T6	Rank 696 703	General
+R4	has_rank Arg1:T5 Arg2:T6	
+T7	Title 721 724	GOC
+R5	has_title Arg1:T5 Arg2:T7	
+T8	Title 732 741	1 Brigade
+R6	has_title Arg1:T5 Arg2:T8	
+T9	Organization 767 796	Nigerian Battalion (NIBATT)36
+T10	Organization 804 845	United Nations Mission in Liberia (UNMIL)

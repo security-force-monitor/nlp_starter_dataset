@@ -1,0 +1,158 @@
+T1	Person 427 442	Joseph Shoboiki
+T2	Rank 413 426	Major General
+T3	Organization 386 411	First Mechanized Division
+T4	Role 360 363	GOC
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	is_posted Arg1:T1 Arg2:T3	
+R3	has_role Arg1:T1 Arg2:T4	
+T5	Person 473 485	Sunday Idoko
+T6	Role 448 451	GOC
+T7	Rank 459 472	Major General
+R4	has_rank Arg1:T5 Arg2:T7	
+R5	has_role Arg1:T5 Arg2:T6	
+T8	Person 538 550	O.O Oshinowo
+T9	Rank 524 537	Major General
+T10	Organization 494 517	Third Armoured Division
+R6	is_posted Arg1:T8 Arg2:T10	
+R7	has_rank Arg1:T8 Arg2:T9	
+T11	Person 586 601	Kenneth Minimah
+T12	Organization 566 577	81 Division
+T13	Role 562 565	GOC
+R8	is_posted Arg1:T11 Arg2:T12	
+R9	has_role Arg1:T11 Arg2:T13	
+T14	Person 675 686	MD Mohammed
+T15	Rank 661 674	Major General
+T16	Person 1330 1348	Azubuike Ihejirika
+T17	Rank 1318 1329	Lt. General
+T18	Title 1291 1310	Chief of Army Staff
+R10	has_rank Arg1:T16 Arg2:T17	
+R11	has_title Arg1:T16 Arg2:T18	
+T19	Person 1446 1465	Garba Ayodele Wahab
+T20	Rank 1432 1445	Major General
+T21	Organization 1506 1524	Army Headquarters,
+T22	Title 1476 1499	Director of Operations,
+R12	has_rank Arg1:T19 Arg2:T20	
+R13	is_posted Arg1:T19 Arg2:T21	
+R14	has_title Arg1:T19 Arg2:T22	
+T23	Organization 1545 1570	First Mechanized Division
+T24	Title 1540 1543	GOC
+R15	has_title Arg1:T19 Arg2:T24	
+R16	is_posted Arg1:T19 Arg2:T23	
+T25	Person 1595 1606	ack Nwaogbo
+T26	Rank 1580 1593	Major General
+T27	Organization 1634 1651	Joint Task Force,
+T28	Role 1617 1626	Commander
+R17	has_rank Arg1:T25 Arg2:T26	
+R18	has_role Arg1:T25 Arg2:T28	
+R19	is_posted Arg1:T25 Arg2:T27	
+T29	Organization 1716 1739	Third Armoured Division
+T30	Title 1711 1714	GOC
+R20	is_posted Arg1:T25 Arg2:T29	
+R21	has_title Arg1:T25 Arg2:T30	
+T31	Person 1870 1881	Raphael Isa
+T32	Rank 1856 1869	Major General
+R22	has_rank Arg1:T31 Arg2:T32	
+T33	Organization 1906 1927	Army Public Relations
+T34	Title 1896 1904	Director
+R23	has_title Arg1:T31 Arg2:T34	
+R24	is_posted Arg1:T31 Arg2:T33	
+T35	Organization 1961 1974	Nigeria Army,
+T36	Title 1944 1959	Provost Marshal
+R25	is_posted Arg1:T31 Arg2:T35	
+R26	has_title Arg1:T31 Arg2:T36	
+T37	Person 1989 2000	Etim Bassey
+T38	Rank 1975 1988	Major General
+R27	has_rank Arg1:T37 Arg2:T38	
+T39	Organization 2022 2040	Corps of Artillery
+T40	Role 2011 2020	Commander
+R28	is_posted Arg1:T37 Arg2:T39	
+R29	has_role Arg1:T37 Arg2:T40	
+T41	Organization 2073 2090	Army Headquarters
+T42	Title 2048 2072	Chief of Administration,
+R30	is_posted Arg1:T37 Arg2:T41	
+R31	has_title Arg1:T37 Arg2:T42	
+T43	Person 2106 2116	MB Ibrahim
+T44	Rank 2092 2105	Major General
+T45	Organization 2135 2153	Special Task Force
+T46	Role 2124 2133	Commander
+R32	has_rank Arg1:T43 Arg2:T44	
+R33	has_role Arg1:T43 Arg2:T46	
+R34	is_posted Arg1:T43 Arg2:T45	
+T47	Person 2186 2195	AT Jibrin
+T48	Rank 2178 2185	Maj Gen
+T49	Person 2208 2217	U Buzugbe
+T50	Rank 2200 2207	Maj Gen
+R35	has_rank Arg1:T47 Arg2:T48	
+R36	has_rank Arg1:T49 Arg2:T50	
+T51	Title 2241 2274	Director of Military Intelligence
+T52	Organization 2285 2309	Military Secretary, Army
+R37	has_title Arg1:T47 Arg2:T51	
+R38	is_posted Arg1:T49 Arg2:T52	
+T53	Organization 2351 2386	Nigerian Army, Peace Keeping Centre
+T54	Person 2412 2421	JS Zaruwa
+T55	Rank 2404 2411	Maj Gen
+R39	has_rank Arg1:T54 Arg2:T55	
+R40	is_posted Arg1:T54 Arg2:T53	
+T56	Person 2432 2445	AS Agha-Okoro
+T57	Rank 2423 2431	Maj. Gen
+R41	has_rank Arg1:T56 Arg2:T57	
+T58	Organization 2471 2540	Department of Army Training and Operations, DATOPS, Army Headquarters
+R42	is_posted Arg1:T56 Arg2:T58	
+T59	Title 2552 2575	Director Legal Services
+R43	has_title Arg1:T56 Arg2:T59	
+T60	Person 2591 2606	Joseph Shoboiki
+T61	Rank 2583 2590	Maj Gen
+R44	has_rank Arg1:T60 Arg2:T61	
+T62	Title 2617 2620	GOC
+R45	has_title Arg1:T60 Arg2:T62	
+T63	Organization 2647 2667	Defence Headquarters
+R46	is_posted Arg1:T60 Arg2:T63	
+T64	Title 2671 2689	Director of Policy
+R47	has_title Arg1:T60 Arg2:T64	
+T65	Person 2704 2716	Sunday Idoko
+T66	Rank 2696 2703	Maj Gen
+R48	has_rank Arg1:T65 Arg2:T66	
+T67	Organization 2732 2743	82 Division
+R49	is_posted Arg1:T65 Arg2:T67	
+T68	Title 2758 2776	Chief of Logistics
+T69	Organization 2792 2809	Army Headquarters
+R50	has_title Arg1:T65 Arg2:T68	
+R51	is_posted Arg1:T65 Arg2:T69	
+T70	Person 2882 2897	Ishiaku I Abbah
+T71	Person 2930 2936	Ilouga
+T72	Person 2969 2981	RO Bamigboye
+T73	Person 3036 3045	C.O Okoro
+T74	Person 3158 3168	MA Koleoso
+T75	Rank 2873 2881	Brig Gen
+T76	Rank 2960 2968	Brig Gen
+T77	Rank 3027 3035	Brig Gen
+T78	Rank 3149 3157	Brig Gen
+R52	has_rank Arg1:T70 Arg2:T75	
+R53	has_rank Arg1:T73 Arg2:T77	
+R54	has_rank Arg1:T72 Arg2:T76	
+T79	Rank 2921 2929	Brig Gen
+R55	has_rank Arg1:T71 Arg2:T79	
+T80	Role 2847 2856	Commander
+T81	Organization 2858 2872	Three Brigade,
+R56	is_posted Arg1:T70 Arg2:T81	
+R57	has_role Arg1:T70 Arg2:T80	
+T82	Organization 2909 2919	31 Brigade
+T83	Role 2899 2908	Commander
+R58	is_posted Arg1:T71 Arg2:T82	
+R59	has_role Arg1:T71 Arg2:T83	
+T84	Organization 2948 2958	21 Brigade
+T85	Role 2938 2947	Commander
+R60	is_posted Arg1:T72 Arg2:T84	
+R61	has_role Arg1:T72 Arg2:T85	
+T86	Title 2992 3006	Chief of Staff
+R62	has_title Arg1:T73 Arg2:T86	
+T87	Organization 3014 3025	81 Division
+R63	is_posted Arg1:T73 Arg2:T87	
+T88	Role 3054 3070	Sector Commander
+R64	has_role Arg1:T73 Arg2:T88	
+T89	Organization 3072 3132	Nigerian Contingent of the United Nations Mission in Liberia
+R65	is_posted Arg1:T73 Arg2:T89	
+T90	Role 3187 3203	Sector Commander
+R66	has_role Arg1:T74 Arg2:T90	
+T91	Organization 3204 3263	Nigerian Contingent for the United Nations Mission in Dafur
+R67	is_posted Arg1:T74 Arg2:T91	

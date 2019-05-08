@@ -1,0 +1,19 @@
+T1	Title 584 609	Divisional Police Officer
+T2	Rank 611 641	Chief Superintendent of Police
+T3	Person 643 657	Ambrose Agbedo
+R1	has_rank Arg1:T3 Arg2:T2	
+R2	has_title Arg1:T3 Arg2:T1	
+T4	Title 2380 2383	DPO
+T5	Organization 2387 2408	Idimu Police Division
+T6	Rank 2410 2413	CSP
+T7	Person 2414 2428	Ambrose Agbedo
+R3	has_rank Arg1:T7 Arg2:T6	
+R4	is_posted Arg1:T7 Arg2:T5	
+R5	has_title Arg1:T7 Arg2:T4	
+T8	Organization 2433 2459	Lagos State Police command
+T9	Role 2460 2469	spokesman
+T10	Person 2475 2484	Frank Mba
+R6	has_role Arg1:T10 Arg2:T9	
+R7	is_posted Arg1:T10 Arg2:T8	
+T11	Rank 2486 2488	SP
+R8	has_rank Arg1:T10 Arg2:T11	

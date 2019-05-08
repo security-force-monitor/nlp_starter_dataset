@@ -1,0 +1,11 @@
+T1	Person 244 256	Texas Chukwu
+T2	Rank 233 242	Brig.-Gen
+T3	Title 258 266	Director
+T4	Organization 268 290	Army Public Relations,
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	has_title Arg1:T1 Arg2:T3	
+R3	is_posted Arg1:T1 Arg2:T4	
+T5	Organization 722 732	23 Brigade
+T6	Organization 743 764	Operation LAFIYA DOLE
+T7	Organization 1159 1184	Civilian Joint Task Force
+T8	Organization 1096 1122	23 Brigade Provost Company

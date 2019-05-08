@@ -1,0 +1,10 @@
+T1	Person 142 159	Tamunomieibi Dibi
+T2	Rank 128 141	Major-General
+R1	has_rank Arg1:T1 Arg2:T2	
+T3	Organization 91 102	81 division
+R2	is_posted Arg1:T1 Arg2:T3	
+T4	Title 63 89	General Officer Commanding
+R3	has_title Arg1:T1 Arg2:T4	
+T5	Organization 423 443	35 Artillery Brigade
+T6	Organization 490 503	Nigerian Army
+T7	Organization 1148 1161	Nigerian Army

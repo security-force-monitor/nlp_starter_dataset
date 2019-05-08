@@ -1,0 +1,7 @@
+T1	Person 3591 3603	Sunday Idoko
+T2	Rank 3580 3590	Major Gen.
+R1	has_rank Arg1:T1 Arg2:T2	
+T3	Organization 3547 3558	83 division
+R2	is_posted Arg1:T1 Arg2:T3	
+T4	Title 3543 3546	GOC
+R3	has_title Arg1:T1 Arg2:T4	

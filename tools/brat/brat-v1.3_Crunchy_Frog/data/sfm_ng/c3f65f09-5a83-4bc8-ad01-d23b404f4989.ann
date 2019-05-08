@@ -1,0 +1,14 @@
+T1	Organization 278 288	7 division
+T2	Title 274 277	GOC
+T3	Person 290 300	MG Adeosun
+R1	is_posted Arg1:T3 Arg2:T1	
+R2	has_title Arg1:T3 Arg2:T2	
+T4	Person 305 312	BG Udoh
+T5	Role 314 331	Brigade Commander
+T6	Organization 335 344	5 brigade
+R3	has_role Arg1:T4 Arg2:T5	
+R4	is_posted Arg1:T4 Arg2:T6	
+T7	Organization 770 773	7 D
+T8	Organization 788 801	Nigerian Army
+T9	Organization 1526 1542	Reccee Battalion
+T10	Organization 1601 1611	7 Division

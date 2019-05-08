@@ -1,0 +1,23 @@
+T1	Organization 156 187	Multi-National Joint Task Force
+T2	Person 393 403	Sani Usman
+T3	Rank 388 392	Col.
+T4	Organization 374 386	Nigeria Army
+R1	has_rank Arg1:T2 Arg2:T3	
+T5	Title 357 366	spokesman
+R2	has_title Arg1:T2 Arg2:T5	
+R3	has_title Arg1:T2 Arg2:T5	
+T6	Organization 726 747	Operation Lafiya Dole
+T7	Organization 779 809	Multinational Joint Task Force
+T8	Person 2148 2168	Yusuf Tukur Buratai,
+T9	Rank 2139 2147	Lt. Gen.
+T10	Title 2111 2130	Chief of Army Staff
+R4	has_rank Arg1:T8 Arg2:T9	
+R5	has_title Arg1:T8 Arg2:T10	
+T11	Organization 2243 2262	3 Armoured Division
+T12	Person 2319 2326	Buratai
+T13	Rank 2311 2318	General
+R6	has_rank Arg1:T12 Arg2:T13	
+T14	Organization 2975 2992	Nigeria Air Force
+T15	Rank 3229 3242	Group Captain
+T16	Person 3243 3260	Ayodele Famuyiwa,
+R7	has_rank Arg1:T16 Arg2:T15	

@@ -1,0 +1,137 @@
+T1	Person 373 384	Usman Abdul
+T2	Rank 368 372	Col.
+R1	has_rank Arg1:T1 Arg2:T2	
+T3	Person 500 515	Joseph Shoboiki
+T4	Rank 490 499	Maj.-Gen.
+T5	Organization 478 488	1 Division
+T6	Title 445 471	General Officer Commanding
+R2	has_rank Arg1:T3 Arg2:T4	
+R3	is_posted Arg1:T3 Arg2:T5	
+R4	has_title Arg1:T3 Arg2:T6	
+T7	Organization 535 555	Defence Headquarters
+R5	is_posted Arg1:T3 Arg2:T7	
+T8	Title 559 577	Director of Policy
+R6	has_title Arg1:T3 Arg2:T8	
+T9	Person 658 677	Garba Ayodele Wahab
+T10	Rank 648 657	Maj.-Gen.
+T11	Title 601 621	Director of Training
+T12	Organization 629 646	Army Headquarters
+R7	has_rank Arg1:T9 Arg2:T10	
+R8	is_posted Arg1:T9 Arg2:T12	
+R9	has_title Arg1:T9 Arg2:T11	
+T13	Person 762 775	J. O. Nwaogbo
+T14	Rank 752 761	Maj.-Gen.
+R10	has_rank Arg1:T13 Arg2:T14	
+T15	Organization 807 817	3 Division
+R11	is_posted Arg1:T13 Arg2:T15	
+T16	Person 835 851	Sunday. O. Idoko
+T17	Organization 859 870	82 Division
+R12	is_posted Arg1:T16 Arg2:T17	
+T18	Rank 825 834	Maj.-Gen.
+R13	has_rank Arg1:T16 Arg2:T18	
+T19	Title 803 806	GOC
+R14	has_title Arg1:T13 Arg2:T19	
+T20	Title 886 904	Chief of Logistics
+T21	Organization 920 937	Army Headquarters
+R15	is_posted Arg1:T16 Arg2:T21	
+R16	has_title Arg1:T16 Arg2:T20	
+T22	Person 948 962	O. O. Oshinowo
+T23	Rank 939 947	Maj-Gen.
+R17	has_rank Arg1:T22 Arg2:T23	
+T24	Organization 971 989	Special Task Force
+R18	is_posted Arg1:T22 Arg2:T24	
+T25	Organization 1013 1024	82 Division
+R19	is_posted Arg1:T22 Arg2:T25	
+T26	Title 1009 1012	GOC
+R20	has_title Arg1:T22 Arg2:T26	
+T27	Person 1092 1112	Emmanuel Etim Bassey
+T28	Rank 1083 1091	Maj-Gen.
+T29	Organization 1042 1074	Nigerian Army Corps of Artillery
+R21	has_rank Arg1:T27 Arg2:T28	
+R22	is_posted Arg1:T27 Arg2:T29	
+T30	Role 1031 1040	Commander
+R23	has_role Arg1:T27 Arg2:T30	
+T31	Title 1128 1151	Chief of Administration
+T32	Organization 1155 1172	Army Headquarters
+R24	has_title Arg1:T27 Arg2:T31	
+R25	is_posted Arg1:T27 Arg2:T32	
+T33	Person 1189 1202	M. B. Ibrahim
+T34	Rank 1180 1188	Maj-Gen.
+R26	has_rank Arg1:T33 Arg2:T34	
+T35	Organization 1216 1236	Defence Headquarters
+T36	Organization 1255 1273	Special Task Force
+R27	is_posted Arg1:T33 Arg2:T35	
+R28	is_posted Arg1:T33 Arg2:T36	
+T37	Person 1323 1335	A. T. Jibrin
+T38	Rank 1314 1322	Maj-Gen.
+R29	has_rank Arg1:T37 Arg2:T38	
+T39	Person 1350 1360	U. Buzugbe
+T40	Rank 1340 1349	Maj.-Gen.
+R30	has_rank Arg1:T39 Arg2:T40	
+T41	Title 1379 1412	Director of Military Intelligence
+R31	has_title Arg1:T37 Arg2:T41	
+T42	Title 1423 1448	Military Secretary (Army)
+R32	has_title Arg1:T39 Arg2:T42	
+T43	Person 1514 1532	Raphael Ishaku Isa
+T44	Rank 1504 1513	Maj.-Gen.
+T45	Title 1469 1502	Director of Army Public Relations
+R33	has_rank Arg1:T43 Arg2:T44	
+R34	has_title Arg1:T43 Arg2:T45	
+T46	Title 1545 1560	Provost Marshal
+T47	Organization 1568 1581	Nigerian Army
+R35	is_posted Arg1:T43 Arg2:T47	
+R36	has_title Arg1:T43 Arg2:T46	
+T48	Role 1596 1605	Commander
+T49	Organization 1613 1647	Nigerian Army Peace Keeping Centre
+T50	Person 1675 1687	J. S. Zaruwa
+T51	Rank 1666 1674	Maj-Gen.
+R37	has_rank Arg1:T50 Arg2:T51	
+R38	is_posted Arg1:T50 Arg2:T49	
+R39	has_role Arg1:T50 Arg2:T48	
+T52	Person 1699 1715	A. S. Agha-Okoro
+T53	Rank 1689 1698	Maj.-Gen.
+R40	has_rank Arg1:T52 Arg2:T53	
+T54	Organization 1743 1785	Department of Army Training and Operations
+R41	is_posted Arg1:T52 Arg2:T54	
+T55	Organization 1803 1820	Army Headquarters
+T56	Title 1833 1857	Director, Legal Services
+R42	has_title Arg1:T52 Arg2:T56	
+T57	Organization 1908 1917	3 Brigade
+T58	Person 1929 1940	I. I. Abbah
+T59	Rank 1919 1928	Brig-Gen.
+R43	has_rank Arg1:T58 Arg2:T59	
+R44	is_posted Arg1:T58 Arg2:T57	
+T60	Role 1897 1906	Commander
+R45	has_role Arg1:T58 Arg2:T60	
+T61	Person 1975 1981	Ilouga
+T62	Rank 1965 1974	Brig-Gen.
+R46	has_rank Arg1:T61 Arg2:T62	
+T63	Organization 1953 1963	31 Brigade
+T64	Role 1942 1951	Commander
+R47	is_posted Arg1:T61 Arg2:T63	
+R48	has_role Arg1:T61 Arg2:T64	
+T65	Person 2020 2035	R. O. Bamigboye
+T66	Rank 2010 2019	Brig-Gen.
+T67	Organization 1994 2004	21 Brigade
+T68	Title 2037 2051	Chief of Staff
+T69	Organization 2053 2064	81 Division
+R49	is_posted Arg1:T65 Arg2:T69	
+R50	has_title Arg1:T65 Arg2:T68	
+R51	has_rank Arg1:T65 Arg2:T66	
+T70	Person 2088 2099	C. O. Okoro
+T71	Rank 2078 2087	Brig-Gen.
+T72	Title 2111 2127	Sector Commander
+T73	Title 2128 2157	Nigerian Contingent Commander
+T74	Organization 2159 2192	United Nations Mission in Liberia
+R52	has_rank Arg1:T70 Arg2:T71	
+R53	has_role Arg1:T70 Arg2:T72	
+R54	has_role Arg1:T70 Arg2:T73	
+R55	is_posted Arg1:T70 Arg2:T74	
+T75	Rank 2206 2215	Brig-Gen.
+T76	Person 2216 2229	M. A. Koleoso
+R56	has_rank Arg1:T76 Arg2:T75	
+T77	Title 2241 2257	Sector Commander
+T78	Title 2258 2287	Nigerian Contingent Commander
+R57	has_title Arg1:T76 Arg2:T77	
+R58	has_title Arg1:T76 Arg2:T78	
+T79	Organization 2292 2323	United Nations Mission in Dafur

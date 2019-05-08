@@ -1,0 +1,12 @@
+T1	Organization 149 170	Operation Lafiya Dole
+T3	Rank 405 418	Major General
+T4	Role 361 378	Theatre Commander
+T2	Person 419 431	Hassan Umoru
+R1	has_rank Arg1:T2 Arg2:T3	
+R2	has_role Arg1:T2 Arg2:T4	
+R3	is_posted Arg1:T2 Arg2:T1	
+T5	Person 600 612	Lucky Irabor
+T6	Rank 586 599	Major General
+T7	Role 554 578	Deputy Theatre Commander
+R4	has_rank Arg1:T5 Arg2:T6	
+R5	has_role Arg1:T5 Arg2:T7	

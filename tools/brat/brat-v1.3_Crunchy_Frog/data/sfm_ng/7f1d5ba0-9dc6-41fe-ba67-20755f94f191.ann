@@ -1,0 +1,18 @@
+T1	Organization 741 760	3 Armoured Division
+T2	Person 771 783	M.S.A. Aliyu
+T3	Rank 761 770	Brigadier
+R1	has_rank Arg1:T2 Arg2:T3	
+R2	is_posted Arg1:T2 Arg2:T1	
+T4	Title 695 721	General Officer Commanding
+R3	has_title Arg1:T2 Arg2:T4	
+T5	Title 319 351	Chief of Training and Operations
+T6	Organization 359 371	Nigeria Army
+T7	Rank 372 385	Major General
+T8	Person 386 410	Yusha’u Mahmood Abubakar
+R4	has_rank Arg1:T8 Arg2:T7	
+R5	is_posted Arg1:T8 Arg2:T6	
+R6	has_title Arg1:T8 Arg2:T5	
+T9	Role 487 504	Theatre Commander
+T10	Organization 508 535	Operation Zaman Lafiya Dole
+R7	has_role Arg1:T8 Arg2:T9	
+R8	is_posted Arg1:T8 Arg2:T10	

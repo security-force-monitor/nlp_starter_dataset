@@ -1,0 +1,21 @@
+T1	Person 337 354	Enobong Okon Udoh
+T2	Rank 323 336	Major-General
+T3	Organization 275 306	6 Division of the Nigerian Army
+T4	Title 240 273	General Officer Commanding, (GOC)
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	is_posted Arg1:T1 Arg2:T3	
+R3	has_title Arg1:T1 Arg2:T4	
+T5	Organization 718 741	21 Mechanized Battalion
+T6	Organization 750 769	Depot Nigerian Army
+T7	Organization 792 806	Guards Brigade
+T8	Organization 815 832	Army Headquarters
+T9	Organization 864 875	2 Battalion
+T10	Organization 834 862	Department of Administration
+T11	Organization 891 925	Headquarters Infantry Corps Centre
+T12	Organization 933 971	Armed Forces Command and Staff College
+T13	Organization 986 1010	National Defense College
+T14	Organization 1054 1075	Operation LAFIYA DOLE
+R4	is_posted Arg1:T1 Arg2:T14	
+T15	Role 1041 1050	Commander
+R5	has_role Arg1:T1 Arg2:T15	
+T16	Organization 1115 1128	Nigerian Army

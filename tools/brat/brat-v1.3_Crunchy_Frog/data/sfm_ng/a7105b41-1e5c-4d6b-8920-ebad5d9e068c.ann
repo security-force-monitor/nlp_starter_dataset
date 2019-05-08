@@ -1,0 +1,81 @@
+T1	Organization 94 107	Nigerian Army
+T2	Title 232 264	Chief of Training and Operations
+T3	Organization 279 299	Defence Headquarters
+T4	Rank 307 320	Major General
+T5	Person 321 337	Lawrence Ngubane
+R1	has_rank Arg1:T5 Arg2:T4	
+R2	is_posted Arg1:T5 Arg2:T3	
+R3	has_title Arg1:T5 Arg2:T2	
+T6	Role 339 348	Commander
+T7	Organization 350 379	Training and Doctrine Command
+T8	Rank 390 403	Major General
+T9	Person 404 420	Babagana Mungono
+R4	has_rank Arg1:T9 Arg2:T8	
+R5	is_posted Arg1:T9 Arg2:T7	
+R6	has_role Arg1:T9 Arg2:T6	
+T10	Organization 433 466	Nigerian Army School of Artillery
+T11	Role 422 431	Commander
+T12	Rank 468 481	Major General
+T13	Person 482 490	Kwaskebe
+R7	has_rank Arg1:T13 Arg2:T12	
+R8	is_posted Arg1:T13 Arg2:T10	
+R9	has_role Arg1:T13 Arg2:T11	
+T14	Organization 526 532	AFISMA
+T15	Rank 534 547	Major General
+T16	Person 548 552	Ugwu
+R10	has_rank Arg1:T16 Arg2:T15	
+R11	is_posted Arg1:T16 Arg2:T14	
+T17	Role 564 573	Commander
+T18	Organization 575 605	Defence Industries Corporation
+T19	Rank 615 628	Major General
+T20	Person 629 640	Maduegbunam
+R12	has_rank Arg1:T20 Arg2:T19	
+R13	is_posted Arg1:T20 Arg2:T18	
+R14	has_role Arg1:T20 Arg2:T17	
+T21	Rank 657 670	Major General
+T22	Person 671 681	O. T. Etan
+R15	has_rank Arg1:T22 Arg2:T21	
+T23	Role 690 699	Commander
+T24	Organization 701 726	Army Headquarters Garison
+R16	has_role Arg1:T22 Arg2:T23	
+R17	is_posted Arg1:T22 Arg2:T24	
+T25	Title 758 784	General Officer Commanding
+T26	Organization 812 822	7 Division
+R18	has_title Arg1:T22 Arg2:T25	
+R19	is_posted Arg1:T22 Arg2:T26	
+T27	Rank 843 856	Major General
+T28	Person 857 867	T. I. Dibi
+R20	has_rank Arg1:T28 Arg2:T27	
+T29	Role 879 888	commander
+R21	has_role Arg1:T28 Arg2:T29	
+T30	Organization 890 916	Army Headquarters Garrison
+R22	is_posted Arg1:T28 Arg2:T30	
+T31	Rank 919 932	Major General
+T32	Person 933 944	P. J. Isang
+R23	has_rank Arg1:T32 Arg2:T31	
+T33	Role 956 988	Chief of Training and Operations
+T34	Organization 996 999	DHQ
+R24	has_role Arg1:T32 Arg2:T33	
+R25	is_posted Arg1:T32 Arg2:T34	
+T35	Rank 1007 1020	Major General
+T36	Person 1021 1035	J.A.H. Ewansia
+R26	has_rank Arg1:T36 Arg2:T35	
+T37	Organization 1044 1060	Joint Task Force
+R27	is_posted Arg1:T36 Arg2:T37	
+T38	Role 1068 1077	Commander
+R28	has_role Arg1:T36 Arg2:T38	
+T39	Title 1102 1135	Chief of Standards and Evaluation
+T40	Organization 1150 1167	Army Headquarters
+R29	is_posted Arg1:T36 Arg2:T40	
+T41	Rank 1176 1189	Major General
+T42	Person 1190 1196	Arende
+R30	has_rank Arg1:T42 Arg2:T41	
+T43	Organization 1217 1222	DICON
+R31	is_posted Arg1:T42 Arg2:T43	
+T44	Rank 1230 1243	Major General
+T45	Person 1244 1254	Abdulkadir
+R32	has_rank Arg1:T45 Arg2:T44	
+T46	Organization 1276 1282	TRADOC
+R33	is_posted Arg1:T45 Arg2:T46	
+T47	Role 1266 1275	commander
+R34	has_role Arg1:T45 Arg2:T47	

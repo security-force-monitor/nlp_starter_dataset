@@ -1,0 +1,20 @@
+T1	Person 96 111	Kenneth Minimah
+T2	Rank 87 95	Lt.-Gen.
+T3	Organization 59 78	Chief of Army Staff
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	is_posted Arg1:T1 Arg2:T3	
+T4	Organization 143 156	Nigerian Army
+T5	Person 389 405	Tamunomeibi Dibi
+T6	Rank 379 388	Maj.-Gen.
+R3	has_rank Arg1:T5 Arg2:T6	
+T7	Role 351 377	General Officer Commanding
+R4	has_role Arg1:T5 Arg2:T7	
+T8	Person 2267 2280	Jonathan Ango
+T9	Rank 2254 2266	Rear Admiral
+R5	has_rank Arg1:T8 Arg2:T9	
+T10	Organization 2231 2252	Western Naval Command
+R6	is_posted Arg1:T8 Arg2:T10	
+T11	Role 2206 2229	Flag Officer Commanding
+R7	has_role Arg1:T8 Arg2:T11	
+T12	Organization 311 322	81 Division
+R8	is_posted Arg1:T5 Arg2:T12	

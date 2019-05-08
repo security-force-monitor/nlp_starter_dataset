@@ -1,0 +1,31 @@
+T1	Person 1623 1634	Jack Nwaoga
+T2	Rank 1609 1622	Major General
+T4	Title 1588 1591	GOC
+T3	Organization 1592 1602	3 division
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	is_posted Arg1:T1 Arg2:T3	
+R3	has_title Arg1:T1 Arg2:T4	
+T5	Person 1569 1579	Gani Wahab
+T6	Rank 1555 1568	Major General
+T7	Organization 1514 1524	1 division
+T8	Organization 1532 1545	Nigerian Army
+R4	has_rank Arg1:T5 Arg2:T6	
+R5	is_posted Arg1:T5 Arg2:T7	
+T9	Person 615 633	Azubuike Ihejirika
+T10	Rank 603 614	Lt. General
+R6	has_rank Arg1:T9 Arg2:T10	
+T11	Title 582 601	Chief of Army staff
+R7	has_title Arg1:T9 Arg2:T11	
+T12	Person 918 934	Mohammed Abubaka
+T13	Rank 889 916	Inspector General of Police
+R8	has_rank Arg1:T12 Arg2:T13	
+T14	Organization 1090 1095	MOPOL
+T15	Role 1077 1089	CP in charge
+T16	Rank 1097 1099	CP
+T17	Person 1100 1110	Joseph Mbu
+R9	has_rank Arg1:T17 Arg2:T16	
+R10	is_posted Arg1:T17 Arg2:T14	
+R11	has_role Arg1:T17 Arg2:T15	
+T18	Role 1168 1206	CP in charge Federal Capital territory
+T19	Person 1208 1224	Adenrele Shinaba
+R12	has_role Arg1:T19 Arg2:T18	

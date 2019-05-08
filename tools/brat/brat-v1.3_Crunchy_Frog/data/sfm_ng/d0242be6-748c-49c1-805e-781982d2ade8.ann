@@ -1,0 +1,17 @@
+T1	Person 269 279	Obi Umahi,
+T2	Rank 255 268	Major General
+T3	Organization 227 238	81 Division
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	is_posted Arg1:T1 Arg2:T3	
+T4	Title 195 220	eneral Officer Commanding
+R3	has_title Arg1:T1 Arg2:T4	
+T5	Organization 338 350	65 Battalion
+T6	Organization 360 373	Bravo Company
+T7	Person 440 450	TY Danjuma
+T8	Rank 421 439	Lieutenant General
+R4	has_rank Arg1:T7 Arg2:T8	
+T9	Person 535 548	Haruna Dasuki
+T10	Rank 516 534	Lieutenant Colonel
+R5	has_rank Arg1:T9 Arg2:T10	
+T11	Role 496 514	Commanding Officer
+R6	has_role Arg1:T9 Arg2:T11	

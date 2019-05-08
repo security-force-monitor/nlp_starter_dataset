@@ -1,0 +1,12 @@
+T1	Person 475 490	Adeniyi Oyebade
+T2	Rank 466 474	Maj-Gen.
+T3	Organization 414 456	1 Mechanised Division of the Nigerian Army
+T4	Title 380 412	General Officer Commanding (GOC)
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	is_posted Arg1:T1 Arg2:T3	
+R3	has_title Arg1:T1 Arg2:T4	
+T5	Person 73 86	Tukur Buratai
+T6	Rank 65 72	Lt-Gen.
+T7	Title 44 63	Chief of Army Staff
+R4	has_rank Arg1:T5 Arg2:T6	
+R5	has_title Arg1:T5 Arg2:T7	

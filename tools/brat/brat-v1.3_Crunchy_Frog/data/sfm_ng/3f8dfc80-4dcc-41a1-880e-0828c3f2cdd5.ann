@@ -1,0 +1,24 @@
+T1	Organization 746 783	Department of State Security Services
+T2	Person 810 824	Ben Achu-Olayi
+T3	Role 736 744	Director
+R1	is_posted Arg1:T2 Arg2:T1	
+R2	has_role Arg1:T2 Arg2:T3	
+T4	Person 1703 1713	Abel Umahi
+T5	Rank 1689 1702	Major General
+T6	Organization 1663 1687	81 Division Headquarters
+T7	Title 1629 1655	General Officer Commanding
+R3	has_rank Arg1:T4 Arg2:T5	
+R4	is_posted Arg1:T4 Arg2:T6	
+R5	has_title Arg1:T4 Arg2:T7	
+T8	Organization 5566 5579	Nigerian Army
+T9	Organization 5723 5739	Joint Task Force
+T10	Person 5920 5936	Ibrahim Attahiru
+T11	Rank 5910 5919	Brig-Gen.
+T12	Title 5875 5908	Director of Army Public Relations
+R6	has_rank Arg1:T10 Arg2:T11	
+R7	has_title Arg1:T10 Arg2:T12	
+T13	Organization 5957 5974	Army Headquarters
+T14	Organization 6602 6622	Defence Headquarters
+T15	Organization 6472 6475	JTF
+T16	Organization 6584 6587	JTF
+T17	Organization 5741 5744	JTF

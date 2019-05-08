@@ -1,0 +1,8 @@
+T1	Person 730 746	Ibrahim Attahiru
+T2	Rank 717 729	Brig-General
+T3	Organization 680 691	82 Division
+T4	Title 641 673	cting General Officer Commanding
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	is_posted Arg1:T1 Arg2:T3	
+R3	has_title Arg1:T1 Arg2:T4	
+T5	Organization 1144 1157	Nigerian Army

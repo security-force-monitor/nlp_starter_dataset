@@ -1,0 +1,12 @@
+T1	Organization 1463 1473	7 Division
+T2	Organization 6067 6077	7 Division
+T3	Organization 6161 6171	7 Division
+T4	Organization 6270 6280	7 Division
+T5	Organization 6332 6345	101 battalion
+T6	Title 6363 6389	General Officer Commanding
+T7	Person 6404 6419	Ahmadu Mohammed
+R1	has_title Arg1:T7 Arg2:T6	
+T8	Rank 6423 6436	Major General
+R2	has_rank Arg1:T7 Arg2:T8	
+R3	is_posted Arg1:T7 Arg2:T5	
+T9	Organization 6643 6672	Sector 3 operational division

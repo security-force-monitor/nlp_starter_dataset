@@ -1,0 +1,29 @@
+T1	Organization 89 100	81 Division
+T2	Organization 102 115	Nigerian Army
+T3	Organization 455 464	9 Brigade
+T4	Organization 726 735	9 Brigade
+T5	Organization 737 757	35 Artillery Brigade
+T6	Organization 759 780	45 Division Engineers
+T7	Organization 785 805	81 Division Garrison
+T8	Organization 813 826	Nigerian Army
+T9	Organization 840 851	81 Division
+T10	Person 863 875	Enobong Udoh
+T11	Rank 853 862	Maj.-Gen.
+T12	Title 833 836	GOC
+R1	has_rank Arg1:T10 Arg2:T11	
+R2	is_posted Arg1:T10 Arg2:T9	
+R3	has_title Arg1:T10 Arg2:T12	
+T13	Person 1037 1049	Moundhey Ali
+T14	Rank 1026 1035	Brig.-Gen
+T15	Title 1015 1024	Commander
+T16	Organization 1006 1014	9Brigade
+R4	is_posted Arg1:T13 Arg2:T16	
+R5	has_rank Arg1:T13 Arg2:T14	
+R6	has_title Arg1:T13 Arg2:T15	
+T17	Organization 2094 2103	9 Brigade
+T18	Person 2110 2122	Olusola Diya
+T19	Rank 2105 2109	Col.
+T20	Title 2078 2092	Chief of Staff
+R7	has_rank Arg1:T18 Arg2:T19	
+R8	is_posted Arg1:T18 Arg2:T17	
+R9	has_title Arg1:T18 Arg2:T20	

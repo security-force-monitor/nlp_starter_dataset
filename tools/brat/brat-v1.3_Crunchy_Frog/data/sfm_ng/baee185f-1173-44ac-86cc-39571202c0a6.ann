@@ -1,0 +1,202 @@
+T1	Title 136 155	Chief of Army Staff
+T2	Person 173 200	Onyemoabi Azubike Ihejirika
+T3	Rank 164 172	Lt.-Gen.
+R1	has_rank Arg1:T2 Arg2:T3	
+R2	has_title Arg1:T2 Arg2:T1	
+T4	Title 504 535	Director, Army Public Relations
+T5	Rank 537 545	Maj-Gen.
+T6	Person 546 563	Mobolaji Koleosho
+R3	has_rank Arg1:T6 Arg2:T5	
+R4	has_title Arg1:T6 Arg2:T4	
+T7	Organization 736 746	3 Division
+T8	Rank 748 756	Maj-Gen.
+T9	Person 757 772	Ebiobowei Awala
+R5	has_rank Arg1:T9 Arg2:T8	
+R6	is_posted Arg1:T9 Arg2:T7	
+T10	Organization 774 784	2 Division
+T11	Rank 786 793	Maj-Gen
+T12	Person 795 807	Ahmed Jibrin
+R7	has_rank Arg1:T12 Arg2:T11	
+R8	is_posted Arg1:T12 Arg2:T10	
+T13	Person 864 880	Ashimiyu Olaniyi
+T14	Rank 856 863	Maj-Gen
+T15	Organization 831 854	Nigerian Army Engineers
+R9	has_rank Arg1:T13 Arg2:T14	
+R10	is_posted Arg1:T13 Arg2:T15	
+T16	Organization 900 911	82 Division
+T17	Title 896 899	GOC
+R11	has_title Arg1:T13 Arg2:T17	
+R12	is_posted Arg1:T13 Arg2:T16	
+T18	Organization 930 941	81 Division
+T19	Title 926 929	GOC
+T20	Rank 945 953	Maj-Gen.
+T21	Person 954 963	Obi Umahi
+R13	has_rank Arg1:T21 Arg2:T20	
+R14	is_posted Arg1:T21 Arg2:T18	
+R15	has_title Arg1:T21 Arg2:T19	
+T22	Organization 976 1002	Army Headquarters Garrison
+T23	Person 1025 1037	Obidah Ethan
+T24	Rank 1016 1024	Maj-Gen.
+R16	has_rank Arg1:T23 Arg2:T24	
+T25	Role 1003 1012	Commander
+R17	has_role Arg1:T23 Arg2:T25	
+R18	is_posted Arg1:T23 Arg2:T22	
+T26	Role 1086 1089	GOC
+T27	Organization 1090 1101	81 Division
+T28	Rank 1103 1111	Maj-Gen.
+T29	Person 1112 1132	Kenneth T.J. Minimah
+R19	has_rank Arg1:T29 Arg2:T28	
+R20	is_posted Arg1:T29 Arg2:T27	
+R21	has_role Arg1:T29 Arg2:T26	
+T30	Role 1141 1150	Commander
+T31	Organization 1152 1177	Infantry Corps and Centre
+R22	has_role Arg1:T29 Arg2:T30	
+R23	is_posted Arg1:T29 Arg2:T31	
+T32	Title 1196 1228	Chief of Training and Operations
+T33	Rank 1244 1256	Major Genral
+T34	Person 1257 1273	Lawrence Ngubane
+R24	has_rank Arg1:T34 Arg2:T33	
+R25	has_title Arg1:T34 Arg2:T32	
+T35	Title 1285 1317	Chief of Training and Operations
+T36	Organization 1325 1345	Defence Headquarters
+R26	has_title Arg1:T34 Arg2:T35	
+R27	is_posted Arg1:T34 Arg2:T36	
+T37	Title 1358 1361	GOC
+T38	Organization 1362 1372	3 Division
+T39	Rank 1374 1382	Maj-Gen.
+T40	Person 1383 1395	Jack Nwaogbo
+R28	has_rank Arg1:T40 Arg2:T39	
+R29	is_posted Arg1:T40 Arg2:T38	
+R30	has_title Arg1:T40 Arg2:T37	
+T41	Title 1407 1439	Chief of Training and Opeartions
+T42	Organization 1443 1460	Army Headquarters
+R31	has_title Arg1:T40 Arg2:T41	
+R32	is_posted Arg1:T40 Arg2:T42	
+T43	Organization 1473 1483	2 Division
+T44	Title 1469 1472	GOC
+T45	Rank 1485 1493	Maj-Gen.
+T46	Person 1494 1511	Mohammed Abubakar
+R33	has_rank Arg1:T46 Arg2:T45	
+R34	is_posted Arg1:T46 Arg2:T43	
+R35	has_title Arg1:T46 Arg2:T44	
+T47	Title 1523 1551	Chief of Army Administration
+T48	Organization 1559 1576	Army Headquarters
+R36	has_title Arg1:T46 Arg2:T47	
+R37	is_posted Arg1:T46 Arg2:T48	
+T49	Person 1616 1626	Paul Isang
+T50	Rank 1607 1614	Maj-Gen
+R38	has_rank Arg1:T49 Arg2:T50	
+T51	Title 1638 1675	Chief of Army Standard and Evaluation
+R39	has_title Arg1:T49 Arg2:T51	
+T52	Rank 1694 1702	Maj-Gen.
+T53	Person 1703 1720	Shehu Abdul-Kadir
+R40	has_rank Arg1:T53 Arg2:T52	
+R41	has_title Arg1:T53 Arg2:T51	
+T54	Role 1748 1763	Force Commander
+R42	has_role Arg1:T53 Arg2:T54	
+T55	Organization 1784 1821	nternational Support Mission for Mali
+R43	is_posted Arg1:T53 Arg2:T55	
+T56	Role 1840 1849	Commander
+T57	Organization 1858 1901	Nigerian Army Training and Doctrine Command
+T58	Person 1923 1939	Babagana Munguno
+T59	Rank 1914 1922	Maj-Gen.
+R44	has_rank Arg1:T58 Arg2:T59	
+R45	is_posted Arg1:T58 Arg2:T57	
+T60	Person 1950 1966	Daniel Kitchener
+T61	Rank 1941 1949	Maj-Gen.
+R46	has_rank Arg1:T60 Arg2:T61	
+T62	Title 1974 1992	Chief of Logistics
+R47	has_title Arg1:T60 Arg2:T62	
+T63	Organization 2000 2017	Army Headquarters
+R48	is_posted Arg1:T60 Arg2:T63	
+T64	Rank 2024 2032	Maj-Gen.
+T65	Person 2033 2048	Emmanuel Bassey
+R49	has_rank Arg1:T65 Arg2:T64	
+T66	Title 2061 2086	Chief of Policy and Plans
+R50	has_title Arg1:T65 Arg2:T66	
+T67	Person 2153 2167	Obinali Ariahu
+T68	Rank 2144 2152	Maj-Gen.
+R51	has_rank Arg1:T67 Arg2:T68	
+T69	Title 2177 2210	Chief of Research and Development
+R52	has_title Arg1:T67 Arg2:T69	
+T70	Organization 2218 2238	Defence Headquarters
+R53	is_posted Arg1:T67 Arg2:T70	
+T71	Rank 2240 2248	Maj-Gen.
+T72	Person 2250 2260	ohn Zaruwa
+R54	has_rank Arg1:T72 Arg2:T71	
+T73	Title 2274 2310	Coordinator, Peacekeeping Operations
+R55	has_title Arg1:T72 Arg2:T73	
+T74	Organization 2318 2337	Ministry of Defence
+R56	is_posted Arg1:T72 Arg2:T74	
+T75	Person 2348 2358	Salihu Uba
+T76	Rank 2339 2347	Maj-Gen.
+R57	has_rank Arg1:T75 Arg2:T76	
+T77	Role 2370 2380	Commandant
+T78	Organization 2382 2415	Nigerian Army Peacekeeping Centre
+R58	has_role Arg1:T75 Arg2:T77	
+R59	is_posted Arg1:T75 Arg2:T78	
+T79	Title 2428 2460	Defence Adviser, UN Headquarters
+T80	Rank 2472 2480	Maj-Gen.
+T81	Person 2481 2491	Garba Audu
+R60	has_rank Arg1:T81 Arg2:T80	
+R61	has_title Arg1:T81 Arg2:T79	
+T82	Title 2499 2517	Chief of Logistics
+R62	has_title Arg1:T81 Arg2:T82	
+T83	Organization 2519 2539	Defence Headquarters
+R63	is_posted Arg1:T81 Arg2:T83	
+T84	Person 2619 2634	Ekwenugo Chioba
+T85	Rank 2610 2618	Maj-Gen.
+R64	has_rank Arg1:T84 Arg2:T85	
+T86	Person 2648 2661	Abubakar Gana
+T87	Rank 2639 2647	Maj-Gen.
+R65	has_rank Arg1:T86 Arg2:T87	
+T88	Role 2673 2683	Commandant
+T89	Organization 2685 2718	Nigerian Army School of Logistics
+R66	has_role Arg1:T86 Arg2:T88	
+R67	is_posted Arg1:T86 Arg2:T89	
+T90	Role 2739 2749	Commandant
+T91	Rank 2751 2758	Maj-Gen
+T92	Person 2760 2776	Adekunle Martins
+R68	has_rank Arg1:T92 Arg2:T91	
+R69	has_role Arg1:T92 Arg2:T90	
+R70	is_posted Arg1:T92 Arg2:T89	
+T93	Role 2784 2793	Commander
+T94	Organization 2795 2824	Nigerian Army Ordinance Corps
+T95	Role 2839 2848	Commander
+T96	Organization 2850 2871	Nigerian Army Signals
+R71	has_role Arg1:T92 Arg2:T93	
+R72	is_posted Arg1:T92 Arg2:T94	
+T97	Rank 2883 2891	Maj-Gen.
+T98	Person 2892 2910	Abayomi Olonisakin
+R73	has_rank Arg1:T98 Arg2:T97	
+R74	is_posted Arg1:T98 Arg2:T96	
+R75	has_role Arg1:T98 Arg2:T95	
+T99	Organization 2928 2968	Nigerian Army Supply and Transport Corps
+T100	Role 2917 2926	Commander
+T101	Rank 2976 2984	Maj-Gen.
+T102	Person 2985 3000	Emmanuel Nienge
+R76	has_rank Arg1:T102 Arg2:T101	
+R77	is_posted Arg1:T102 Arg2:T99	
+R78	has_role Arg1:T102 Arg2:T100	
+T103	Role 3011 3020	Commander
+T104	Organization 3022 3050	Nigerian Army Armoured Corps
+T105	Rank 3065 3073	Maj-Gen.
+T106	Person 3074 3085	John Nwaoga
+R79	has_rank Arg1:T106 Arg2:T105	
+R80	is_posted Arg1:T106 Arg2:T104	
+R81	has_role Arg1:T106 Arg2:T103	
+T107	Person 3096 3111	Bolaji Koleosho
+T108	Rank 3087 3095	Maj-Gen.
+R82	has_rank Arg1:T107 Arg2:T108	
+T109	Title 3143 3174	Chief of Civil-Military Affairs
+R83	has_title Arg1:T107 Arg2:T109	
+T110	Title 3184 3215	Director, Army Public Relations
+R84	has_title Arg1:T107 Arg2:T110	
+T111	Rank 3222 3239	Brigadier General
+T112	Person 3240 3256	Ibrahim Attahiru
+R85	has_rank Arg1:T112 Arg2:T111	
+T113	Title 3282 3296	Army spokesman
+R86	has_title Arg1:T112 Arg2:T113	
+T114	Person 3307 3319	Bitrus Kwaji
+T115	Rank 3298 3306	Maj-Gen.
+R87	has_rank Arg1:T114 Arg2:T115	

@@ -1,0 +1,11 @@
+T1	Role 394 420	General Officer Commanding
+T2	Organization 422 433	82 Division
+T3	Organization 437 449	Nigeria Army
+T4	Rank 458 471	Major General
+T5	Person 472 488	Ibrahim Attahiru
+R1	has_rank Arg1:T5 Arg2:T4	
+R2	is_posted Arg1:T5 Arg2:T2	
+R3	has_role Arg1:T5 Arg2:T1	
+T6	Rank 584 612	State Commissioner of Police
+T7	Person 614 631	Nwodibo Ekechukwu
+R4	has_rank Arg1:T7 Arg2:T6	

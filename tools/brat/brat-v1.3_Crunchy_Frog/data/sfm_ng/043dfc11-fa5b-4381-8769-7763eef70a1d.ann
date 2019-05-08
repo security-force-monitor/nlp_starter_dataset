@@ -1,0 +1,15 @@
+T1	Person 353 363	Salihu Uba
+T2	Rank 339 352	Major General
+T3	Organization 305 337	Nigeria Army Peacekeeping Centre
+T4	Role 293 303	Commandant
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	is_posted Arg1:T1 Arg2:T3	
+R3	has_role Arg1:T1 Arg2:T4	
+T5	Organization 445 457	22 Battalion
+T6	Person 1272 1284	Ahmad Jibrin
+T7	Rank 1258 1271	Major General
+T8	Organization 1246 1257	2 Division,
+T9	Title 1219 1245	General Officer Commanding
+R4	has_rank Arg1:T6 Arg2:T7	
+R5	is_posted Arg1:T6 Arg2:T8	
+R6	has_title Arg1:T6 Arg2:T9	

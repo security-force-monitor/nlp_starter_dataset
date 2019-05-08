@@ -1,0 +1,9 @@
+T1	Title 196 227	Director, Army Public Relations
+T2	Person 182 194	Texas Chukwu
+T3	Rank 164 180	Brigadier-Genera
+R1	has_rank Arg1:T2 Arg2:T3	
+R2	has_title Arg1:T2 Arg2:T1	
+T4	Organization 326 346	33 Artillery Brigade
+T5	Organization 350 371	Operation Lafiya Dole
+T6	Organization 832 852	33 Artillery Brigade
+T7	Organization 869 889	Operation Lafia Dole

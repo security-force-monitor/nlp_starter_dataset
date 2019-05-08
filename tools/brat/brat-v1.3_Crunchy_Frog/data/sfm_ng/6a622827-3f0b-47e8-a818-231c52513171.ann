@@ -1,0 +1,28 @@
+T1	Title 1275 1301	General Officer Commanding
+T2	Organization 1308 1318	7 Division
+T3	Organization 1326 1339	Nigerian Army
+T4	Rank 1352 1365	Major General
+T5	Person 1366 1380	Unsaid Bindawa
+R1	has_rank Arg1:T5 Arg2:T4	
+R2	is_posted Arg1:T5 Arg2:T2	
+R3	has_title Arg1:T5 Arg2:T1	
+T6	Organization 1389 1418	Training and Doctrine Command
+T7	Organization 1242 1259	Army High Command
+T8	Role 1438 1448	Commandant
+R4	has_role Arg1:T5 Arg2:T8	
+R5	is_posted Arg1:T5 Arg2:T6	
+T9	Rank 1489 1502	Major-General
+T10	Person 1503 1522	Mohammed Abdulkadir
+R6	has_rank Arg1:T10 Arg2:T9	
+T11	Role 1467 1477	Commandant
+R7	has_role Arg1:T10 Arg2:T11	
+R8	is_posted Arg1:T10 Arg2:T6	
+T12	Organization 1549 1559	7 Division
+R9	is_posted Arg1:T10 Arg2:T12	
+T13	Organization 2918 2937	23 Armoured Brigade
+T14	Person 2953 2966	Nuhu Jafa’aru
+T15	Rank 2945 2952	Captain
+R10	has_rank Arg1:T14 Arg2:T15	
+R11	is_posted Arg1:T14 Arg2:T13	
+T16	Title 2887 2916	Army Public Relations Officer
+R12	has_title Arg1:T14 Arg2:T16	

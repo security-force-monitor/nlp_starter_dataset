@@ -1,0 +1,6 @@
+T1	Person 338 353	Chris Olukolade
+T2	Rank 330 337	Maj-Gen
+R1	has_rank Arg1:T1 Arg2:T2	
+T3	Organization 1831 1841	7 Division
+T4	Organization 1843 1855	Nigeria Army
+T5	Organization 2065 2077	81 battalion

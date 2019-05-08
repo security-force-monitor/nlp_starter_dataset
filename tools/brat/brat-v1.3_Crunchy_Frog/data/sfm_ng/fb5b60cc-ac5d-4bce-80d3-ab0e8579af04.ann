@@ -1,0 +1,7 @@
+T1	Person 3723 3734	Aba Popoola
+T2	Rank 3718 3722	Col.
+T3	Organization 3692 3710	23 Armored Brigade
+T4	Role 3660 3684	Acting Brigade Commander
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	is_posted Arg1:T1 Arg2:T3	
+R3	has_role Arg1:T1 Arg2:T4	

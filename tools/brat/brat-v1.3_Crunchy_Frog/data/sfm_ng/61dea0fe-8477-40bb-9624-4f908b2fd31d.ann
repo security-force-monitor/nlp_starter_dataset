@@ -1,0 +1,8 @@
+T1	Organization 172 196	Edo State Police Command
+T2	Title 144 168	Public Relations Officer
+T3	Rank 198 201	DSP
+T4	Person 202 212	Noble Uwoh
+R1	has_rank Arg1:T4 Arg2:T3	
+R2	is_posted Arg1:T4 Arg2:T1	
+R3	has_title Arg1:T4 Arg2:T2	
+T5	Organization 490 517	St. Saviour Police Division

@@ -1,0 +1,17 @@
+T1	Person 377 389	Peter Dauke,
+T2	Rank 363 376	Major General
+T3	Organization 347 357	Division 3
+T4	Title 292 318	General Officer Commanding
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	is_posted Arg1:T1 Arg2:T3	
+R3	has_title Arg1:T1 Arg2:T4	
+T5	Organization 946 966	33 Artillery Brigade
+T6	Organization 968 999	Headquarters 3 Division Tactica
+T7	Organization 1002 1025	23 Brigade Headquarters
+T8	Organization 1027 1048	27 Task Force Brigade
+T9	Organization 1050 1071	28 Task Force Brigade
+T10	Organization 1073 1094	29 Task Force Brigade
+T11	Organization 1096 1116	43 Division Engineer
+T12	Organization 1118 1136	53 Division Signal
+T13	Organization 1138 1160	301 Artillery Regiment
+T14	Organization 1165 1184	3 Division Garrison

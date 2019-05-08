@@ -1,0 +1,17 @@
+T1	Organization 54 74	Defence Headquarters
+T2	Organization 94 114	2 Amphibious Brigade
+T3	Person 432 451	Azugaku Tsota Umuru
+T4	Rank 418 431	Major General
+R1	has_rank Arg1:T3 Arg2:T4	
+T5	Title 453 479	Director of Administration
+R2	has_title Arg1:T3 Arg2:T5	
+T6	Organization 481 501	Defence Headquarters
+R3	is_posted Arg1:T3 Arg2:T6	
+T7	Person 557 574	Oluseyin Petinrin
+T8	Rank 544 556	Air Marshall
+T9	Title 520 542	Chief of Defence Staff
+R4	has_rank Arg1:T7 Arg2:T8	
+R5	has_title Arg1:T7 Arg2:T9	
+T10	Organization 2195 2217	343 Artillery Regiment
+T11	Organization 2222 2233	5 Battalion
+T12	Organization 2108 2130	2 Brigade Headquarters

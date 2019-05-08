@@ -1,0 +1,60 @@
+T1	Person 87 105	Azubuike Ihejirika
+T2	Rank 78 86	Lt.-Gen.
+T3	Title 57 76	Chief of Army Staff
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	has_title Arg1:T1 Arg2:T3	
+T4	Organization 264 303	Counter Terrorism and Insurgency Centre
+T5	Rank 367 377	Brig.-Gen.
+T6	Role 340 349	Commander
+T7	Organization 351 365	Guards Brigade
+T8	Person 378 392	Emmanuel Atewe
+R3	is_posted Arg1:T8 Arg2:T7	
+R4	has_rank Arg1:T8 Arg2:T5	
+R5	has_role Arg1:T8 Arg2:T6	
+T9	Person 520 532	Tijani Golau
+T10	Rank 509 519	Brig.-Gen.
+T11	Organization 483 508	Counter Terrorism Centre,
+T12	Title 473 481	Director
+R6	has_rank Arg1:T9 Arg2:T10	
+R7	is_posted Arg1:T9 Arg2:T11	
+R8	has_title Arg1:T9 Arg2:T12	
+T13	Person 777 791	Emmanuel Atewe
+T14	Rank 766 776	Brig.-Gen.
+T15	Organization 747 764	Brigade of Guards
+T16	Role 737 746	Commander
+R9	has_rank Arg1:T13 Arg2:T14	
+R10	is_posted Arg1:T13 Arg2:T15	
+R11	has_role Arg1:T13 Arg2:T16	
+T17	Person 1474 1487	Tijjani Golau
+T18	Rank 1463 1473	Brig.-Gen.
+T19	Title 1439 1447	Director
+R12	has_rank Arg1:T17 Arg2:T18	
+R13	has_title Arg1:T17 Arg2:T19	
+T20	Person 2083 2095	Olu Abolurin
+T21	Organization 2038 2078	Nigeria Security and Civil Defence Corps
+R14	is_posted Arg1:T20 Arg2:T21	
+T22	Title 2012 2030	Commandant-General
+R15	has_title Arg1:T20 Arg2:T22	
+T23	Person 2256 2272	Suleiman Akanbi,
+T24	Title 2277 2319	Deputy Commandant-General (Administration)
+R16	has_title Arg1:T23 Arg2:T24	
+R17	is_posted Arg1:T23 Arg2:T21	
+T25	Title 2601 2627	General Officer Commanding
+T26	Person 2584 2595	Garba Wahab
+T27	Rank 2574 2583	Maj.-Gen.
+T28	Organization 2634 2644	1 Division
+R18	has_rank Arg1:T26 Arg2:T27	
+R19	has_title Arg1:T26 Arg2:T25	
+R20	is_posted Arg1:T26 Arg2:T28	
+T29	Organization 2646 2659	Nigerian Army
+T30	Organization 2819 2831	26 Battalion
+T31	Organization 2872 2905	Nigerian Army Peacekeeping Centre
+T32	Organization 2961 2973	26 Battalion
+T33	Organization 3196 3209	Nigerian Army
+T34	Organization 3634 3642	UNAMID’s
+T35	Person 3972 3982	J.S Zaruwa
+T36	Rank 3962 3971	Maj.-Gen.
+R21	has_rank Arg1:T35 Arg2:T36	
+R22	is_posted Arg1:T35 Arg2:T31	
+T37	Role 3936 3946	Commandant
+R23	has_role Arg1:T35 Arg2:T37	

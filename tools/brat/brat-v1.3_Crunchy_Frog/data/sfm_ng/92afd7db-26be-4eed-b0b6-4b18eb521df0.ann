@@ -1,0 +1,36 @@
+T1	Person 63 73	Garba Audu
+T2	Rank 52 61	Brig.-Gen
+R1	has_rank Arg1:T1 Arg2:T2	
+T3	Role 100 109	Commander
+T4	Organization 117 127	21 Brigade
+T5	Organization 135 148	Nigerian Army
+R2	has_role Arg1:T1 Arg2:T3	
+R3	is_posted Arg1:T1 Arg2:T4	
+T6	Person 191 201	Adamu Laka
+T7	Rank 186 190	Col.
+R4	has_rank Arg1:T6 Arg2:T7	
+T8	Person 297 311	Samuel Kinsley
+T9	Rank 288 296	Lt.-Col.
+R5	has_rank Arg1:T8 Arg2:T9	
+T10	Organization 333 365	Army Public Relations Department
+T11	Title 316 331	Deputy Director
+R6	has_title Arg1:T8 Arg2:T11	
+R7	is_posted Arg1:T8 Arg2:T10	
+T12	Title 714 747	Acting General Officer Commanding
+T13	Organization 755 765	7 Division
+T14	Organization 766 779	Nigerian Army
+T15	Rank 781 792	Brig.- Gen.
+T16	Person 793 806	Victor Ezugwu
+R8	has_rank Arg1:T16 Arg2:T15	
+R9	is_posted Arg1:T16 Arg2:T13	
+R10	has_title Arg1:T16 Arg2:T12	
+T17	Role 1044 1053	Commander
+T18	Organization 1055 1065	21 Brigade
+T19	Rank 1067 1084	Brigadier General
+T20	Person 1085 1089	Audu
+R11	has_rank Arg1:T20 Arg2:T19	
+R12	is_posted Arg1:T20 Arg2:T18	
+R13	has_role Arg1:T20 Arg2:T17	
+T21	Organization 1094 1104	7 Division
+T22	Organization 1123 1144	Operation Lafiya Dole
+T23	Organization 1292 1298	ECOMOG

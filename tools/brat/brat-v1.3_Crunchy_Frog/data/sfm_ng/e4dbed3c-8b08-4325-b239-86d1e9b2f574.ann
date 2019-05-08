@@ -1,0 +1,5 @@
+T1	Person 2450 2465	Salisu Mustapha
+T2	Rank 2442 2449	Captain
+T3	Organization 2420 2440	31 Artillery Brigade
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	is_posted Arg1:T1 Arg2:T3	

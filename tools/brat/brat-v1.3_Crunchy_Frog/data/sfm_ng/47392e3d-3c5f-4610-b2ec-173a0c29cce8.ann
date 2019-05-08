@@ -1,0 +1,21 @@
+T1	Organization 4 17	Nigerian Army
+T2	Person 250 260	Sagir Musa
+T3	Rank 245 249	Col.
+T4	Organization 230 243	Nigerian Army
+T5	Organization 218 229	82 Division
+T6	Title 183 216	Deputy Director, Public Relations
+R1	has_rank Arg1:T2 Arg2:T3	
+R2	is_posted Arg1:T2 Arg2:T5	
+R3	has_title Arg1:T2 Arg2:T6	
+T7	Person 376 395	Adamu Baba Abubakar
+T8	Rank 362 375	Major General
+T9	Organization 335 346	82 Division
+T10	Title 302 328	General Officer Commanding
+R4	has_rank Arg1:T7 Arg2:T8	
+R5	is_posted Arg1:T7 Arg2:T9	
+R6	has_title Arg1:T7 Arg2:T10	
+T11	Person 478 492	Yusufu Buratai
+T12	Rank 459 477	Lieutenant General
+T13	Title 431 450	Chief of Army Staff
+R7	has_rank Arg1:T11 Arg2:T12	
+R8	has_title Arg1:T11 Arg2:T13	

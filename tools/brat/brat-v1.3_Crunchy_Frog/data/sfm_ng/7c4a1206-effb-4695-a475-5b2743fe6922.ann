@@ -1,0 +1,9 @@
+T1	Person 117 134	Mohammed Abubakar
+T2	Rank 106 116	Major Gen.
+T3	Organization 91 104	Nigerian Army
+T4	Organization 79 89	2 Division
+T5	Title 52 77	General Officer Commandin
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	is_posted Arg1:T1 Arg2:T4	
+R3	has_title Arg1:T1 Arg2:T5	
+T6	Organization 485 506	32 Artillery Brigade,

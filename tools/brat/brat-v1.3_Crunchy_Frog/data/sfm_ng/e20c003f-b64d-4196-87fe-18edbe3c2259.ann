@@ -1,0 +1,8 @@
+T1	Person 3264 3276	Sanusi Muazu
+T2	Rank 3250 3263	Major-General
+R1	has_rank Arg1:T1 Arg2:T2	
+T3	Role 3282 3308	General Officer Commanding
+T4	Organization 3315 3325	2 Division
+R2	has_role Arg1:T1 Arg2:T3	
+R3	is_posted Arg1:T1 Arg2:T4	
+T5	Organization 375 384	4 Brigade

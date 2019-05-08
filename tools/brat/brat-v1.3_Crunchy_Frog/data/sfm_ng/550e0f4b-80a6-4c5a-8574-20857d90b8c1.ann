@@ -1,0 +1,28 @@
+T1	Organization 134 147	Nigerian Army
+T2	Person 531 541	TY Buratai
+T3	Rank 524 530	Lt Gen
+T4	Title 497 516	Chief of Army Staff
+R1	has_rank Arg1:T2 Arg2:T3	
+R2	has_title Arg1:T2 Arg2:T4	
+T5	Title 561 587	General Officer Commanding
+T6	Organization 588 599	82 Division
+T7	Rank 600 613	Major General
+T8	Person 614 624	I Attahiru
+R3	has_rank Arg1:T8 Arg2:T7	
+R4	is_posted Arg1:T8 Arg2:T6	
+R5	has_title Arg1:T8 Arg2:T5	
+T9	Person 1100 1107	Buratai
+T10	Rank 1092 1099	General
+R6	has_rank Arg1:T9 Arg2:T10	
+T11	Person 2788 2795	Buratai
+T12	Rank 2780 2787	General
+R7	has_rank Arg1:T11 Arg2:T12	
+T13	Organization 3690 3701	82 Division
+T14	Person 3624 3643	Tukur Yusuf Buratai
+T15	Rank 3605 3623	Lieutenant General
+T16	Title 3584 3603	Chief of Army Staff
+R8	has_rank Arg1:T14 Arg2:T15	
+R9	has_title Arg1:T14 Arg2:T16	
+T17	Organization 4124 4146	302 Artillery Regiment
+T18	Organization 4156 4165	HQ 82 Div
+T19	Organization 4176 4196	34 Artillery Brigade

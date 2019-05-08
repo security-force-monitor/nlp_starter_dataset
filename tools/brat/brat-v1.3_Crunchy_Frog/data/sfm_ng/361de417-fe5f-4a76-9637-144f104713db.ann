@@ -1,0 +1,54 @@
+T1	Person 913 922	Paul Dike
+T2	Rank 901 912	Air Marshal
+R1	has_rank Arg1:T1 Arg2:T2	
+T3	Title 934 955	Chief of Defence Staf
+R2	has_title Arg1:T1 Arg2:T3	
+T4	Person 970 974	Dike
+T5	Rank 959 969	ir Marshal
+R3	has_rank Arg1:T4 Arg2:T5	
+T6	Person 1004 1016	Andrew Azazi
+T7	Rank 996 1003	General
+R4	has_rank Arg1:T6 Arg2:T7	
+T8	Person 1483 1496	A.B. Dambazau
+T9	Rank 1469 1482	Major-General
+R5	has_rank Arg1:T8 Arg2:T9	
+T10	Title 1500 1519	Chief of Army Staff
+R6	has_title Arg1:T8 Arg2:T10	
+T11	Rank 1533 1551	Lieutenant-General
+T12	Person 1552 1562	Luka Yusuf
+R7	has_rank Arg1:T12 Arg2:T11	
+T13	Person 1622 1630	Dambazau
+T14	Rank 1612 1620	Maj.-Gen
+R8	has_rank Arg1:T13 Arg2:T14	
+T15	Title 1639 1665	General Officer Commanding
+R9	has_title Arg1:T13 Arg2:T15	
+T16	Organization 1670 1682	2nd Division
+R10	is_posted Arg1:T13 Arg2:T16	
+T17	Organization 1690 1703	Nigerian Army
+T18	Person 1969 1987	Isaiah Iko Ibrahim
+T19	Rank 1956 1968	Rear Admiral
+T20	Title 1991 2011	Chief of Naval Staff
+R11	has_rank Arg1:T18 Arg2:T19	
+R12	has_title Arg1:T18 Arg2:T20	
+T21	Person 2037 2051	G.T.A. Adekeye
+T22	Rank 2024 2036	Vice Admiral
+R13	has_rank Arg1:T21 Arg2:T22	
+T23	Person 2098 2105	Ibrahim
+T24	Rank 2085 2097	Rear Admiral
+R14	has_rank Arg1:T23 Arg2:T24	
+T25	Title 2114 2137	Flag Officer Commanding
+R15	has_title Arg1:T23 Arg2:T25	
+T26	Organization 2142 2164	Naval Training Command
+R16	is_posted Arg1:T23 Arg2:T26	
+T27	Rank 2215 2226	Air Marshal
+T28	Person 2227 2243	Oluseyi Petinrin
+T29	Title 2247 2265	Chief of Air Staff
+R17	has_rank Arg1:T28 Arg2:T27	
+R18	has_title Arg1:T28 Arg2:T29	
+T30	Rank 2291 2302	Air Marshal
+T31	Person 2303 2311	Petinrin
+R19	has_rank Arg1:T31 Arg2:T30	
+T32	Title 2320 2342	Air Officer Commanding
+R20	has_title Arg1:T31 Arg2:T32	
+T33	Organization 2347 2382	Nigerian Air Force Training Command
+R21	is_posted Arg1:T31 Arg2:T33	

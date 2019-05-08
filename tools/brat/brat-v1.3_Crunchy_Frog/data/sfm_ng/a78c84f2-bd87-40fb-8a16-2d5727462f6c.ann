@@ -1,0 +1,50 @@
+T1	Person 87 100	Tukur Buratai
+T2	Title 66 85	Chief of Army Staff
+R1	has_title Arg1:T1 Arg2:T2	
+T3	Person 785 795	MA Koleoso
+T4	Rank 771 784	Major General
+R2	has_rank Arg1:T3 Arg2:T4	
+T5	Role 810 819	Commander
+T6	Organization 820 826	TRADOC
+R3	has_role Arg1:T3 Arg2:T5	
+R4	is_posted Arg1:T3 Arg2:T6	
+T7	Rank 828 841	Major General
+T8	Person 842 850	SN Muazu
+R5	has_rank Arg1:T8 Arg2:T7	
+T9	Organization 866 876	2 Division
+R6	is_posted Arg1:T8 Arg2:T9	
+T10	Organization 880 908	Headquarters, Infantry Corps
+R7	is_posted Arg1:T8 Arg2:T10	
+T11	Role 923 932	Commander
+R8	has_role Arg1:T8 Arg2:T11	
+T12	Rank 934 947	Major General
+T13	Person 948 958	MT Ibrahim
+R9	has_rank Arg1:T13 Arg2:T12	
+T14	Organization 970 1012	Department of Army Standard and Evaluation
+T15	Organization 1016 1040	Nigerian Defence Academy
+R10	is_posted Arg1:T13 Arg2:T14	
+R11	is_posted Arg1:T13 Arg2:T15	
+T16	Role 1044 1054	Commandant
+R12	has_role Arg1:T13 Arg2:T16	
+T17	Rank 1063 1076	Major General
+T18	Person 1077 1088	LKJ Ogunewe
+R13	has_rank Arg1:T18 Arg2:T17	
+T19	Title 1100 1125	Chief of Policy and Plans
+R14	has_title Arg1:T18 Arg2:T19	
+T20	Rank 1127 1140	Major General
+T21	Person 1141 1148	FO Alli
+R15	has_rank Arg1:T21 Arg2:T20	
+T22	Title 1157 1189	Chief of Training and Operations
+R16	has_title Arg1:T21 Arg2:T22	
+T23	Rank 1194 1207	Major General
+T24	Person 1208 1217	AA Salihu
+R17	has_rank Arg1:T24 Arg2:T23	
+T25	Title 1219 1237	Chief of Logistics
+R18	has_title Arg1:T24 Arg2:T25	
+T26	Person 1265 1275	AG Okunola
+T27	Rank 1251 1264	Major General
+R19	has_rank Arg1:T26 Arg2:T27	
+T28	Role 1280 1289	Commander
+R20	has_role Arg1:T26 Arg2:T28	
+T29	Organization 1303 1320	PULO SHIELD (JTF)
+R21	is_posted Arg1:T26 Arg2:T29	

@@ -1,0 +1,17 @@
+T1	Person 76 93	Onyeabo Ihejirika
+T2	Rank 64 75	Lt- General
+T3	Title 43 62	CHIEF of Army Staff
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	has_title Arg1:T1 Arg2:T3	
+T4	Organization 124 137	Nigerian Army
+T5	Person 214 223	Ihejirika
+T6	Rank 209 213	Gen.
+R3	has_rank Arg1:T5 Arg2:T6	
+T7	Organization 262 272	13 Brigade
+T8	Title 455 481	General Officer Commanding
+T9	Organization 488 499	82 Division
+T10	Rank 508 522	Major- General
+T11	Person 523 541	Oluwaseun Oshinowo
+R4	has_rank Arg1:T11 Arg2:T10	
+R5	is_posted Arg1:T11 Arg2:T9	
+R6	has_title Arg1:T11 Arg2:T8	

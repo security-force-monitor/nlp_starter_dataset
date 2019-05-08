@@ -1,0 +1,18 @@
+T1	Organization 78 88	22 Brigade
+T2	Organization 65 76	3 Battalion
+T3	Organization 96 109	Nigerian Army
+T4	Organization 214 235	Operation Lafiya Dole
+T5	Title 393 407	Army Spokesman
+T6	Rank 409 418	Brig. Gen
+T7	Person 419 439	Sani Kukasheka Usman
+R1	has_rank Arg1:T7 Arg2:T6	
+R2	has_title Arg1:T7 Arg2:T5	
+T8	Title 1147 1180	Acting General Officer Commanding
+T9	Organization 1181 1202	8 Task Force Division
+T10	Rank 1204 1213	Brig-Gen.
+T11	Person 1214 1232	Stevenson Olabanji
+R3	has_rank Arg1:T11 Arg2:T10	
+R4	is_posted Arg1:T11 Arg2:T9	
+R5	has_title Arg1:T11 Arg2:T8	
+T12	Organization 1406 1433	133 Special Force Battalion
+T13	Organization 1480 1493	Nigerian Army

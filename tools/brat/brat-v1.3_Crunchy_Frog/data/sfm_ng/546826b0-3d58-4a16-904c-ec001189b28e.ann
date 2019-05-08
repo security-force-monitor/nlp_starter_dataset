@@ -1,0 +1,15 @@
+T1	Person 393 407	A.O. Ihejirika
+T2	Rank 374 392	Lieutenant-General
+T3	Title 353 372	Chief of Army Staff
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	has_title Arg1:T1 Arg2:T3	
+T4	Title 1464 1484	FCT Police Spokesman
+T5	Title 1486 1510	Superintendent of Police
+T6	Person 1511 1524	Jimoh Moshood
+R3	has_title Arg1:T6 Arg2:T5	
+R4	has_title Arg1:T6 Arg2:T4	
+T7	Role 2490 2508	Barracks Commander
+T8	Rank 2510 2528	Brigadier- General
+T9	Person 2529 2542	Agbo Robinson
+R5	has_rank Arg1:T9 Arg2:T8	
+R6	has_role Arg1:T9 Arg2:T7	

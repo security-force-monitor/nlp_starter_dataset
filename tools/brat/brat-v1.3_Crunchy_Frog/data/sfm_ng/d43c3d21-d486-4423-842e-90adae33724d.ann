@@ -1,0 +1,21 @@
+T1	Person 4366 4378	Hassan Umaru
+T2	Rank 4352 4365	Major General
+T3	Organization 4319 4329	3 Division
+T4	Title 4292 4318	General Officer Commanding
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	is_posted Arg1:T1 Arg2:T3	
+R3	has_title Arg1:T1 Arg2:T4	
+T5	Person 15022 15037	Lawrence Fejoku
+T6	Rank 15004 15021	Brigadier General
+T7	Organization 14985 14995	14 Brigade
+T8	Role 14965 14982	Commanding Office
+R4	has_rank Arg1:T5 Arg2:T6	
+R5	is_posted Arg1:T5 Arg2:T7	
+R6	has_role Arg1:T5 Arg2:T8	
+T9	Rank 13808 13817	Brig-Gen.
+T10	Person 13818 13837	Ayuba Tedman Hamman
+R7	has_rank Arg1:T10 Arg2:T9	
+T11	Title 13776 13791	Provost Marshal
+T12	Organization 13793 13806	Nigerian Army
+R8	has_title Arg1:T10 Arg2:T11	
+R9	is_posted Arg1:T10 Arg2:T12	

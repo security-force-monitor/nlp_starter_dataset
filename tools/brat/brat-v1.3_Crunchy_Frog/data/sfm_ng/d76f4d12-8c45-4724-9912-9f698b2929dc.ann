@@ -1,0 +1,8 @@
+T1	Person 133 148	Adeniyi Oyebade
+T2	Organization 107 117	1 Division
+T3	Title 73 99	General Officer Commanding
+R1	is_posted Arg1:T1 Arg2:T2	
+R2	has_title Arg1:T1 Arg2:T3	
+T4	Organization 119 132	Nigeria Army,
+T5	Rank 271 284	Major-General
+R3	has_rank Arg1:T1 Arg2:T5	

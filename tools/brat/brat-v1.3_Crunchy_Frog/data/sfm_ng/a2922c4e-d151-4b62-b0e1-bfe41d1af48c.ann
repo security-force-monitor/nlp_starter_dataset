@@ -1,0 +1,318 @@
+T1	Person 54 68	Kamaldeen Role
+T2	Person 192 208	Lawrence Ngubane
+T3	Person 329 340	Saleh Maina
+T4	Person 471 484	Mohammed Isah
+T5	Person 614 631	Emeka CG Nwanguna
+T6	Person 783 792	Moses Obi
+T7	Person 894 902	AT Umaru
+T8	Person 1049 1060	AS Mustapha
+T9	Person 1156 1166	BM Monguno
+T10	Person 1293 1301	YD Pyeng
+T11	Person 1404 1416	AC Olukolade
+T12	Person 1485 1493	AB Marwa
+T13	Person 1580 1592	TI Oliomogbe
+T14	Person 1705 1713	UT Usman
+T15	Person 1780 1789	AM Jubrin
+T16	Person 1901 1913	SU Abdukadir
+T17	Person 1959 1970	BC Azurunwa
+T18	Person 2102 2111	EE Bassey
+T19	Person 2219 2229	Bala Usara
+T20	Person 2434 2444	JA Okunbor
+T21	Person 2566 2583	Emeka Onwuamaegbu
+T22	Person 2714 2725	KTJ Minimah
+T23	Person 2855 2867	OM Sho-Silva
+T24	Person 2973 2984	BM Badewole
+T25	Person 3166 3177	OO Oshinowo
+T26	Person 3284 3295	Yusuf Bomoi
+T27	Person 3389 3396	G Bauka
+T28	Person 3525 3536	AK Kwaskebe
+T29	Person 3641 3649	JS Kwabe
+T30	Person 3780 3790	O Akinyemi
+T31	Person 3890 3899	Ihejirika
+T32	Person 4181 4191	FN Osukogu
+T33	Rank 40 53	Major-General
+R1	has_rank Arg1:T1 Arg2:T33	
+T34	Rank 178 190	Major-Genera
+R2	has_rank Arg1:T2 Arg2:T34	
+T35	Rank 315 328	Major General
+R3	has_rank Arg1:T3 Arg2:T35	
+T36	Rank 457 469	Major Genera
+R4	has_rank Arg1:T4 Arg2:T36	
+T37	Rank 600 613	Major General
+R5	has_rank Arg1:T5 Arg2:T37	
+T38	Rank 769 782	Major-General
+R6	has_rank Arg1:T6 Arg2:T38	
+T39	Rank 876 893	Brigadier-General
+R7	has_rank Arg1:T7 Arg2:T39	
+T40	Rank 1031 1048	Brigadier-General
+R8	has_rank Arg1:T8 Arg2:T40	
+T41	Rank 1142 1155	Major-General
+R9	has_rank Arg1:T9 Arg2:T41	
+T42	Rank 1275 1292	Brigadier-General
+R10	has_rank Arg1:T10 Arg2:T42	
+T43	Rank 1386 1403	Brigadier-General
+R11	has_rank Arg1:T11 Arg2:T43	
+T44	Rank 1467 1484	Brigadier-General
+R12	has_rank Arg1:T12 Arg2:T44	
+T45	Rank 1566 1579	Major-General
+R13	has_rank Arg1:T13 Arg2:T45	
+T46	Rank 1691 1704	Major-General
+R14	has_rank Arg1:T14 Arg2:T46	
+T47	Rank 1766 1779	Major General
+R15	has_rank Arg1:T15 Arg2:T47	
+T48	Rank 1887 1900	Major General
+R16	has_rank Arg1:T16 Arg2:T48	
+T49	Rank 1945 1958	Major-General
+R17	has_rank Arg1:T17 Arg2:T49	
+T50	Rank 2088 2100	Major-Genera
+R18	has_rank Arg1:T18 Arg2:T50	
+T51	Rank 2205 2218	Major-General
+R19	has_rank Arg1:T19 Arg2:T51	
+T52	Rank 2420 2433	Major-General
+R20	has_rank Arg1:T20 Arg2:T52	
+T53	Rank 2548 2565	Brigadier-General
+R21	has_rank Arg1:T21 Arg2:T53	
+T54	Rank 2696 2713	Brigadier-General
+R22	has_rank Arg1:T22 Arg2:T54	
+T55	Rank 2837 2854	Brigadier-General
+R23	has_rank Arg1:T23 Arg2:T55	
+T56	Rank 2955 2972	Brigadier-General
+R24	has_rank Arg1:T24 Arg2:T56	
+T57	Rank 3148 3165	Brigadier-General
+R25	has_rank Arg1:T25 Arg2:T57	
+T58	Rank 3266 3283	Brigadier-General
+R26	has_rank Arg1:T26 Arg2:T58	
+T59	Rank 3371 3388	Brigadier-General
+R27	has_rank Arg1:T27 Arg2:T59	
+T60	Rank 3507 3524	Brigadier-General
+R28	has_rank Arg1:T28 Arg2:T60	
+T61	Rank 3623 3640	Brigadier General
+R29	has_rank Arg1:T29 Arg2:T61	
+T62	Rank 3766 3779	Major-General
+R30	has_rank Arg1:T30 Arg2:T62	
+T63	Rank 3876 3888	Major-Genera
+R31	has_rank Arg1:T31 Arg2:T63	
+T64	Rank 4167 4180	Major General
+R32	has_rank Arg1:T32 Arg2:T64	
+T65	Organization 90 116	Army Headquarters Garrison
+T66	Organization 156 168	One Division
+T67	Organization 238 262	National Defence College
+T68	Organization 295 305	2 Division
+T69	Organization 362 387	Armoured Corps and School
+T70	Organization 428 438	3 Division
+T71	Organization 556 567	82 Division
+T72	Organization 575 588	Nigerian Army
+T73	Organization 649 668	DefenceHeadquarters
+T74	Organization 700 711	81 Division
+T75	Organization 807 821	'One' Division
+T76	Organization 857 874	Army Headquarters
+T77	Organization 950 977	Defence Intelligence Agency
+T78	Organization 1074 1091	Army Headquarters
+T79	Organization 1115 1132	Brigade of Guards
+T80	Organization 1189 1206	Brigade of Guards
+T81	Organization 1240 1264	National Defence College
+T82	Organization 1328 1333	DEPOT
+T83	Organization 1371 1384	Nigerian Army
+T84	Organization 1524 1534	22 Brigade
+T85	Organization 1629 1644	Engineers Corps
+T86	Organization 1664 1689	Army College of Logistics
+T87	Organization 1747 1765	Army Headquarters,
+T88	Organization 1862 1879	Army Headquarters
+T89	Organization 2010 2027	Army Headquarters
+T90	Organization 2341 2361	Defence Headquarters
+T91	Organization 2385 2411	Army Headquarters Garrison
+T92	Organization 2481 2498	Army headquarters
+T93	Organization 2528 2545	Army headquarters
+T94	Organization 2655 2688	Nigerian Army Peacekeeping Centre
+T95	Organization 2743 2775	Nigerian Army School of Infantry
+T96	Organization 2799 2812	'One' Brigade
+T97	Organization 2814 2827	Nigerian Army
+T98	Organization 2879 2899	Defence Headquarters
+T99	Organization 2903 2920	Army Headquarters
+T100	Organization 3022 3045	Nigeria Defence Academy
+T101	Organization 3070 3109	Nigerian Army School of Military Police
+T102	Organization 3199 3209	22 Brigade
+T103	Organization 3235 3264	Nigeria Army Artillery School
+T104	Organization 3335 3369	Nigeria Army School of Engineering
+T105	Organization 3417 3426	I Brigade
+T106	Organization 3449 3476	Defence Intelligence Agency
+T107	Organization 3556 3566	34 Brigade
+T108	Organization 3599 3616	Army Headquarters
+T109	Organization 3666 3686	Defence Headquarters
+T110	Organization 3725 3742	Army Headquarters
+T111	Organization 3804 3814	3 Division
+T112	Organization 3854 3874	Defence Headquarters
+T113	Organization 3992 4012	Defence Headquarters
+T114	Organization 4081 4101	Defence headquarters
+T115	Organization 4203 4233	Department of Peacekeeping DHQ
+T116	Role 79 88	Commander
+R33	has_role Arg1:T1 Arg2:T116	
+R34	is_posted Arg1:T1 Arg2:T65	
+T117	Title 129 155	General officer Commanding
+R35	has_title Arg1:T1 Arg2:T117	
+R36	is_posted Arg1:T1 Arg2:T66	
+T118	Role 219 236	Deputy Commandant
+R37	has_role Arg1:T2 Arg2:T118	
+R38	is_posted Arg1:T2 Arg2:T67	
+T119	Title 268 294	General Officer Commanding
+R39	has_title Arg1:T2 Arg2:T119	
+R40	is_posted Arg1:T2 Arg2:T68	
+T120	Role 351 361	Commandant
+R41	has_role Arg1:T3 Arg2:T120	
+R42	is_posted Arg1:T3 Arg2:T69	
+T121	Title 401 427	General Officer Commanding
+R43	has_title Arg1:T3 Arg2:T121	
+R44	is_posted Arg1:T3 Arg2:T70	
+T122	Title 499 524	Military Secretary 'Army'
+R45	has_title Arg1:T4 Arg2:T122	
+T123	Title 529 555	General Officer Commanding
+R46	has_title Arg1:T4 Arg2:T123	
+R47	is_posted Arg1:T4 Arg2:T71	
+R48	is_posted Arg1:T5 Arg2:T73	
+T124	Title 673 699	General Officer Commanding
+R49	has_title Arg1:T5 Arg2:T124	
+R50	is_posted Arg1:T5 Arg2:T74	
+T125	Title 803 806	GOC
+R51	has_title Arg1:T6 Arg2:T125	
+R52	is_posted Arg1:T6 Arg2:T75	
+T126	Title 834 853	Chief of Operations
+R53	has_title Arg1:T6 Arg2:T126	
+R54	is_posted Arg1:T6 Arg2:T76	
+T127	Title 920 942	Director of Operations
+R55	is_posted Arg1:T8 Arg2:T78	
+R56	has_title Arg1:T7 Arg2:T127	
+R57	is_posted Arg1:T7 Arg2:T77	
+T128	Title 990 1023	Director of Military Intelligence
+R58	has_title Arg1:T7 Arg2:T128	
+T129	Role 1104 1113	Commander
+R59	has_role Arg1:T8 Arg2:T129	
+R60	is_posted Arg1:T8 Arg2:T79	
+T130	Role 1178 1187	Commander
+R61	has_role Arg1:T9 Arg2:T130	
+R62	is_posted Arg1:T9 Arg2:T80	
+T131	Role 1215 1232	Deputy Commandant
+R63	has_role Arg1:T9 Arg2:T131	
+R64	is_posted Arg1:T9 Arg2:T81	
+T132	Role 1316 1326	Commandant
+R65	has_role Arg1:T10 Arg2:T132	
+R66	is_posted Arg1:T10 Arg2:T82	
+T133	Title 1354 1369	Provost-Marshal
+R67	has_title Arg1:T10 Arg2:T133	
+R68	is_posted Arg1:T10 Arg2:T83	
+T134	Title 1428 1459	Director, Army Public Relations
+R69	has_title Arg1:T11 Arg2:T134	
+T135	Organization 1505 1520	Defence College
+R70	is_posted Arg1:T12 Arg2:T135	
+T136	Role 1546 1563	Brigade Commander
+R71	has_role Arg1:T12 Arg2:T136	
+R72	is_posted Arg1:T12 Arg2:T84	
+T137	Role 1603 1613	Commandant
+R73	has_role Arg1:T13 Arg2:T137	
+R74	is_posted Arg1:T13 Arg2:T85	
+T138	Role 1652 1662	Commandant
+R75	has_role Arg1:T13 Arg2:T138	
+R76	is_posted Arg1:T13 Arg2:T86	
+T139	Role 1725 1743	Chief of Logistics
+R77	has_role Arg1:T14 Arg2:T139	
+R78	is_posted Arg1:T14 Arg2:T87	
+T140	Role 1804 1824	Army Provost Marshal
+R79	has_role Arg1:T15 Arg2:T140	
+T141	Title 1837 1860	Chief of Administration
+R80	has_title Arg1:T15 Arg2:T141	
+R81	is_posted Arg1:T15 Arg2:T88	
+T142	Title 1917 1942	Military Secretary 'Army'
+R82	has_title Arg1:T16 Arg2:T142	
+T143	Title 1981 2009	Director of Policy and Plans
+R83	has_title Arg1:T17 Arg2:T143	
+R84	is_posted Arg1:T17 Arg2:T89	
+T144	Title 2040 2078	chief of Army Standards and Evaluation
+R85	has_title Arg1:T17 Arg2:T144	
+T145	Organization 2132 2142	32 Brigade
+T146	Role 2122 2131	Commander
+R86	has_role Arg1:T18 Arg2:T146	
+R87	is_posted Arg1:T18 Arg2:T145	
+T147	Organization 2153 2173	Defence Headquarters
+T148	Title 2177 2203	Director of Administration
+R88	is_posted Arg1:T18 Arg2:T147	
+R89	has_title Arg1:T18 Arg2:T148	
+T149	Organization 2245 2276	Department of Physical Training
+T150	Organization 2280 2283	DHQ
+T151	Title 2287 2305	Director of Sports
+R90	is_posted Arg1:T19 Arg2:T149	
+R91	is_posted Arg1:T19 Arg2:T150	
+R92	has_title Arg1:T19 Arg2:T151	
+T152	Rank 2307 2320	Major-General
+T153	Person 2321 2327	DM Edi
+R93	has_rank Arg1:T153 Arg2:T152	
+R94	is_posted Arg1:T153 Arg2:T90	
+T154	Role 2374 2383	Commander
+R95	has_role Arg1:T153 Arg2:T154	
+R96	is_posted Arg1:T153 Arg2:T91	
+T155	Role 2459 2477	Chief of Logistics
+R97	has_role Arg1:T20 Arg2:T155	
+R98	is_posted Arg1:T20 Arg2:T92	
+T156	Title 2506 2524	Director of Policy
+R99	has_title Arg1:T20 Arg2:T156	
+R100	is_posted Arg1:T20 Arg2:T93	
+T157	Title 2598 2631	Director of Army Public Relations
+R101	is_posted Arg1:T22 Arg2:T95	
+T158	Role 2788 2797	Commander
+R102	has_role Arg1:T22 Arg2:T158	
+R103	is_posted Arg1:T22 Arg2:T96	
+R104	is_posted Arg1:T23 Arg2:T98	
+R105	is_posted Arg1:T23 Arg2:T99	
+T159	Title 2924 2953	Director of Physical Training
+R106	has_title Arg1:T23 Arg2:T159	
+T160	Title 3000 3018	Academic Registrar
+R107	has_title Arg1:T24 Arg2:T160	
+R108	is_posted Arg1:T24 Arg2:T100	
+T161	Role 3058 3068	Commandant
+R109	has_role Arg1:T24 Arg2:T161	
+R110	is_posted Arg1:T24 Arg2:T101	
+T162	Role 3188 3197	Commander
+R111	has_role Arg1:T25 Arg2:T162	
+R112	is_posted Arg1:T25 Arg2:T102	
+T163	Role 3223 3233	Commandant
+R113	has_role Arg1:T25 Arg2:T163	
+R114	is_posted Arg1:T25 Arg2:T103	
+T164	Title 3306 3315	D-G NYSC,
+R115	has_title Arg1:T26 Arg2:T164	
+T165	Role 3323 3333	Commandant
+R116	has_role Arg1:T26 Arg2:T165	
+R117	is_posted Arg1:T26 Arg2:T104	
+T166	Role 3407 3416	Commander
+R118	has_role Arg1:T27 Arg2:T166	
+R119	is_posted Arg1:T27 Arg2:T105	
+R120	is_posted Arg1:T27 Arg2:T106	
+T167	Title 3480 3505	Director, Foreign Liaison
+R121	has_title Arg1:T27 Arg2:T167	
+T168	Role 3546 3555	Commander
+R122	has_role Arg1:T28 Arg2:T168	
+R123	is_posted Arg1:T28 Arg2:T107	
+R124	is_posted Arg1:T28 Arg2:T108	
+T169	Title 3575 3595	Director of Training
+R125	has_title Arg1:T28 Arg2:T169	
+R126	is_posted Arg1:T29 Arg2:T109	
+T170	Title 3699 3721	Director of Operations
+R127	has_title Arg1:T29 Arg2:T170	
+R128	is_posted Arg1:T29 Arg2:T110	
+T171	Role 3827 3850	Director, Peace-keeping
+R129	is_posted Arg1:T30 Arg2:T111	
+R130	has_role Arg1:T30 Arg2:T171	
+R131	is_posted Arg1:T30 Arg2:T112	
+T172	Title 3914 3952	Chief of Army Standards and Evaluation
+R132	has_title Arg1:T31 Arg2:T172	
+T173	Title 3965 3988	Director of Engineering
+R133	has_title Arg1:T31 Arg2:T173	
+R134	is_posted Arg1:T31 Arg2:T113	
+T174	Rank 4014 4027	Major General
+T175	Person 4028 4036	ID Penap
+R135	has_rank Arg1:T175 Arg2:T174	
+T176	Title 4046 4079	Chief of Research and Development
+R136	has_title Arg1:T175 Arg2:T176	
+R137	is_posted Arg1:T175 Arg2:T114	
+T177	Title 4126 4158	Chief of Training and Operations
+R138	has_title Arg1:T175 Arg2:T177	
+R139	is_posted Arg1:T32 Arg2:T115	
+T178	Organization 4238 4246	Research
+R140	is_posted Arg1:T32 Arg2:T178	

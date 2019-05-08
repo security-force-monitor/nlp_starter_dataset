@@ -1,0 +1,8 @@
+T1	Person 280 292	Texas Chukwu
+T2	Rank 269 279	Brig.-Gen.
+R1	has_rank Arg1:T1 Arg2:T2	
+T3	Title 298 329	Director, Army Public Relations
+R2	has_title Arg1:T1 Arg2:T3	
+T4	Organization 512 533	27 Task Force Brigade
+T5	Organization 558 576	Nigerian Air Force
+T6	Organization 71 84	Nigerian Army

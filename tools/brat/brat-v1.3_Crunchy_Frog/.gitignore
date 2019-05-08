@@ -1,10 +1,12 @@
+# Gitignore for BRAT - will change come the time to deploy
+
 # Don't ever commit your settings
-config.py
+#config.py
 
 # Python remenants
 *.pyc
 *.pyo
 
 # Standard locations of data and server temporary files
-data/
-work/
+#data/
+#work/

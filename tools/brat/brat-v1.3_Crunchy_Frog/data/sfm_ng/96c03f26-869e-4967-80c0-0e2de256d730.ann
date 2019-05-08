@@ -1,0 +1,5 @@
+T1	Title 65 88	Chief of Defence Staff,
+T2	Rank 89 96	General
+T3	Person 97 109	Andrew Azazi
+R1	has_rank Arg1:T3 Arg2:T2	
+R2	has_title Arg1:T3 Arg2:T1	

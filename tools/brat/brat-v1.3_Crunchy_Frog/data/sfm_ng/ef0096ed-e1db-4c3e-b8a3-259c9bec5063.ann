@@ -1,0 +1,19 @@
+T1	Person 1422 1428	Jibrin
+T2	Person 53 59	Jibrin
+T3	Rank 39 52	Major General
+R1	has_rank Arg1:T2 Arg2:T3	
+T4	Organization 484 504	Defence Headquarters
+T5	Title 508 546	Chief of Army Standards and Evaluation
+R2	is_posted Arg1:T2 Arg2:T4	
+R3	has_title Arg1:T2 Arg2:T5	
+T6	Organization 1447 1452	2 Div
+T7	Title 1443 1446	GOC
+T8	Rank 1408 1421	Major General
+R4	has_rank Arg1:T1 Arg2:T8	
+R5	has_title Arg1:T1 Arg2:T7	
+R6	is_posted Arg1:T1 Arg2:T6	
+T9	Person 1611 1628	Emmanuel Abejirin
+T10	Rank 1597 1610	Major General
+R7	has_rank Arg1:T9 Arg2:T10	
+R8	is_posted Arg1:T9 Arg2:T6	
+R9	has_title Arg1:T9 Arg2:T7	

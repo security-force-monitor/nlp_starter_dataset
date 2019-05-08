@@ -1,0 +1,9 @@
+T1	Person 128 143	Adeniyi Oyebade
+T2	Rank 117 127	Major Gen.
+T3	Organization 91 101	1 Division
+T4	Organization 758 778	31 Artillery Brigade
+T5	Title 58 84	General Officer Commanding
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	is_posted Arg1:T1 Arg2:T3	
+R3	has_title Arg1:T1 Arg2:T5	
+T6	Organization 1656 1667	2 Battalion

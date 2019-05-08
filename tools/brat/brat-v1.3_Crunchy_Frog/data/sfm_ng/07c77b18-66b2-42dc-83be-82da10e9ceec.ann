@@ -1,0 +1,17 @@
+T1	Person 122 135	Solomon Arase
+T2	Rank 87 120	Inspector General of Police (IGP)
+T3	Person 188 204	Kayode Aderanti,
+T4	Title 152 186	Lagos State Commissioner of Police
+R1	has_title Arg1:T3 Arg2:T4	
+T5	Organization 208 226	Force Headquarters
+R2	is_posted Arg1:T3 Arg2:T5	
+R3	has_rank Arg1:T1 Arg2:T2	
+T6	Person 428 444	Abayomi Shogunle
+T7	Title 389 426	Deputy Force Public Relations Officer
+T8	Rank 448 468	Chief Superintendent
+R4	has_rank Arg1:T6 Arg2:T8	
+R5	has_title Arg1:T6 Arg2:T7	
+T9	Person 718 731	Fatai Owoseni
+T10	Rank 715 717	CP
+R6	has_rank Arg1:T9 Arg2:T10	
+T11	Organization 1842 1875	Special Anti Robbery Squad (SARS)

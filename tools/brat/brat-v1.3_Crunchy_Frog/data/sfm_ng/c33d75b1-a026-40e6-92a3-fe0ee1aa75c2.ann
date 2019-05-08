@@ -1,0 +1,14 @@
+T1	Person 1544 1565	Abdulmalik Bulama Biu
+T2	Rank 1526 1543	Brigadier General
+R1	has_rank Arg1:T1 Arg2:T2	
+T3	Organization 1500 1510	7 Division
+R2	is_posted Arg1:T1 Arg2:T3	
+T4	Title 1466 1499	Acting General Officer Commanding
+R3	has_title Arg1:T1 Arg2:T4	
+T5	Organization 1689 1699	21 Brigade
+T6	Organization 3024 3037	222 Battalion
+T7	Organization 3084 3097	202 Battalion
+T8	Organization 3123 3146	51 Task Force Battalion
+T9	Rank 3208 3226	Lieutenant Colonel
+T10	Person 3227 3243	Mohammed Abu Ali
+R4	has_rank Arg1:T10 Arg2:T9	

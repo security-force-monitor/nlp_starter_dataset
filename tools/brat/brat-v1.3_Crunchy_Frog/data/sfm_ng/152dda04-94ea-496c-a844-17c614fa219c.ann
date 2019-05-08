@@ -1,0 +1,17 @@
+T1	Organization 249 260	81 Division
+T2	Person 272 284	Isidore Edet
+R1	is_posted Arg1:T2 Arg2:T1	
+T3	Rank 262 271	Maj.-Gen.
+R2	has_rank Arg1:T2 Arg2:T3	
+T4	Title 216 248	General Officer Commanding (GOC)
+R3	has_title Arg1:T2 Arg2:T4	
+T5	Person 357 373	Ebenezer Oyefolu
+T6	Rank 347 356	Maj. Gen.
+R4	has_rank Arg1:T5 Arg2:T6	
+T7	Person 1156 1173	Ibrahim Attahiru,
+T8	Rank 1148 1155	General
+T9	Organization 1129 1140	82 Division
+T10	Title 1096 1128	General Officer Commanding (GOC)
+R5	has_rank Arg1:T7 Arg2:T8	
+R6	is_posted Arg1:T7 Arg2:T9	
+R7	has_title Arg1:T7 Arg2:T10	

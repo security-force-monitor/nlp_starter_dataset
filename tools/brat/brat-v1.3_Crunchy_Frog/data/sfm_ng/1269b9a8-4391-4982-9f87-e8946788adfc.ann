@@ -1,0 +1,8 @@
+T1	Organization 184 209	Operation Python Dance II
+T2	Organization 249 260	82 Division
+T3	Person 290 309	Adamu Baba Abubakar
+T4	Rank 276 289	Major General
+R1	has_rank Arg1:T3 Arg2:T4	
+R2	is_posted Arg1:T3 Arg2:T2	
+T5	Title 216 248	General Officer Commanding (GOC)
+R3	has_title Arg1:T3 Arg2:T5	

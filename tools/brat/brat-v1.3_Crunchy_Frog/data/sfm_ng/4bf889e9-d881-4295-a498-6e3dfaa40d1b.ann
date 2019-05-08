@@ -1,0 +1,10 @@
+T1	Person 274 290	Ibrahim Attahiru
+T2	Rank 256 273	Brigadier General
+R1	has_rank Arg1:T1 Arg2:T2	
+T3	Title 218 254	director, army public relations unit
+R2	has_title Arg1:T1 Arg2:T3	
+T4	Person 428 454	Azubuike Onyeabo Ihejirika
+T5	Rank 420 427	Lt Gen.
+T6	Role 408 418	army chief
+R3	has_rank Arg1:T4 Arg2:T5	
+R4	has_role Arg1:T4 Arg2:T6	

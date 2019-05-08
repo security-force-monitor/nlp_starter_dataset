@@ -1,0 +1,26 @@
+T1	Organization 415 428	333 Battalion
+T2	Rank 448 459	Lt. Colonel
+T3	Person 460 474	T. E. Gagariga
+R1	has_rank Arg1:T3 Arg2:T2	
+R2	is_posted Arg1:T3 Arg2:T1	
+T4	Organization 548 582	Nigerian Army Peace Keeping Centre
+T5	Title 611 637	General Officer Commanding
+T6	Organization 644 663	3 Armoured Division
+T7	Rank 665 678	Major General
+T8	Person 679 690	Jack Nwogbo
+R3	has_rank Arg1:T8 Arg2:T7	
+R4	is_posted Arg1:T8 Arg2:T6	
+R5	has_title Arg1:T8 Arg2:T5	
+T9	Organization 938 948	3 Division
+T10	Title 951 965	Chief of Staff
+T11	Rank 967 984	Brigadier General
+T12	Person 985 1000	James Akomolafe
+R6	has_rank Arg1:T12 Arg2:T11	
+R7	has_title Arg1:T12 Arg2:T10	
+R8	is_posted Arg1:T12 Arg2:T9	
+T13	Person 1600 1618	John Samuel Zaruwa
+T14	Rank 1586 1599	Major General
+R9	has_rank Arg1:T13 Arg2:T14	
+T15	Organization 2162 2175	Nigerian Army
+T16	Organization 111 124	Nigerian Army
+T17	Organization 237 292	Africa Union/United Nations Hybrid Operations in Darfur

@@ -1,0 +1,11 @@
+T1	Organization 92 102	6 Division
+T2	Organization 55 68	Nigerian Army
+T3	Title 270 296	General Officer Commanding
+T4	Person 239 256	Kasimu Abdulkarim
+T5	Rank 229 237	Maj.-Gen
+R1	has_title Arg1:T4 Arg2:T3	
+R2	has_rank Arg1:T4 Arg2:T5	
+T6	Organization 610 619	2 Brigade
+T7	Organization 631 641	16 Brigade
+T8	Organization 654 664	63 Brigade
+T9	Organization 1721 1731	6 Division

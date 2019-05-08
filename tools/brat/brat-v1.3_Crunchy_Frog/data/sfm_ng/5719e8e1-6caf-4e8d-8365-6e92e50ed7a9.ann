@@ -1,0 +1,12 @@
+T1	Organization 98 119	Mobile Strike Team II
+T2	Organization 295 321	72 Special Force Battalion
+T3	Person 548 560	Texas Chukwu
+T4	Rank 530 547	Brigadier General
+T5	Title 495 528	Director of Army Public Relations
+R1	has_rank Arg1:T3 Arg2:T4	
+R2	has_title Arg1:T3 Arg2:T5	
+T6	Organization 740 753	Nigerian Army
+T7	Organization 819 845	72 Special Force Battalion
+T8	Organization 1428 1455	101 Special Force Battalion
+T9	Person 1592 1605	Nigerian Army
+T10	Organization 61 74	Nigerian Army

@@ -1,0 +1,23 @@
+T1	Person 459 470	Okey ofoedu
+T2	Rank 474 498	superintendent of police
+T3	Title 521 524	DPO
+T4	Organization 535 560	Oji River Police Division
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	has_title Arg1:T1 Arg2:T3	
+R3	is_posted Arg1:T1 Arg2:T4	
+T5	Person 787 800	Ebere Amarizu
+T6	Title 734 765	Police Public Relations Officer
+R4	has_title Arg1:T5 Arg2:T6	
+T7	Rank 805 836	deputy superintendent of police
+R5	has_rank Arg1:T5 Arg2:T7	
+T8	Person 1451 1465	Musa A. Daura,
+T9	Title 1421 1449	state Commissioner of Police
+R6	has_title Arg1:T8 Arg2:T9	
+T10	Title 1832 1856	Public Relations Officer
+T11	Organization 1864 1892	Katsina State Police Command
+T12	Rank 1894 1897	ASP
+T13	Person 1898 1908	Shehu Koko
+R7	has_rank Arg1:T13 Arg2:T12	
+R8	is_posted Arg1:T13 Arg2:T11	
+R9	has_title Arg1:T13 Arg2:T10	
+T14	Organization 30 56	Enugu State Police Command

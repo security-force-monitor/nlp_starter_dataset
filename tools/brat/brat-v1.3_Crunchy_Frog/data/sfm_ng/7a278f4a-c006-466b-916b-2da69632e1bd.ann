@@ -1,0 +1,38 @@
+T1	Organization 87 98	82 Division
+T2	Title 59 85	General Officer Commanding
+T3	Organization 102 115	Nigerian Army
+T4	Rank 123 132	Maj.-Gen.
+T5	Person 133 149	Ibrahim Attahiru
+R1	has_rank Arg1:T5 Arg2:T4	
+R2	is_posted Arg1:T5 Arg2:T1	
+R3	has_title Arg1:T5 Arg2:T2	
+T6	Person 309 317	Attahiru
+T7	Rank 300 308	Maj.-Gen
+R4	has_rank Arg1:T6 Arg2:T7	
+T8	Organization 407 428	44 Division Engineers
+T9	Organization 483 505	302 Artillary Regiment
+T10	Person 842 850	Attahiru
+T11	Rank 832 840	Maj. Gen
+R5	has_rank Arg1:T10 Arg2:T11	
+T12	Person 884 900	Olufemi Akinjobi
+T13	Rank 874 883	Brig.-Gen
+R6	has_rank Arg1:T12 Arg2:T13	
+T14	Organization 1228 1252	Exercise Crocodile Smile
+T17	Organization 1362 1373	82 Division
+T15	Title 1314 1360	Deputy Chief of Staff, Training and Operations
+T16	Organization 1381 1393	Nigeria Army
+T18	Rank 1395 1399	Col.
+T19	Person 1400 1411	Chris Ataki
+R7	has_rank Arg1:T19 Arg2:T18	
+R8	is_posted Arg1:T19 Arg2:T17	
+R9	has_title Arg1:T19 Arg2:T15	
+T20	Person 1576 1581	Ataki
+T21	Rank 1571 1575	Col.
+R10	has_rank Arg1:T20 Arg2:T21	
+T22	Person 3159 3175	Philip Eromosele
+T23	Rank 3148 3158	Brig.-Gen.
+R11	has_rank Arg1:T22 Arg2:T23	
+T24	Organization 3118 3139	44 Division Engineers
+R12	is_posted Arg1:T22 Arg2:T24	
+T25	Role 3108 3117	Commander
+R13	has_role Arg1:T22 Arg2:T25	

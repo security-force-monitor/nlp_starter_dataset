@@ -1,0 +1,12 @@
+T1	Person 375 388	Hassan Thlama
+T2	Organization 340 358	Bunu Yadi Division
+T3	Title 311 336	Divisional Police Officer
+T4	Rank 360 374	Superintendent
+R1	has_rank Arg1:T1 Arg2:T4	
+R2	is_posted Arg1:T1 Arg2:T2	
+R3	has_title Arg1:T1 Arg2:T3	
+T5	Person 4070 4083	Gideon Jubrin
+T6	Rank 4066 4069	DSP
+T7	Title 4033 4064	Police Public Relations Officer
+R4	has_rank Arg1:T5 Arg2:T6	
+R5	has_title Arg1:T5 Arg2:T7	

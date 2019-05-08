@@ -1,0 +1,13 @@
+T1	Person 323 335	Obidah Ethan
+T2	Rank 313 322	Maj, Gen.
+T3	Organization 298 311	Nigerian Army
+T4	Organization 280 290	7 Division
+T5	Title 253 279	General Officer Commanding
+R1	has_rank Arg1:T1 Arg2:T2	
+R2	is_posted Arg1:T1 Arg2:T4	
+R3	has_title Arg1:T1 Arg2:T5	
+T6	Person 481 499	Azubuike Ihejirika
+T7	Rank 472 480	Lt. Gen.
+T8	Title 451 470	Chief of Army Staff
+R4	has_rank Arg1:T6 Arg2:T7	
+R5	has_title Arg1:T6 Arg2:T8	

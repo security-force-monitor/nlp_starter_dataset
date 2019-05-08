@@ -1,0 +1,238 @@
+T1	Person 89 102	Tukur Buratai
+T2	Rank 75 88	Major-General
+R1	has_rank Arg1:T1 Arg2:T2	
+T3	Title 54 73	Chief of Army Staff
+R2	has_title Arg1:T1 Arg2:T3	
+T4	Organization 659 690	Multi-national Joint Task Force
+T5	Rank 1060 1073	Major General
+T6	Person 1074 1089	Adeniyi Oyebade
+R3	has_rank Arg1:T6 Arg2:T5	
+T7	Title 1091 1094	GOC
+R4	has_title Arg1:T6 Arg2:T7	
+T8	Organization 1095 1107	‘1’ Division
+R5	is_posted Arg1:T6 Arg2:T8	
+T9	Role 1137 1154	Deputy Commandant
+T10	Organization 1162 1186	National Defence College
+R6	has_role Arg1:T6 Arg2:T9	
+R7	is_posted Arg1:T6 Arg2:T10	
+T11	Rank 1195 1208	Major-General
+T12	Person 1209 1217	L.C. Ilo
+R8	has_rank Arg1:T12 Arg2:T11	
+T13	Organization 1233 1243	2 Division
+T14	Title 1229 1232	GOC
+R9	has_title Arg1:T12 Arg2:T14	
+R10	is_posted Arg1:T12 Arg2:T13	
+T15	Rank 1265 1278	Major-General
+T16	Person 1280 1287	M Muazu
+R11	has_rank Arg1:T16 Arg2:T15	
+T17	Organization 1316 1330	Infantry Corps
+T18	Role 1305 1314	Commander
+R12	is_posted Arg1:T16 Arg2:T17	
+R13	has_role Arg1:T16 Arg2:T18	
+T19	Rank 1338 1351	Major-General
+T20	Person 1352 1360	H. Umaru
+T21	Role 1372 1375	GOC
+T22	Organization 1376 1395	3 Armoured Division
+R14	has_rank Arg1:T20 Arg2:T19	
+R15	has_role Arg1:T20 Arg2:T21	
+R16	is_posted Arg1:T20 Arg2:T22	
+T23	Person 1428 1438	MA Koleoso
+T24	Rank 1414 1427	Major-General
+T25	Role 1444 1453	Commander
+R17	has_rank Arg1:T23 Arg2:T24	
+R18	has_role Arg1:T23 Arg2:T25	
+T26	Organization 1455 1484	Training and Doctrine Command
+R19	is_posted Arg1:T23 Arg2:T26	
+T27	Title 1528 1550	Chief of Defence Staff
+T28	Rank 1552 1565	Major General
+T29	Person 1566 1577	Olonishakin
+R20	has_rank Arg1:T29 Arg2:T28	
+R21	has_title Arg1:T29 Arg2:T27	
+T30	Title 1595 1621	Director of Administration
+T31	Organization 1625 1645	Defence Headquarters
+R22	is_posted Arg1:T29 Arg2:T31	
+R23	has_title Arg1:T29 Arg2:T30	
+T32	Rank 1647 1660	Major General
+T33	Person 1661 1668	H. Edet
+R24	has_rank Arg1:T33 Arg2:T32	
+T34	Role 1674 1677	GOC
+R25	has_role Arg1:T33 Arg2:T34	
+T35	Organization 1678 1689	81 Division
+R26	is_posted Arg1:T33 Arg2:T35	
+T36	Role 1718 1728	Commandant
+T37	Organization 1730 1759	Nigerian Army Training Centre
+R27	is_posted Arg1:T33 Arg2:T37	
+R28	has_role Arg1:T33 Arg2:T36	
+T38	Rank 1781 1797	Brigadier-Genera
+T39	Person 1799 1815	Ibrahim Attahiru
+R29	has_rank Arg1:T39 Arg2:T38	
+T40	Role 1830 1847	Brigade Commander
+T41	Organization 1849 1859	13 Brigade
+R30	has_role Arg1:T39 Arg2:T40	
+R31	is_posted Arg1:T39 Arg2:T41	
+T42	Title 1876 1886	Acting GOC
+R32	has_title Arg1:T39 Arg2:T42	
+T43	Organization 1888 1899	82 Division
+R33	is_posted Arg1:T39 Arg2:T43	
+T44	Rank 1927 1940	Major-General
+T45	Person 1941 1949	S. Yusuf
+R34	has_rank Arg1:T45 Arg2:T44	
+T46	Organization 1971 1991	Defence Headquarters
+R35	is_posted Arg1:T45 Arg2:T46	
+T47	Role 1995 2027	Chief of Training and Operations
+R36	has_role Arg1:T45 Arg2:T47	
+T48	Rank 2098 2111	Major-General
+T49	Person 2112 2121	F.O. Alli
+R37	has_rank Arg1:T49 Arg2:T48	
+T50	Role 2136 2139	GOC
+T51	Organization 2140 2150	3 Division
+R38	has_role Arg1:T49 Arg2:T50	
+R39	is_posted Arg1:T49 Arg2:T51	
+T52	Role 2165 2197	Chief of Training and Operations
+T53	Organization 2208 2226	Army Headquarters;
+R40	has_role Arg1:T49 Arg2:T52	
+R41	is_posted Arg1:T49 Arg2:T53	
+T54	Rank 2227 2240	Major-General
+T55	Person 2241 2248	Ogunewe
+R42	has_rank Arg1:T55 Arg2:T54	
+T56	Title 2263 2287	Defence Adviser New York
+R43	has_title Arg1:T55 Arg2:T56	
+T57	Role 2300 2325	Chief of Policy and Plans
+R44	has_role Arg1:T55 Arg2:T57	
+T58	Rank 2327 2340	Major General
+T59	Person 2341 2361	Christopher Jemitola
+R45	has_rank Arg1:T59 Arg2:T58	
+T60	Role 2373 2382	Commander
+T61	Organization 2384 2411	Corp of Signal Headquarters
+R46	has_role Arg1:T59 Arg2:T60	
+R47	is_posted Arg1:T59 Arg2:T61	
+T62	Rank 2420 2437	Brigadier General
+T63	Person 2438 2448	A.T Hamman
+R48	has_rank Arg1:T63 Arg2:T62	
+T64	Title 2460 2475	Provost-Marshal
+R49	has_title Arg1:T63 Arg2:T64	
+T65	Organization 2477 2490	Nigerian Army
+R50	is_posted Arg1:T63 Arg2:T65	
+T66	Rank 2492 2509	Brigadier General
+T67	Person 2510 2520	A.H. Sahad
+R51	has_rank Arg1:T67 Arg2:T66	
+T68	Title 2532 2564	Director of Defence Intelligence
+R52	has_title Arg1:T67 Arg2:T68	
+T69	Role 2581 2590	Commander
+T70	Organization 2598 2629	Multi-national Joint Task Force
+T71	Rank 2670 2682	Major Genera
+T72	Person 2684 2696	Ilyasu Abbah
+R53	has_rank Arg1:T72 Arg2:T71	
+R54	is_posted Arg1:T72 Arg2:T70	
+R55	has_role Arg1:T72 Arg2:T69	
+T73	Title 2718 2743	Military Secretary (Army)
+R56	has_title Arg1:T72 Arg2:T73	
+T74	Title 2768 2787	Chief of Army Staff
+T75	Rank 2789 2802	Major-General
+T76	Person 2803 2816	Tukur Buratai
+R57	has_rank Arg1:T76 Arg2:T75	
+R58	has_title Arg1:T76 Arg2:T74	
+R59	is_posted Arg1:T76 Arg2:T70	
+R60	has_role Arg1:T76 Arg2:T69	
+T77	Person 2833 2842	L.W. Wiwa
+T78	Rank 2819 2832	Major-General
+R61	has_rank Arg1:T77 Arg2:T78	
+T79	Title 2857 2890	Director of Military Intelligence
+R62	has_title Arg1:T77 Arg2:T79	
+T80	Role 2899 2916	Deputy Commandant
+R63	has_role Arg1:T77 Arg2:T80	
+T81	Organization 2924 2956	Armed Forces Resettlement Centre
+R64	is_posted Arg1:T77 Arg2:T81	
+T82	Rank 2966 2979	Major-General
+T83	Person 2980 2988	PAT Akem
+R65	has_rank Arg1:T83 Arg2:T82	
+T84	Title 3003 3019	Provost Marshall
+R66	has_title Arg1:T83 Arg2:T84	
+T85	Title 3031 3056	Director of Administratio
+R67	has_title Arg1:T83 Arg2:T85	
+T86	Organization 3061 3078	Army headquarters
+R68	is_posted Arg1:T83 Arg2:T86	
+T87	Rank 3080 3093	Major General
+T88	Person 3094 3103	BT Ndiomu
+R69	has_rank Arg1:T88 Arg2:T87	
+T89	Role 3114 3123	Commander
+R70	has_role Arg1:T88 Arg2:T89	
+T90	Organization 3125 3151	Army Headquarters Garrison
+R71	is_posted Arg1:T88 Arg2:T90	
+T91	Title 3174 3201	Director, Simulation Centre
+R72	has_title Arg1:T88 Arg2:T91	
+T92	Role 3211 3220	Commander
+T93	Organization 3228 3255	Special Military Task Force
+T94	Rank 3270 3283	Major General
+T95	Person 3284 3292	C.O Udeh
+R73	has_rank Arg1:T95 Arg2:T94	
+R74	is_posted Arg1:T95 Arg2:T93	
+R75	has_role Arg1:T95 Arg2:T92	
+T96	Person 3342 3350	SM Bello
+T97	Rank 3324 3341	Brigadier-General
+R76	has_rank Arg1:T96 Arg2:T97	
+T98	Role 3361 3378	Brigade Commander
+R77	has_role Arg1:T96 Arg2:T98	
+T99	Organization 3380 3390	34 Brigade
+R78	is_posted Arg1:T96 Arg2:T99	
+T100	Organization 3412 3429	Army headquarters
+T101	Title 3433 3455	Director of Operations
+R79	is_posted Arg1:T96 Arg2:T100	
+R80	has_title Arg1:T96 Arg2:T101	
+T102	Rank 3457 3474	Brigadier General
+T103	Person 3475 3484	O. Ofoche
+R81	has_rank Arg1:T103 Arg2:T102	
+T104	Role 3496 3513	Brigade Commander
+T105	Organization 3515 3535	34 Artillery Brigade
+R82	has_role Arg1:T103 Arg2:T104	
+R83	is_posted Arg1:T103 Arg2:T105	
+T106	Rank 3537 3554	Brigadier-General
+T107	Person 3555 3566	AO Olabanji
+R84	has_rank Arg1:T107 Arg2:T106	
+T108	Role 3578 3595	Brigade Commander
+R85	has_role Arg1:T107 Arg2:T108	
+T109	Organization 3597 3606	2 Brigade
+R86	is_posted Arg1:T107 Arg2:T109	
+T110	Rank 3623 3640	Brigadier-General
+T111	Person 3641 3649	AM Dikko
+R87	has_rank Arg1:T111 Arg2:T110	
+T112	Role 3657 3673	Acting Commander
+R88	has_role Arg1:T111 Arg2:T112	
+T113	Organization 3675 3701	Army Headquarters Garrison
+R89	is_posted Arg1:T111 Arg2:T113	
+T114	Role 3726 3735	Commander
+T115	Organization 3737 3747	31 Brigade
+R90	is_posted Arg1:T111 Arg2:T115	
+R91	has_role Arg1:T111 Arg2:T114	
+T116	Title 3763 3801	Acting Director of Defence Information
+T117	Rank 3833 3840	Colonel
+T118	Person 3841 3854	Rabe Abubakar
+R92	has_rank Arg1:T118 Arg2:T117	
+R93	has_title Arg1:T118 Arg2:T116	
+T119	Role 3876 3886	Commandant
+T120	Organization 3894 3926	Nigerian Army Information School
+R94	has_role Arg1:T118 Arg2:T119	
+R95	is_posted Arg1:T118 Arg2:T120	
+T121	Person 3985 4000	Chris Olukolade
+T122	Rank 3971 3984	Major-General
+R96	has_rank Arg1:T121 Arg2:T122	
+R97	has_title Arg1:T121 Arg2:T116	
+R98	is_posted Arg1:T121 Arg2:T120	
+T123	Organization 4028 4048	Defence headquarters
+T124	Rank 4050 4063	Major General
+T125	Person 4064 4078	Emmanuel Atewe
+R99	has_rank Arg1:T125 Arg2:T124	
+R100	is_posted Arg1:T125 Arg2:T123	
+T126	Role 4089 4098	Commander
+T127	Organization 4107 4145	oint Task Force, Operation Pulo Shield
+R101	has_role Arg1:T125 Arg2:T126	
+R102	is_posted Arg1:T125 Arg2:T127	
+T128	Title 4166 4184	Chief of Logistics
+R103	has_title Arg1:T125 Arg2:T128	
+T129	Person 4200 4212	M.T. Ibrahim
+T130	Rank 4186 4198	Major-Genera
+R104	has_rank Arg1:T129 Arg2:T130	
+T131	Role 4224 4234	Commandant
+T132	Organization 4242 4266	Nigerian Defence Academy
+R105	has_role Arg1:T129 Arg2:T131	
+R106	is_posted Arg1:T129 Arg2:T132	

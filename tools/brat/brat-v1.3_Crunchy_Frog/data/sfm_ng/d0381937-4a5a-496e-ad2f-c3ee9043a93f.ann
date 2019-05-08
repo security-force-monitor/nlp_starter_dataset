@@ -1,0 +1,8 @@
+T1	Organization 185 201	Joint Task Force
+T2	Organization 1523 1545	322 Artillery Regiment
+T3	Person 3061 3076	Chris Olukolade
+T4	Rank 3051 3060	Brig. Gen
+T5	Title 3018 3049	Director of Defence Information
+R1	has_rank Arg1:T3 Arg2:T4	
+R2	has_title Arg1:T3 Arg2:T5	
+T6	Organization 2607 2640	Nigerian Army School of Artillery

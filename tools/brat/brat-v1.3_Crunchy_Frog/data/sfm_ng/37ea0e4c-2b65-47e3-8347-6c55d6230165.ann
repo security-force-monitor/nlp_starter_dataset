@@ -1,0 +1,11 @@
+T1	Title 61 87	General Officer Commanding
+T2	Organization 88 98	3 Division
+T3	Organization 106 119	Nigerian Army
+T4	Rank 121 138	Brigadier-General
+T5	Person 139 156	Mohammed Sani Ali
+R1	has_rank Arg1:T5 Arg2:T4	
+R2	is_posted Arg1:T5 Arg2:T2	
+R3	has_title Arg1:T5 Arg2:T1	
+T6	Organization 574 588	120 Battallion
+T7	Organization 859 873	233 Battallion
+T8	Organization 1951 1961	3 Division

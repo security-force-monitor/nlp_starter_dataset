@@ -1,0 +1,50 @@
+T1	Organization 60 73	Nigerian Army
+T2	Title 256 285	Director, Army Public Rations
+T3	Organization 287 297	7 Division
+T4	Rank 299 306	Colonel
+T5	Person 307 322	Kingsley Samuel
+R1	has_rank Arg1:T5 Arg2:T4	
+R2	is_posted Arg1:T5 Arg2:T3	
+R3	has_title Arg1:T5 Arg2:T2	
+T6	Organization 455 468	202 Battalion
+T7	Organization 470 480	21 Brigade
+T8	Organization 711 721	21 Brigade
+T9	Organization 896 909	Nigerian Army
+T10	Organization 910 929	Mobile Strike Teams
+T11	Organization 933 954	Operation Lafiya Dole
+T12	Person 1399 1417	Abayomi Olonisakin
+T13	Rank 1394 1398	Gen.
+R4	has_rank Arg1:T12 Arg2:T13	
+T14	Title 1370 1392	Chief of Defence Staff
+R5	has_title Arg1:T12 Arg2:T14	
+T15	Person 1620 1633	Tukur Buratai
+T16	Rank 1611 1619	Lt. Gen.
+T17	Title 1590 1609	Chief of Army Staff
+R6	has_rank Arg1:T15 Arg2:T16	
+R7	has_title Arg1:T15 Arg2:T17	
+T18	Title 1639 1657	Chief of Air Staff
+T19	Rank 1659 1670	Air Marshal
+T20	Person 1671 1687	Sadique Abubakar
+R8	has_rank Arg1:T20 Arg2:T19	
+R9	has_title Arg1:T20 Arg2:T18	
+T21	Title 1697 1717	Chief of Naval Staff
+T22	Rank 1719 1731	Vice Admiral
+T23	Person 1732 1745	Ibok Ete-Ibas
+R10	has_rank Arg1:T23 Arg2:T22	
+R11	has_title Arg1:T23 Arg2:T21	
+T24	Organization 1827 1848	Operation Lafiya Dole
+T25	Person 2372 2388	Onyema Nwachukwu
+T26	Rank 2364 2371	Colonel
+T27	Role 2353 2362	spokesman
+R12	has_rank Arg1:T25 Arg2:T26	
+R13	has_role Arg1:T25 Arg2:T27	
+T28	Title 2287 2325	Deputy Director, Army Public Relations
+R14	has_title Arg1:T25 Arg2:T28	
+T29	Organization 2507 2528	Operation Lafiya Dole
+T30	Organization 2634 2654	Operation Safe Haven
+T31	Person 3221 3231	Umar Adams
+T32	Rank 3213 3220	Captain
+R15	has_rank Arg1:T31 Arg2:T32	
+T33	Role 3187 3199	spokesperson
+R16	has_role Arg1:T31 Arg2:T33	
+R17	is_posted Arg1:T31 Arg2:T30	
