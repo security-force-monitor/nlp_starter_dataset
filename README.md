@@ -97,7 +97,7 @@ The first information-rich source has the following UUID `002fcbe4-503c-400d-8cc
 
 Our process lists out what data we can expect to find in this source, and that we will annotate using BRAT:
 
- |Values 1|Values 2
+Field|Values 1|Values 2
 ---|---|---
 matched_on|name|alias
 person:name|Lamidi Adeosun|Fatai Oladipo Alli
