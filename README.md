@@ -2,29 +2,48 @@
 
 Author:	Tom Longley (tom@securityforcemonitor.org)
 Date:	2019-05-10 
+Last updated: 2019-09-27
 
 ## Summary
 
-To continue scaling its research Security Force Monitor (SFM) is exploring the use of semi-automated information extraction. This repository contains the first steps towards developing a dataset that can be used to train an NLP algorithm to detect biographical details about persons associated with security forces (rank, role in an organization, official title). It contains a workflow that takes raw HTML sources and turns them to plain text for annotation using BRAT. 
+To continue scaling its research Security Force Monitor (SFM) is exploring the use of semi-automated information extraction. 
+
+This repository contains the first steps towards developing a dataset that can be used to train an NLP algorithm to detect biographical details about persons associated with security forces (rank, role in an organization, official title). It contains a workflow that takes raw HTML sources and turns them to plain text for annotation using BRAT, a visual tool for annotating text.
+
+The end product in this repo are 132 text files annotated with over 3600 named entities and the inter-relations, for use in development of an entity extraction pipeline for SFM.
 
 ## What's in this repo?
 
+This repo contains the full scripts and process for finding, cleaning and annotating text for use in developing an NLP capability for SFM
+
 ```bash
 .
-├── README.md
-├── common_sources		# raw data from SFM
+├── README.md				
+├── common_sources		
 │   └── sfm
-├── docs			# project docs and stuff
+├── docs			
 │   ├── nlp_project_notes.md
 │   └── readme_images
-├── processing 			# steps for finding, cleaning sources
+├── processing 			
 │   ├── A_obtain_uuids
 │   ├── B_get_content
 │   ├── C_source_metadata
-│   └── package 		# cleaned text sources, annotation files
-└── tools			
-    └── brat			# BRAT annotation tool, data collections
+│   └── D_final_cleaned
+└── annotated_sources
 ```
+
+`~/common_sources` contains SFM's raw data about Persons with roles in the Nigerian security forces, and a list of all the sources used to evidence this data. The data structures in use here are partially documented in the [SFM  Research Handbook](https://help.securityforcemonitor.org).
+
+
+The content of `~/processing` shows how we decided which documents to annotate, and the scripts we used to obtain and process the documents. It's designed to scale up so if we need to 
+
+The material in `~/annotated_sources` is the end product. It contains:
+
+ - cleaned-up UTF-8 text of news articles and reports used by SFM as sources
+ - metadata for each source (title, publication, date of publication, url)
+ - annotations of named entities and relations between them, using the [BRAT Standoff format](https://brat.nlplab.org/standoff.html), which can be converted for use in a range of NLP toolkits (e.g. [for spaCy](https://github.com/clips/bratreader/tree/master/bratreader))
+ - An `annotation.conf` file that defines the named entities and relations, which can be used in BRAT.
+
 
 ## Background
 
@@ -32,14 +51,14 @@ In the course of its research, SFM scours a large amount of textual material for
 
 A critical part of our work is picking out bits of information about persons and organizations from news stories, government websites, reports by civil society organizations and international bodies like the UN. Doing this accurately is essential, but time consuming and prone to error. We are exploring the degree to which an NLP/NER step can assist in the identification and extraction of relevant data from within digital content. 
 
-The data assets that we have already developed hold good potential to become training datasets; althoug the data are directlyly linked to the source from which they came, the key challenge is re-linking the extracted datapoints to the exact sentence in the source. In this way, we can create datasets that mirror those published on WhoWasInCommand.com that are also capable of being used to train an NLP algorithm.
+The data assets that we have already developed hold good potential to become training datasets; although the data are directly linked to the source from which they came, the key challenge is re-linking the extracted datapoints to the exact sentence in the source from which the data is taken. In this way, we can create datasets that contain the same values as those published on WhoWasInCommand.com that are also capable of being used to train an NLP algorithm.
 
 The first task we have settled on is the extraction of biographical data from articles. In SFM terms, this means the following:
 
- * Identifying persons that are associated with a security force
- * Identifying their rank, titles and roles
- * Identifying organizations that are security force units
- * Linking persons to security force units
+ * Identifying persons that are associated with a security force.
+ * Identifying their rank, titles and roles.
+ * Identifying organizations that are security force units.
+ * Linking persons to security force units.
 
 To this, we need to identify sources that we have used to evidence all of the above. For example, this sentence from the source [Boko Haram'll soon be contained - GOC](https://web.archive.org/web/20120702163833/http://www.vanguardngr.com/2012/07/boko-haram-ll-soon-be-contained-goc/) contains all the elements we are are looking for:
 
@@ -62,9 +81,9 @@ We would also have to establish the connections between the tagged persons, role
 The outcome of this annotation work wwould render the data we have developed readable to a machine learning process based on NLP. It is also an opportunity to explore the assess the workload involved in developing the data, thinking about the sort of workflows we would need, and experimenting with the various toolsets that are available.  
 
 
-##  Developing a testing dataset
+##  Developing a training dataset using the Berkeley Rapid Annotation Tool (BRAT)
 
-Developing a training dataset is time consuming, so we will start with a sample from our data. The slice of our data that holds solid potential is our data on persons with commanding roles in the Nigerian security forces. We presently have data on 662 persons of varying rank and title, and the source data is all in English which make annotation far simpler given the current language skills available to us. Every source we use has a `access point`, which is referenced by a UUID. This UUID is what we will use to identify our sources.
+Developing a training dataset is time consuming, so we will start with a sample from our data. The slice of our data that holds solid potential is our data on persons with commanding roles in the Nigerian security forces. We presently have data on 662 persons of varying rank and title, and the source data is all in English which make annotation far simpler given the current language skills available to us. Every source we use has a `access point`, which is referenced by a UUID. This UUID is what we will use to identify our sources throughout this process.
 
 ### Nigerian command personnel: finding the right sources to use
 
@@ -86,10 +105,34 @@ For each source, we generate a simple header file that lists out its metadata. T
 
 ### Staging for annotation
 
-The annotation tool we have chosen is BRAT, a browser-based system. It will take a collection of plain-text formatted documents, and give a user the power to annotate the text tthrough a fairly simple, inuitive interface. The annotations are stored in a separate `.ann` file. The entities and their relations are defined in a `annotation.conf` file placed in the same directory as the document collection. 
+The annotation tool we have chosen is [BRAT](http://brat.nlplab.org/index.html), a browser-based system that can be deployed quickly on a local machine. It will take a collection of plain-text formatted documents, and give a user the power to annotate the text through a fairly simple, inuitive interface. The annotations are stored in a separate `.ann` file. 
 
+The entities and their relations are defined in a `annotation.conf` file placed in the same directory as the document collection. This looks like this:
 
-## Workthrough
+```bash
+[entities]
+Person
+Organization
+Rank
+Title
+Role
+[relations]
+is_posted             Arg1:Person, Arg2:Organization
+has_title             Arg1:Person, Arg2:Title
+has_role              Arg1:Person, Arg2:Role
+has_rank              Arg1:Person, Arg2:Rank
+<OVERLAP>             Arg1:Role, Arg2:Rank, <OVL-TYPE>:<ANY>
+<OVERLAP>             Arg1:Title, Arg2:Role, <OVL-TYPE>:<ANY>
+```
+
+### Using the data in your own BRAT instance
+
+- Install BRAT. 
+- Copy `~/annotated_sources/` to `~/brat/data/sfm`. 
+- Keep the `.ann` and the`.txt` files with just the source text; but delete the source metadata files (those ending with `_meta.txt`)
+- Open BRAT and open the `sfm` document collection. It *should* just work.
+
+## Data processing workthrough: from raw source to annotated text
 
 ### Finding an information-rich source
 
