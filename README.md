@@ -2,7 +2,7 @@
 
 Author:	Tom Longley (tom@securityforcemonitor.org)
 Date:	2019-05-10 
-Last updated: 2019-09-27
+Last updated: 2019-10-24
 
 ## Summary
 
@@ -24,6 +24,7 @@ This repo contains the full scripts and process for finding, cleaning and annota
 ├── docs			
 │   ├── nlp_project_notes.md
 │   └── readme_images
+├── other_training_data		
 ├── processing 			
 │   ├── A_obtain_uuids
 │   ├── B_get_content
@@ -44,6 +45,12 @@ The material in `~/annotated_sources` is the end product. It contains:
  - annotations of named entities and relations between them, using the [BRAT Standoff format](https://brat.nlplab.org/standoff.html), which can be converted for use in a range of NLP toolkits (e.g. [for spaCy](https://github.com/clips/bratreader/tree/master/bratreader))
  - An `annotation.conf` file that defines the named entities and relations, which can be used in BRAT.
 
+The material in `~/other_training_data` is used to provide additional lists of military unit names with which to train the model. Currently it includes:
+
+ - `/other_training_data/dos/output/dos_fmtrpt_nigeria_units.tsv`: list of distinct units that have received training from the US government, as reported in the annual Foreign Military Training and Assistance reports.
+ - `/other_training_data/sfm/1_process_out_distinct_units/output/` contains two lists drawn from SFM's Nigeria data:
+  - `ng_unit_names_distinct_20191024.tsv`: units and their known aliases, in separate columns
+  - `ng_unit_names_and_other_names_collapsed_20191024.tsv`: units and known aliases, collapsed into single list
 
 ## Background
 
