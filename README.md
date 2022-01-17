@@ -2,7 +2,7 @@
 
 Author:	Tom Longley (tom@securityforcemonitor.org)
 Date:	2019-05-10 
-Last updated: 2019-10-24
+Last updated: 2021-01-17
 
 ## Summary
 
@@ -11,6 +11,8 @@ To continue scaling its research Security Force Monitor (SFM) is exploring the u
 This repository contains the first steps towards developing a dataset that can be used to train an NLP algorithm to detect biographical details about persons associated with security forces (rank, role in an organization, official title). It contains a workflow that takes raw HTML sources and turns them to plain text for annotation using BRAT, a visual tool for annotating text.
 
 The end product in this repo are 132 text files annotated with over 3600 named entities and the inter-relations, for use in development of an entity extraction pipeline for SFM.
+
+Our working paper "NLP in Human Rights Research - Extracting Knowledge Graphs About Police and Army Units and Their Commanders", published January 2021, discusses the development, outcomes and performance of an NLP system trained on this dataset. The NLP system itself is available in [sfm-graph-extractor repository](https://github.com/security-force-monitor/sfm-graph-extractor/).
 
 ## What's in this repo?
 
