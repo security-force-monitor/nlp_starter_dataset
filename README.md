@@ -12,7 +12,7 @@ This repository contains the first steps towards developing a dataset that can b
 
 The end product in this repo are 132 text files annotated with over 3600 named entities and the inter-relations, for use in development of an entity extraction pipeline for SFM.
 
-Our working paper "NLP in Human Rights Research - Extracting Knowledge Graphs About Police and Army Units and Their Commanders", published January 2021, discusses the development, outcomes and performance of an NLP system trained on this dataset. The NLP system itself is available in [sfm-graph-extractor repository](https://github.com/security-force-monitor/sfm-graph-extractor/).
+Our working paper "NLP in Human Rights Research - Extracting Knowledge Graphs About Police and Army Units and Their Commanders", published January 2022, discusses the development, outcomes and performance of an NLP system trained on this dataset. The NLP system itself is available in [sfm-graph-extractor repository](https://github.com/security-force-monitor/sfm-graph-extractor/).
 
 ## What's in this repo?
 
