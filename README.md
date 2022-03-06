@@ -1,7 +1,9 @@
 # Security Force Monitor: Development of an NLP training dataset
 
 Author:	Tom Longley (tom@securityforcemonitor.org)
+
 Date:	2019-05-10 
+
 Last updated: 2022-01-17
 
 ## Summary
